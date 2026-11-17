@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use BenchBench, cite this repository."
+title: "BenchBench: testing document-parsing benchmarks"
+type: software
+authors:
+  - name: "Reducto"
+date-released: 2026-11-17
+version: 0.1.0
+url: "https://github.com/reductoai/benchbench"
+repository-code: "https://github.com/reductoai/benchbench"
+license: Apache-2.0

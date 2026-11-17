@@ -1,0 +1,1866 @@
+{
+ "benchmarks": [
+  {
+   "id": "dp_bench",
+   "name": "DP-Bench",
+   "metric": "NID (official adapter)",
+   "pages": 200,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 9.585,
+     "gemini_clean": 8.83,
+     "gpt_tilt": 9.385,
+     "gpt_scan": 9.245,
+     "gpt_perspective": 9.46,
+     "native_clean": 89.157,
+     "native_tilt": 88.763,
+     "native_scan": 88.849,
+     "native_perspective": 89.532,
+     "min_clean": 9.105,
+     "min_tilt": 9.0
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.95,
+     "gemini_clean": 8.047,
+     "gpt_tilt": 8.6,
+     "gpt_scan": 8.77,
+     "gpt_perspective": 8.86,
+     "native_clean": 89.548,
+     "native_tilt": 89.706,
+     "native_scan": 88.762,
+     "native_perspective": 88.727,
+     "min_clean": 8.405,
+     "min_tilt": 8.11
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 9.0025,
+     "gemini_clean": 8.34,
+     "gpt_tilt": 8.71,
+     "gpt_scan": 8.65,
+     "gpt_perspective": 8.955,
+     "native_clean": 83.59243894091985,
+     "native_tilt": 84.07842472263144,
+     "native_scan": 84.411,
+     "native_perspective": 83.847,
+     "min_clean": 8.335,
+     "min_tilt": 8.2
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 8.615,
+     "gemini_clean": 7.63,
+     "gpt_tilt": 8.28,
+     "gpt_scan": 8.495,
+     "gpt_perspective": 8.51,
+     "native_clean": 92.293,
+     "native_tilt": 92.077,
+     "native_scan": 92.231,
+     "native_perspective": 92.467,
+     "min_clean": 7.82,
+     "min_tilt": 7.475
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 8.7025,
+     "gemini_clean": 7.933,
+     "gpt_tilt": 8.865,
+     "gpt_scan": 8.77,
+     "gpt_perspective": 8.815,
+     "native_clean": 96.964,
+     "native_tilt": 97.291,
+     "native_scan": 97.257,
+     "native_perspective": 97.163,
+     "min_clean": 8.47,
+     "min_tilt": 8.76
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 8.1675,
+     "gemini_clean": 6.515,
+     "gpt_tilt": 8.045,
+     "gpt_scan": 8.18,
+     "gpt_perspective": 8.08,
+     "native_clean": 93.32,
+     "native_tilt": 91.759,
+     "native_scan": 91.729,
+     "native_perspective": 92.493,
+     "min_clean": 7.585,
+     "min_tilt": 7.65
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 9.2375,
+     "gemini_clean": 8.44,
+     "gpt_tilt": 8.815,
+     "gpt_scan": 8.88,
+     "gpt_perspective": 9.16,
+     "native_clean": 94.803,
+     "native_tilt": 94.885,
+     "native_scan": 94.316,
+     "native_perspective": 94.931,
+     "min_clean": 8.445,
+     "min_tilt": 8.235
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 8.795,
+     "gemini_clean": 8.5,
+     "gpt_tilt": 7.805,
+     "gpt_scan": 8.645,
+     "gpt_perspective": 8.705,
+     "native_clean": 97.562,
+     "native_tilt": 95.414,
+     "native_scan": 97.87,
+     "native_perspective": 97.939,
+     "min_clean": 8.435,
+     "min_tilt": 7.625
+    }
+   ]
+  },
+  {
+   "id": "score_bench",
+   "name": "SCORE-Bench",
+   "metric": "CCT",
+   "pages": 224,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 9.158482142857142,
+     "gemini_clean": 8.283,
+     "gpt_tilt": 9.120535714285714,
+     "gpt_scan": 8.982,
+     "gpt_perspective": 9.129,
+     "native_clean": 83.138,
+     "native_tilt": 82.924,
+     "native_scan": 82.464,
+     "native_perspective": 82.862,
+     "min_clean": 8.825892857142858,
+     "min_tilt": 8.870535714285714
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.770089285714286,
+     "gemini_clean": 7.491,
+     "gpt_tilt": 8.258928571428571,
+     "gpt_scan": 8.571,
+     "gpt_perspective": 8.723,
+     "native_clean": 85.393,
+     "native_tilt": 83.75,
+     "native_scan": 84.812,
+     "native_perspective": 85.446,
+     "min_clean": 8.321428571428571,
+     "min_tilt": 7.946428571428571
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 8.741071428571429,
+     "gemini_clean": 7.621,
+     "gpt_tilt": 8.598214285714286,
+     "gpt_scan": 8.638,
+     "gpt_perspective": 8.647,
+     "native_clean": 79.77678571428571,
+     "native_tilt": 80.24553571428571,
+     "native_scan": 80.464,
+     "native_perspective": 80.808,
+     "min_clean": 8.236607142857142,
+     "min_tilt": 8.267857142857142
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 8.517857142857142,
+     "gemini_clean": 6.971,
+     "gpt_tilt": 8.040178571428571,
+     "gpt_scan": 8.219,
+     "gpt_perspective": 8.375,
+     "native_clean": 74.835,
+     "native_tilt": 73.112,
+     "native_scan": 74.067,
+     "native_perspective": 74.536,
+     "min_clean": 7.616071428571429,
+     "min_tilt": 7.209821428571429
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 8.341517857142858,
+     "gemini_clean": 7.145,
+     "gpt_tilt": 8.254464285714286,
+     "gpt_scan": 8.17,
+     "gpt_perspective": 8.241,
+     "native_clean": 87.54,
+     "native_tilt": 87.17,
+     "native_scan": 87.237,
+     "native_perspective": 87.853,
+     "min_clean": 8.138392857142858,
+     "min_tilt": 8.28125
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 7.435267857142857,
+     "gemini_clean": 5.554,
+     "gpt_tilt": 7.142857142857143,
+     "gpt_scan": 7.402,
+     "gpt_perspective": 7.179,
+     "native_clean": 83.674,
+     "native_tilt": 81.393,
+     "native_scan": 83.772,
+     "native_perspective": 82.879,
+     "min_clean": 7.035714285714286,
+     "min_tilt": 6.875
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 8.560267857142858,
+     "gemini_clean": 7.281,
+     "gpt_tilt": 7.821428571428571,
+     "gpt_scan": 8.098,
+     "gpt_perspective": 8.321,
+     "native_clean": 68.446,
+     "native_tilt": 65.987,
+     "native_scan": 67.625,
+     "native_perspective": 66.147,
+     "min_clean": 7.875,
+     "min_tilt": 7.383928571428571
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 8.131696428571429,
+     "gemini_clean": 7.319,
+     "gpt_tilt": 6.9375,
+     "gpt_scan": 7.732,
+     "gpt_perspective": 8.045,
+     "native_clean": 84.379,
+     "native_tilt": 80.116,
+     "native_scan": 83.107,
+     "native_perspective": 85.33,
+     "min_clean": 8.0,
+     "min_tilt": 6.991071428571429
+    }
+   ]
+  },
+  {
+   "id": "olmocr_bench",
+   "name": "olmOCR-Bench",
+   "metric": "suite pass rate",
+   "pages": 500,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 9.138,
+     "gemini_clean": 8.306,
+     "gpt_tilt": 9.078,
+     "gpt_scan": 9.078,
+     "gpt_perspective": 9.07,
+     "native_clean": 71.261,
+     "native_tilt": 71.857,
+     "native_scan": 69.164,
+     "native_perspective": 69.698,
+     "min_clean": 8.976,
+     "min_tilt": 9.042
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.743,
+     "gemini_clean": 7.641,
+     "gpt_tilt": 8.448,
+     "gpt_scan": 8.632,
+     "gpt_perspective": 8.734,
+     "native_clean": 75.127,
+     "native_tilt": 72.806,
+     "native_scan": 74.981,
+     "native_perspective": 74.802,
+     "min_clean": 8.448,
+     "min_tilt": 8.304
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 8.993,
+     "gemini_clean": 8.101,
+     "gpt_tilt": 8.928,
+     "gpt_scan": 8.874,
+     "gpt_perspective": 8.894,
+     "native_clean": 75.18521733910931,
+     "native_tilt": 75.26677580378708,
+     "native_scan": 73.686,
+     "native_perspective": 74.945,
+     "min_clean": 8.754,
+     "min_tilt": 8.84
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 6.875,
+     "gemini_clean": 5.436,
+     "gpt_tilt": 6.586,
+     "gpt_scan": 6.774,
+     "gpt_perspective": 6.778,
+     "native_clean": 64.149,
+     "native_tilt": 64.875,
+     "native_scan": 64.386,
+     "native_perspective": 63.407,
+     "min_clean": 6.576,
+     "min_tilt": 6.272
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 8.754,
+     "gemini_clean": 7.75,
+     "gpt_tilt": 8.692,
+     "gpt_scan": 8.628,
+     "gpt_perspective": 8.646,
+     "native_clean": 73.161,
+     "native_tilt": 74.993,
+     "native_scan": 72.215,
+     "native_perspective": 72.801,
+     "min_clean": 8.644,
+     "min_tilt": 8.686
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 7.154,
+     "gemini_clean": 5.464,
+     "gpt_tilt": 6.862,
+     "gpt_scan": 7.192,
+     "gpt_perspective": 6.888,
+     "native_clean": 62.529,
+     "native_tilt": 60.928,
+     "native_scan": 63.03,
+     "native_perspective": 61.638,
+     "min_clean": 6.902,
+     "min_tilt": 6.772
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 8.522,
+     "gemini_clean": 7.499,
+     "gpt_tilt": 7.726,
+     "gpt_scan": 8.226,
+     "gpt_perspective": 8.33,
+     "native_clean": 73.117,
+     "native_tilt": 67.729,
+     "native_scan": 73.09,
+     "native_perspective": 70.996,
+     "min_clean": 8.276,
+     "min_tilt": 7.66
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 8.22,
+     "gemini_clean": 7.482,
+     "gpt_tilt": 7.024,
+     "gpt_scan": 7.904,
+     "gpt_perspective": 7.994,
+     "native_clean": 73.356,
+     "native_tilt": 71.674,
+     "native_scan": 72.207,
+     "native_perspective": 73.451,
+     "min_clean": 8.354,
+     "min_tilt": 7.318
+    }
+   ]
+  },
+  {
+   "id": "omniparsebench",
+   "name": "OmniParseBench",
+   "metric": "text+tables pass rate",
+   "pages": 500,
+   "builder_vendor": "Datalab",
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 8.679,
+     "gemini_clean": 7.758,
+     "gpt_tilt": 8.518,
+     "gpt_scan": 8.573,
+     "gpt_perspective": 8.599,
+     "native_clean": 87.68,
+     "native_tilt": 87.76,
+     "native_scan": 88.93,
+     "native_perspective": 88.37,
+     "min_clean": 8.67,
+     "min_tilt": 8.664
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.434,
+     "gemini_clean": 7.346,
+     "gpt_tilt": 7.808,
+     "gpt_scan": 8.172,
+     "gpt_perspective": 8.323,
+     "native_clean": 90.2,
+     "native_tilt": 80.96,
+     "native_scan": 83.69,
+     "native_perspective": 88.67,
+     "min_clean": 8.24,
+     "min_tilt": 7.864
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 8.652,
+     "gemini_clean": 7.505,
+     "gpt_tilt": 8.46,
+     "gpt_scan": 8.521,
+     "gpt_perspective": 8.491,
+     "native_clean": 91.4517941966726,
+     "native_tilt": 87.56857672971954,
+     "native_scan": 86.39,
+     "native_perspective": 88.42,
+     "min_clean": 8.524,
+     "min_tilt": 8.494
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 7.352,
+     "gemini_clean": 5.943,
+     "gpt_tilt": 6.936,
+     "gpt_scan": 7.164,
+     "gpt_perspective": 7.222,
+     "native_clean": 75.96,
+     "native_tilt": 76.83,
+     "native_scan": 77.73,
+     "native_perspective": 74.46,
+     "min_clean": 7.1,
+     "min_tilt": 6.764
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 8.018,
+     "gemini_clean": 6.9,
+     "gpt_tilt": 7.952,
+     "gpt_scan": 7.9,
+     "gpt_perspective": 7.958,
+     "native_clean": 86.37,
+     "native_tilt": 84.76,
+     "native_scan": 86.09,
+     "native_perspective": 85.65,
+     "min_clean": 8.09,
+     "min_tilt": 8.112
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 6.416,
+     "gemini_clean": 4.701,
+     "gpt_tilt": 6.186,
+     "gpt_scan": 6.423,
+     "gpt_perspective": 6.273,
+     "native_clean": 70.29,
+     "native_tilt": 69.98,
+     "native_scan": 72.17,
+     "native_perspective": 71.73,
+     "min_clean": 6.38,
+     "min_tilt": 6.328
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 7.756,
+     "gemini_clean": 6.649,
+     "gpt_tilt": 6.786,
+     "gpt_scan": 7.443,
+     "gpt_perspective": 7.629,
+     "native_clean": 82.16,
+     "native_tilt": 65.7,
+     "native_scan": 78.82,
+     "native_perspective": 79.66,
+     "min_clean": 7.594,
+     "min_tilt": 6.856
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 6.888,
+     "gemini_clean": 6.159,
+     "gpt_tilt": 5.558,
+     "gpt_scan": 6.557,
+     "gpt_perspective": 6.764,
+     "native_clean": 79.17,
+     "native_tilt": 65.9,
+     "native_scan": 77.25,
+     "native_perspective": 80.52,
+     "min_clean": 7.102,
+     "min_tilt": 5.952
+    }
+   ]
+  },
+  {
+   "id": "ocrflux_bench",
+   "name": "OCRFlux-bench",
+   "metric": "edit similarity, as returned",
+   "pages": 500,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 9.679,
+     "gemini_clean": 8.906,
+     "gpt_tilt": 9.642,
+     "gpt_scan": 9.622,
+     "gpt_perspective": 9.664,
+     "native_clean": 84.406,
+     "native_tilt": 84.506,
+     "native_scan": 84.831,
+     "native_perspective": 84.559,
+     "min_clean": 9.282,
+     "min_tilt": 9.326
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 9.056,
+     "gemini_clean": 8.075,
+     "gpt_tilt": 8.45,
+     "gpt_scan": 8.95,
+     "gpt_perspective": 9.04,
+     "native_clean": 80.471,
+     "native_tilt": 78.605,
+     "native_scan": 81.107,
+     "native_perspective": 80.377,
+     "min_clean": 8.474,
+     "min_tilt": 8.006
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 9.439,
+     "gemini_clean": 8.385,
+     "gpt_tilt": 9.36,
+     "gpt_scan": 9.346,
+     "gpt_perspective": 9.342,
+     "native_clean": 59.54366496575366,
+     "native_tilt": 59.585314445433895,
+     "native_scan": 59.389,
+     "native_perspective": 59.244,
+     "min_clean": 8.952,
+     "min_tilt": 8.952
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 9.12,
+     "gemini_clean": 8.16,
+     "gpt_tilt": 8.772,
+     "gpt_scan": 8.954,
+     "gpt_perspective": 9.024,
+     "native_clean": 74.633,
+     "native_tilt": 73.127,
+     "native_scan": 74.297,
+     "native_perspective": 74.429,
+     "min_clean": 8.202,
+     "min_tilt": 7.9
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 9.325,
+     "gemini_clean": 8.553,
+     "gpt_tilt": 9.372,
+     "gpt_scan": 9.336,
+     "gpt_perspective": 9.32,
+     "native_clean": 89.406,
+     "native_tilt": 89.753,
+     "native_scan": 89.739,
+     "native_perspective": 89.891,
+     "min_clean": 8.892,
+     "min_tilt": 9.058
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 7.87,
+     "gemini_clean": 6.046,
+     "gpt_tilt": 7.914,
+     "gpt_scan": 7.928,
+     "gpt_perspective": 7.968,
+     "native_clean": 79.414,
+     "native_tilt": 79.316,
+     "native_scan": 79.732,
+     "native_perspective": 79.741,
+     "min_clean": 7.454,
+     "min_tilt": 7.542
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 9.41,
+     "gemini_clean": 8.599,
+     "gpt_tilt": 8.544,
+     "gpt_scan": 9.228,
+     "gpt_perspective": 9.336,
+     "native_clean": 81.293,
+     "native_tilt": 79.821,
+     "native_scan": 81.721,
+     "native_perspective": 81.247,
+     "min_clean": 8.884,
+     "min_tilt": 8.27
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 7.407,
+     "gemini_clean": 6.319,
+     "gpt_tilt": 6.1,
+     "gpt_scan": 7.118,
+     "gpt_perspective": 7.26,
+     "native_clean": 83.334,
+     "native_tilt": 77.668,
+     "native_scan": 83.0,
+     "native_perspective": 83.164,
+     "min_clean": 7.624,
+     "min_tilt": 6.426
+    }
+   ]
+  },
+  {
+   "id": "idp_leaderboard",
+   "name": "IDP Leaderboard",
+   "metric": "GriTS-Con, paired (failed pages = 0)",
+   "pages": 300,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 7.791666666666667,
+     "gemini_clean": 7.87,
+     "gpt_tilt": 7.493333333333333,
+     "gpt_scan": 7.827,
+     "gpt_perspective": 7.587,
+     "native_clean": 83.643,
+     "native_tilt": 76.163,
+     "native_scan": 78.484,
+     "native_perspective": 81.171,
+     "min_clean": 8.601666666666667,
+     "min_tilt": 8.432333333333332
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.676666666666666,
+     "gemini_clean": 7.94,
+     "gpt_tilt": 7.223333333333334,
+     "gpt_scan": 7.653,
+     "gpt_perspective": 8.37,
+     "native_clean": 96.076,
+     "native_tilt": 72.031,
+     "native_scan": 79.26,
+     "native_perspective": 90.761,
+     "min_clean": 9.350333333333333,
+     "min_tilt": 7.9383333333333335
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 7.713333333333333,
+     "gemini_clean": 7.683,
+     "gpt_tilt": 7.4,
+     "gpt_scan": 7.297,
+     "gpt_perspective": 7.463,
+     "native_clean": 78.03797722850813,
+     "native_tilt": 69.56058463606283,
+     "native_scan": 74.736,
+     "native_perspective": 81.868,
+     "min_clean": 8.376666666666667,
+     "min_tilt": 8.130666666666666
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 7.755,
+     "gemini_clean": 7.865,
+     "gpt_tilt": 7.3,
+     "gpt_scan": 7.627,
+     "gpt_perspective": 8.003,
+     "native_clean": 84.769,
+     "native_tilt": 71.196,
+     "native_scan": 76.295,
+     "native_perspective": 86.429,
+     "min_clean": 8.619666666666667,
+     "min_tilt": 8.081999999999999
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 7.515,
+     "gemini_clean": 7.103,
+     "gpt_tilt": 7.58,
+     "gpt_scan": 7.633,
+     "gpt_perspective": 7.58,
+     "native_clean": 67.617,
+     "native_tilt": 66.705,
+     "native_scan": 66.963,
+     "native_perspective": 68.794,
+     "min_clean": 8.233333333333333,
+     "min_tilt": 8.426
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 5.468333333333334,
+     "gemini_clean": 4.475,
+     "gpt_tilt": 5.54,
+     "gpt_scan": 5.71,
+     "gpt_perspective": 5.497,
+     "native_clean": 61.768,
+     "native_tilt": 56.304,
+     "native_scan": 65.037,
+     "native_perspective": 62.137,
+     "min_clean": 7.028999999999999,
+     "min_tilt": 7.088333333333333
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 6.948333333333333,
+     "gemini_clean": 5.987,
+     "gpt_tilt": 6.206666666666667,
+     "gpt_scan": 6.803,
+     "gpt_perspective": 6.887,
+     "native_clean": 63.453,
+     "native_tilt": 50.617,
+     "native_scan": 56.635,
+     "native_perspective": 62.528,
+     "min_clean": 7.550333333333333,
+     "min_tilt": 6.792333333333334
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 6.545,
+     "gemini_clean": 6.892,
+     "gpt_tilt": 5.476666666666667,
+     "gpt_scan": 5.837,
+     "gpt_perspective": 6.403,
+     "native_clean": 83.147,
+     "native_tilt": 56.037,
+     "native_scan": 65.819,
+     "native_perspective": 77.226,
+     "min_clean": 7.808333333333334,
+     "min_tilt": 6.574666666666667
+    }
+   ]
+  },
+  {
+   "id": "mdpbench",
+   "name": "MDPBench",
+   "metric": "page mean (text/CDM/TEDS)",
+   "pages": 497,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 7.435613682092555,
+     "gemini_clean": 6.922,
+     "gpt_tilt": 7.185110663983903,
+     "gpt_scan": 7.202,
+     "gpt_perspective": 7.241,
+     "native_clean": 82.292,
+     "native_tilt": 81.312,
+     "native_scan": 80.534,
+     "native_perspective": 81.221,
+     "min_clean": 7.824949698189135,
+     "min_tilt": 7.6305220883534135
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 7.801810865191147,
+     "gemini_clean": 7.024,
+     "gpt_tilt": 7.525150905432596,
+     "gpt_scan": 7.635,
+     "gpt_perspective": 7.767,
+     "native_clean": 85.37,
+     "native_tilt": 83.604,
+     "native_scan": 84.233,
+     "native_perspective": 85.377,
+     "min_clean": 8.096579476861168,
+     "min_tilt": 7.921686746987952
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 7.477867203219316,
+     "gemini_clean": 6.893,
+     "gpt_tilt": 7.323943661971831,
+     "gpt_scan": 7.335,
+     "gpt_perspective": 7.38,
+     "native_clean": 85.71289101251392,
+     "native_tilt": 84.48695921341937,
+     "native_scan": 84.729,
+     "native_perspective": 84.498,
+     "min_clean": 7.744466800804829,
+     "min_tilt": 7.6546184738955825
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 6.605633802816901,
+     "gemini_clean": 5.352,
+     "gpt_tilt": 6.257545271629779,
+     "gpt_scan": 6.383,
+     "gpt_perspective": 6.304,
+     "native_clean": 74.51,
+     "native_tilt": 68.638,
+     "native_scan": 70.825,
+     "native_perspective": 70.065,
+     "min_clean": 6.505030181086519,
+     "min_tilt": 6.218875502008032
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 5.5,
+     "gemini_clean": 4.798,
+     "gpt_tilt": 5.2635814889336014,
+     "gpt_scan": 5.276,
+     "gpt_perspective": 5.241,
+     "native_clean": 77.351,
+     "native_tilt": 75.26,
+     "native_scan": 75.272,
+     "native_perspective": 75.853,
+     "min_clean": 6.036217303822937,
+     "min_tilt": 5.837349397590361
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 6.0321931589537225,
+     "gemini_clean": 4.651,
+     "gpt_tilt": 5.686116700201207,
+     "gpt_scan": 5.827,
+     "gpt_perspective": 5.805,
+     "native_clean": 83.485,
+     "native_tilt": 82.009,
+     "native_scan": 82.619,
+     "native_perspective": 83.243,
+     "min_clean": 6.408450704225352,
+     "min_tilt": 6.176706827309237
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 5.77364185110664,
+     "gemini_clean": 4.836,
+     "gpt_tilt": 5.575452716297787,
+     "gpt_scan": 6.004,
+     "gpt_perspective": 5.829,
+     "native_clean": 73.269,
+     "native_tilt": 71.142,
+     "native_scan": 76.803,
+     "native_perspective": 73.557,
+     "min_clean": 5.923541247484909,
+     "min_tilt": 5.755020080321285
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 4.346076458752515,
+     "gemini_clean": 3.847,
+     "gpt_tilt": 3.8490945674044266,
+     "gpt_scan": 4.115,
+     "gpt_perspective": 4.233,
+     "native_clean": 66.731,
+     "native_tilt": 62.159,
+     "native_scan": 63.49,
+     "native_perspective": 64.929,
+     "min_clean": 4.670020120724346,
+     "min_tilt": 4.214859437751004
+    }
+   ]
+  },
+  {
+   "id": "rd_tablebench",
+   "name": "RD-TableBench",
+   "metric": "table similarity (pipe tables converted)",
+   "pages": 500,
+   "builder_vendor": "Reducto",
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 9.497,
+     "gemini_clean": 8.705,
+     "gpt_tilt": 9.296,
+     "gpt_scan": 9.278,
+     "gpt_perspective": 9.374,
+     "native_clean": 88.687,
+     "native_tilt": 88.933,
+     "native_scan": 89.125,
+     "native_perspective": 88.972,
+     "min_clean": 9.452,
+     "min_tilt": 9.312
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 9.328,
+     "gemini_clean": 8.538,
+     "gpt_tilt": 7.962,
+     "gpt_scan": 8.736,
+     "gpt_perspective": 9.172,
+     "native_clean": 88.945,
+     "native_tilt": 81.305,
+     "native_scan": 85.503,
+     "native_perspective": 88.247,
+     "min_clean": 9.234,
+     "min_tilt": 8.044
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 9.061,
+     "gemini_clean": 7.779,
+     "gpt_tilt": 8.59,
+     "gpt_scan": 8.636,
+     "gpt_perspective": 8.906,
+     "native_clean": 81.86301139593124,
+     "native_tilt": 80.13140313327312,
+     "native_scan": 80.89,
+     "native_perspective": 81.889,
+     "min_clean": 8.714,
+     "min_tilt": 8.478
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 9.066,
+     "gemini_clean": 7.814,
+     "gpt_tilt": 8.786,
+     "gpt_scan": 9.006,
+     "gpt_perspective": 9.122,
+     "native_clean": 85.972,
+     "native_tilt": 85.082,
+     "native_scan": 85.494,
+     "native_perspective": 86.116,
+     "min_clean": 8.646,
+     "min_tilt": 8.596
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 8.808,
+     "gemini_clean": 7.87,
+     "gpt_tilt": 8.934,
+     "gpt_scan": 9.076,
+     "gpt_perspective": 8.898,
+     "native_clean": 87.782,
+     "native_tilt": 87.226,
+     "native_scan": 86.945,
+     "native_perspective": 86.698,
+     "min_clean": 8.768,
+     "min_tilt": 9.006
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 7.268,
+     "gemini_clean": 4.944,
+     "gpt_tilt": 7.164,
+     "gpt_scan": 7.42,
+     "gpt_perspective": 7.298,
+     "native_clean": 79.779,
+     "native_tilt": 81.182,
+     "native_scan": 82.146,
+     "native_perspective": 82.126,
+     "min_clean": 6.882,
+     "min_tilt": 6.946
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 7.42,
+     "gemini_clean": 5.837,
+     "gpt_tilt": 6.33,
+     "gpt_scan": 7.632,
+     "gpt_perspective": 7.276,
+     "native_clean": 68.771,
+     "native_tilt": 66.841,
+     "native_scan": 77.942,
+     "native_perspective": 69.238,
+     "min_clean": 7.022,
+     "min_tilt": 6.158
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 7.537,
+     "gemini_clean": 6.439,
+     "gpt_tilt": 6.164,
+     "gpt_scan": 7.194,
+     "gpt_perspective": 7.49,
+     "native_clean": 84.527,
+     "native_tilt": 77.876,
+     "native_scan": 82.171,
+     "native_perspective": 84.098,
+     "min_clean": 7.494,
+     "min_tilt": 6.292
+    }
+   ]
+  },
+  {
+   "id": "puredocbench",
+   "name": "PureDocBench",
+   "metric": "official overall",
+   "pages": 500,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 8.687,
+     "gemini_clean": 8.009,
+     "gpt_tilt": 8.444,
+     "gpt_scan": 8.394,
+     "gpt_perspective": 8.486,
+     "native_clean": 79.399,
+     "native_tilt": 79.502,
+     "native_scan": 79.087,
+     "native_perspective": 79.219,
+     "min_clean": 8.944,
+     "min_tilt": 8.807
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.479,
+     "gemini_clean": 7.679,
+     "gpt_tilt": 7.818,
+     "gpt_scan": 8.15,
+     "gpt_perspective": 8.174,
+     "native_clean": 79.563,
+     "native_tilt": 78.573,
+     "native_scan": 81.287,
+     "native_perspective": 79.462,
+     "min_clean": 8.358,
+     "min_tilt": 7.928
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 8.604,
+     "gemini_clean": 7.794,
+     "gpt_tilt": 8.512,
+     "gpt_scan": 8.53,
+     "gpt_perspective": 8.524,
+     "native_clean": 78.68294262564785,
+     "native_tilt": 79.38030075336086,
+     "native_scan": 74.94,
+     "native_perspective": 74.79,
+     "min_clean": 8.658,
+     "min_tilt": 8.772
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 7.432,
+     "gemini_clean": 6.114,
+     "gpt_tilt": 6.828,
+     "gpt_scan": 7.216,
+     "gpt_perspective": 7.294,
+     "native_clean": 75.464,
+     "native_tilt": 72.0,
+     "native_scan": 74.29,
+     "native_perspective": 74.19,
+     "min_clean": 7.276,
+     "min_tilt": 6.944
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 4.829,
+     "gemini_clean": 4.093,
+     "gpt_tilt": 4.29,
+     "gpt_scan": 4.478,
+     "gpt_perspective": 4.212,
+     "native_clean": 64.895,
+     "native_tilt": 62.87,
+     "native_scan": 63.38,
+     "native_perspective": 61.62,
+     "min_clean": 5.366,
+     "min_tilt": 4.948
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 6.193,
+     "gemini_clean": 4.31,
+     "gpt_tilt": 5.852,
+     "gpt_scan": 6.108,
+     "gpt_perspective": 6.07,
+     "native_clean": 71.4,
+     "native_tilt": 69.77,
+     "native_scan": 71.2,
+     "native_perspective": 70.58,
+     "min_clean": 6.516,
+     "min_tilt": 6.388
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 7.794,
+     "gemini_clean": 6.815,
+     "gpt_tilt": 6.734,
+     "gpt_scan": 7.4,
+     "gpt_perspective": 7.392,
+     "native_clean": 76.88,
+     "native_tilt": 71.37,
+     "native_scan": 75.37,
+     "native_perspective": 74.7,
+     "min_clean": 7.766,
+     "min_tilt": 6.97
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 5.284,
+     "gemini_clean": 4.79,
+     "gpt_tilt": 4.464,
+     "gpt_scan": 4.902,
+     "gpt_perspective": 5.036,
+     "native_clean": 72.65,
+     "native_tilt": 67.78,
+     "native_scan": 69.74,
+     "native_perspective": 71.45,
+     "min_clean": 6.064,
+     "min_tilt": 5.274
+    }
+   ]
+  },
+  {
+   "id": "omnidocbench",
+   "name": "OmniDocBench",
+   "metric": "official overall (500-page sample)",
+   "pages": 500,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 9.057,
+     "gemini_clean": 8.249,
+     "gpt_tilt": 9.01002004008016,
+     "gpt_scan": 8.918,
+     "gpt_perspective": 9.06,
+     "native_clean": 89.501,
+     "native_tilt": 88.722,
+     "native_scan": 88.628,
+     "native_perspective": 90.099,
+     "min_clean": 8.798,
+     "min_tilt": 8.80561122244489
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.693,
+     "gemini_clean": 7.615,
+     "gpt_tilt": 8.342685370741483,
+     "gpt_scan": 8.498,
+     "gpt_perspective": 8.638,
+     "native_clean": 87.52,
+     "native_tilt": 86.55,
+     "native_scan": 88.67,
+     "native_perspective": 87.5,
+     "min_clean": 8.55,
+     "min_tilt": 8.238476953907815
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 8.748,
+     "gemini_clean": 7.591,
+     "gpt_tilt": 8.591182364729459,
+     "gpt_scan": 8.59,
+     "gpt_perspective": 8.604,
+     "native_clean": 86.20020169189432,
+     "native_tilt": 86.82185767253911,
+     "native_scan": 86.56,
+     "native_perspective": 86.69,
+     "min_clean": 8.4,
+     "min_tilt": 8.372745490981965
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 7.656,
+     "gemini_clean": 6.35,
+     "gpt_tilt": 7.30060120240481,
+     "gpt_scan": 7.504,
+     "gpt_perspective": 7.624,
+     "native_clean": 87.04,
+     "native_tilt": 84.58,
+     "native_scan": 86.74,
+     "native_perspective": 86.23,
+     "min_clean": 7.126,
+     "min_tilt": 6.849699398797595
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 8.13,
+     "gemini_clean": 7.133,
+     "gpt_tilt": 8.026052104208416,
+     "gpt_scan": 8.058,
+     "gpt_perspective": 8.0,
+     "native_clean": 90.013,
+     "native_tilt": 89.57,
+     "native_scan": 89.325,
+     "native_perspective": 89.677,
+     "min_clean": 8.318,
+     "min_tilt": 8.302605210420841
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 6.405,
+     "gemini_clean": 4.633,
+     "gpt_tilt": 6.148296593186373,
+     "gpt_scan": 6.452,
+     "gpt_perspective": 6.348,
+     "native_clean": 85.41,
+     "native_tilt": 82.97,
+     "native_scan": 84.39,
+     "native_perspective": 84.4,
+     "min_clean": 6.384,
+     "min_tilt": 6.192384769539078
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 8.528,
+     "gemini_clean": 7.485,
+     "gpt_tilt": 8.086172344689379,
+     "gpt_scan": 8.282,
+     "gpt_perspective": 8.456,
+     "native_clean": 88.31,
+     "native_tilt": 87.79,
+     "native_scan": 88.41,
+     "native_perspective": 89.22,
+     "min_clean": 8.268,
+     "min_tilt": 7.979959919839679
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 6.354,
+     "gemini_clean": 5.465,
+     "gpt_tilt": 5.739478957915832,
+     "gpt_scan": 6.128,
+     "gpt_perspective": 6.23,
+     "native_clean": 86.07,
+     "native_tilt": 82.93,
+     "native_scan": 84.49,
+     "native_perspective": 85.55,
+     "min_clean": 6.656,
+     "min_tilt": 6.020040080160321
+    }
+   ]
+  },
+  {
+   "id": "real5_omnidocbench",
+   "name": "Real5-OmniDocBench",
+   "metric": "official overall (500-page sample)",
+   "pages": 500,
+   "builder_vendor": null,
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 9.059,
+     "gemini_clean": 8.2,
+     "gpt_tilt": 8.90380761523046,
+     "gpt_scan": 8.8,
+     "gpt_perspective": 8.99,
+     "native_clean": 89.609,
+     "native_tilt": 89.27,
+     "native_scan": 90.04,
+     "native_perspective": 89.32,
+     "min_clean": 8.73,
+     "min_tilt": 8.715430861723448
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.705,
+     "gemini_clean": 7.67,
+     "gpt_tilt": 8.458917835671343,
+     "gpt_scan": 8.5,
+     "gpt_perspective": 8.67,
+     "native_clean": 89.67,
+     "native_tilt": 87.91,
+     "native_scan": 90.15,
+     "native_perspective": 88.7,
+     "min_clean": 8.436,
+     "min_tilt": 8.280561122244489
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 8.633,
+     "gemini_clean": 7.63,
+     "gpt_tilt": 8.525050100200401,
+     "gpt_scan": 8.48,
+     "gpt_perspective": 8.6,
+     "native_clean": 87.83386465195235,
+     "native_tilt": 88.18839828859626,
+     "native_scan": 88.73,
+     "native_perspective": 87.96,
+     "min_clean": 8.272,
+     "min_tilt": 8.250501002004007
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 7.767,
+     "gemini_clean": 6.45,
+     "gpt_tilt": 7.486973947895792,
+     "gpt_scan": 7.51,
+     "gpt_perspective": 7.66,
+     "native_clean": 88.16,
+     "native_tilt": 86.8,
+     "native_scan": 89.42,
+     "native_perspective": 88.28,
+     "min_clean": 7.158,
+     "min_tilt": 6.8997995991983965
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 8.061,
+     "gemini_clean": 7.04,
+     "gpt_tilt": 7.947895791583166,
+     "gpt_scan": 7.91,
+     "gpt_perspective": 7.83,
+     "native_clean": 93.77,
+     "native_tilt": 92.96,
+     "native_scan": 93.23,
+     "native_perspective": 92.75,
+     "min_clean": 8.272,
+     "min_tilt": 8.270541082164328
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 6.569,
+     "gemini_clean": 4.76,
+     "gpt_tilt": 6.218436873747495,
+     "gpt_scan": 6.54,
+     "gpt_perspective": 6.37,
+     "native_clean": 82.4,
+     "native_tilt": 79.99,
+     "native_scan": 82.29,
+     "native_perspective": 82.3,
+     "min_clean": 6.48,
+     "min_tilt": 6.286573146292585
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 8.627,
+     "gemini_clean": 7.56,
+     "gpt_tilt": 8.246492985971944,
+     "gpt_scan": 8.25,
+     "gpt_perspective": 8.52,
+     "native_clean": 92.62,
+     "native_tilt": 88.7,
+     "native_scan": 90.78,
+     "native_perspective": 91.16,
+     "min_clean": 8.252,
+     "min_tilt": 8.02805611222445
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 6.179,
+     "gemini_clean": 5.33,
+     "gpt_tilt": 5.663326653306613,
+     "gpt_scan": 5.98,
+     "gpt_perspective": 6.08,
+     "native_clean": 85.6,
+     "native_tilt": 80.46,
+     "native_scan": 84.47,
+     "native_perspective": 81.49,
+     "min_clean": 6.342,
+     "min_tilt": 5.86372745490982
+    }
+   ]
+  },
+  {
+   "id": "parsebench2",
+   "name": "ParseBench-2",
+   "metric": "6-dimension mean (2.0.0 scorers)",
+   "pages": 500,
+   "builder_vendor": "LlamaParse",
+   "rotated_corrected": true,
+   "vendors": [
+    {
+     "preset": "reducto_r1",
+     "vendor": "Reducto",
+     "gpt_clean": 9.336,
+     "gemini_clean": 8.104,
+     "gpt_tilt": 9.032,
+     "gpt_scan": 9.156,
+     "gpt_perspective": 9.258,
+     "native_clean": 87.874,
+     "native_tilt": 84.191,
+     "native_scan": 86.031,
+     "native_perspective": 87.148,
+     "min_clean": 9.2964,
+     "min_tilt": 9.174
+    },
+    {
+     "preset": "llamaparse_agentic_plus",
+     "vendor": "LlamaParse",
+     "gpt_clean": 8.955,
+     "gemini_clean": 7.688,
+     "gpt_tilt": 7.634,
+     "gpt_scan": 8.162,
+     "gpt_perspective": 8.638,
+     "native_clean": 91.217,
+     "native_tilt": 77.976,
+     "native_scan": 82.158,
+     "native_perspective": 88.147,
+     "min_clean": 8.454,
+     "min_tilt": 7.55
+    },
+    {
+     "preset": "datalab_accurate",
+     "vendor": "Datalab",
+     "gpt_clean": 9.04,
+     "gemini_clean": 7.449,
+     "gpt_tilt": 8.81,
+     "gpt_scan": 8.924,
+     "gpt_perspective": 9.002,
+     "native_clean": 79.61338948889356,
+     "native_tilt": 76.97257663459128,
+     "native_scan": 77.428,
+     "native_perspective": 78.623,
+     "min_clean": 8.5174,
+     "min_tilt": 8.554
+    },
+    {
+     "preset": "extend_performance_agentic_formulas",
+     "vendor": "Extend",
+     "gpt_clean": 8.972,
+     "gemini_clean": 7.565,
+     "gpt_tilt": 8.198,
+     "gpt_scan": 8.592,
+     "gpt_perspective": 8.776,
+     "native_clean": 79.912,
+     "native_tilt": 74.997,
+     "native_scan": 77.556,
+     "native_perspective": 78.636,
+     "min_clean": 8.264,
+     "min_tilt": 7.774
+    },
+    {
+     "preset": "mistral_ocr_4_1",
+     "vendor": "Mistral OCR",
+     "gpt_clean": 8.33,
+     "gemini_clean": 7.087,
+     "gpt_tilt": 8.3,
+     "gpt_scan": 8.192,
+     "gpt_perspective": 8.164,
+     "native_clean": 74.46,
+     "native_tilt": 70.71,
+     "native_scan": 71.821,
+     "native_perspective": 71.773,
+     "min_clean": 8.1342,
+     "min_tilt": 8.232
+    },
+    {
+     "preset": "azure_layout_high_res_formulas",
+     "vendor": "Azure DI",
+     "gpt_clean": 7.482,
+     "gemini_clean": 5.528,
+     "gpt_tilt": 7.026,
+     "gpt_scan": 7.524,
+     "gpt_perspective": 7.396,
+     "native_clean": 66.031,
+     "native_tilt": 61.171,
+     "native_scan": 66.831,
+     "native_perspective": 66.49,
+     "min_clean": 7.188,
+     "min_tilt": 7.012
+    },
+    {
+     "preset": "pulse_ultra_2",
+     "vendor": "Pulse",
+     "gpt_clean": 8.153,
+     "gemini_clean": 6.868,
+     "gpt_tilt": 6.666,
+     "gpt_scan": 7.62,
+     "gpt_perspective": 7.898,
+     "native_clean": 70.377,
+     "native_tilt": 55.846,
+     "native_scan": 66.177,
+     "native_perspective": 68.281,
+     "min_clean": 7.635,
+     "min_tilt": 6.5
+    },
+    {
+     "preset": "cohere_parse_v5",
+     "vendor": "Cohere",
+     "gpt_clean": 7.95,
+     "gemini_clean": 7.326,
+     "gpt_tilt": 5.96,
+     "gpt_scan": 7.262,
+     "gpt_perspective": 7.714,
+     "native_clean": 73.411,
+     "native_tilt": 53.804,
+     "native_scan": 67.402,
+     "native_perspective": 70.731,
+     "min_clean": 7.8116,
+     "min_tilt": 6.176
+    }
+   ]
+  }
+ ],
+ "refresh": {
+  "run": "20261116T220719Z",
+  "datalab": "Chandra 2.7, November 2026 API, accurate mode, captions on",
+  "primary": "All eight vendors rejudged; GPT-6.1 Sol PAIR; clean r0+r1, tilt r0",
+  "historical": "Gemini 3.1, scan and perspective predate this refresh.",
+  "repeat_check": {
+   "tags": [
+    "gpt-6.1-sol-medium-r0",
+    "gpt-6.1-sol-medium-r1"
+   ],
+   "benchmarks": [
+    {
+     "id": "dp_bench",
+     "pages": 200,
+     "r0_pages": 200,
+     "r1_pages": 200,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "score_bench",
+     "pages": 224,
+     "r0_pages": 224,
+     "r1_pages": 224,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "olmocr_bench",
+     "pages": 500,
+     "r0_pages": 500,
+     "r1_pages": 500,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "omniparsebench",
+     "pages": 500,
+     "r0_pages": 500,
+     "r1_pages": 500,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "ocrflux_bench",
+     "pages": 500,
+     "r0_pages": 500,
+     "r1_pages": 500,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "idp_leaderboard",
+     "pages": 300,
+     "r0_pages": 300,
+     "r1_pages": 300,
+     "winners": [
+      [
+       "llamaparse_agentic_plus"
+      ],
+      [
+       "llamaparse_agentic_plus"
+      ]
+     ]
+    },
+    {
+     "id": "mdpbench",
+     "pages": 497,
+     "r0_pages": 497,
+     "r1_pages": 497,
+     "winners": [
+      [
+       "llamaparse_agentic_plus"
+      ],
+      [
+       "llamaparse_agentic_plus"
+      ]
+     ]
+    },
+    {
+     "id": "rd_tablebench",
+     "pages": 500,
+     "r0_pages": 500,
+     "r1_pages": 500,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "puredocbench",
+     "pages": 500,
+     "r0_pages": 500,
+     "r1_pages": 500,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "omnidocbench",
+     "pages": 500,
+     "r0_pages": 500,
+     "r1_pages": 500,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "real5_omnidocbench",
+     "pages": 500,
+     "r0_pages": 500,
+     "r1_pages": 500,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    },
+    {
+     "id": "parsebench2",
+     "pages": 500,
+     "r0_pages": 500,
+     "r1_pages": 500,
+     "winners": [
+      [
+       "reducto_r1"
+      ],
+      [
+       "reducto_r1"
+      ]
+     ]
+    }
+   ]
+  },
+  "judge_ablations": [
+   {
+    "judge": "argon",
+    "condition": "clean",
+    "benchmarks": 12,
+    "same_winner": 6,
+    "reducto_first": 4,
+    "matched_pages": 5219,
+    "sol_pages": 5221,
+    "failed_pages": 2,
+    "non_reducto_winners": "DP-Bench: Pulse; olmOCR-Bench: Datalab; OmniParseBench: Datalab; OCRFlux-bench: Pulse; IDP Leaderboard: LlamaParse; MDPBench: LlamaParse; RD-TableBench: LlamaParse; PureDocBench: Datalab"
+   },
+   {
+    "judge": "argon",
+    "condition": "tilt_2_4",
+    "benchmarks": 12,
+    "same_winner": 9,
+    "reducto_first": 8,
+    "matched_pages": 5213,
+    "sol_pages": 5220,
+    "failed_pages": 7,
+    "non_reducto_winners": "olmOCR-Bench: Datalab; OmniParseBench: Datalab; MDPBench: LlamaParse; PureDocBench: Datalab"
+   },
+   {
+    "judge": "astra",
+    "condition": "clean",
+    "benchmarks": 12,
+    "same_winner": 12,
+    "reducto_first": 10,
+    "matched_pages": 5221,
+    "sol_pages": 5221,
+    "failed_pages": 0,
+    "non_reducto_winners": "IDP Leaderboard: LlamaParse; MDPBench: LlamaParse"
+   },
+   {
+    "judge": "astra",
+    "condition": "tilt_2_4",
+    "benchmarks": 12,
+    "same_winner": 12,
+    "reducto_first": 9,
+    "matched_pages": 5220,
+    "sol_pages": 5220,
+    "failed_pages": 0,
+    "non_reducto_winners": "IDP Leaderboard: Mistral OCR; MDPBench: LlamaParse; PureDocBench: Datalab"
+   },
+   {
+    "judge": "fable",
+    "condition": "clean",
+    "benchmarks": 12,
+    "same_winner": 12,
+    "reducto_first": 10,
+    "matched_pages": 5212,
+    "sol_pages": 5221,
+    "failed_pages": 9,
+    "non_reducto_winners": "IDP Leaderboard: LlamaParse; MDPBench: LlamaParse"
+   },
+   {
+    "judge": "fable",
+    "condition": "tilt_2_4",
+    "benchmarks": 12,
+    "same_winner": 12,
+    "reducto_first": 9,
+    "matched_pages": 5212,
+    "sol_pages": 5220,
+    "failed_pages": 8,
+    "non_reducto_winners": "IDP Leaderboard: Mistral OCR; MDPBench: LlamaParse; PureDocBench: Datalab"
+   },
+   {
+    "judge": "terse",
+    "condition": "clean",
+    "benchmarks": 12,
+    "same_winner": 12,
+    "reducto_first": 10,
+    "matched_pages": 5221,
+    "sol_pages": 5221,
+    "failed_pages": 0,
+    "non_reducto_winners": "IDP Leaderboard: LlamaParse; MDPBench: LlamaParse"
+   },
+   {
+    "judge": "terse",
+    "condition": "tilt_2_4",
+    "benchmarks": 12,
+    "same_winner": 10,
+    "reducto_first": 9,
+    "matched_pages": 5220,
+    "sol_pages": 5220,
+    "failed_pages": 0,
+    "non_reducto_winners": "DP-Bench: Mistral OCR; IDP Leaderboard: Mistral OCR; MDPBench: LlamaParse"
+   },
+   {
+    "judge": "minimal",
+    "condition": "clean",
+    "benchmarks": 12,
+    "same_winner": 12,
+    "reducto_first": 10,
+    "matched_pages": 5221,
+    "sol_pages": 5221,
+    "failed_pages": 0,
+    "non_reducto_winners": "IDP Leaderboard: LlamaParse; MDPBench: LlamaParse"
+   },
+   {
+    "judge": "minimal",
+    "condition": "tilt_2_4",
+    "benchmarks": 12,
+    "same_winner": 10,
+    "reducto_first": 11,
+    "matched_pages": 5220,
+    "sol_pages": 5220,
+    "failed_pages": 0,
+    "non_reducto_winners": "MDPBench: LlamaParse"
+   }
+  ],
+  "confidence_intervals": {
+   "level": 0.9,
+   "draws": 2000,
+   "seed": 0,
+   "method": "Paired page bootstrap; percentile intervals; relative change = 100*(tilt/clean-1).",
+   "reference": "Sol clean per-page r0+r1 average; tilt r0.",
+   "scope": "Primary PAIR and five refreshed judge variants; matched complete pages."
+  }
+ }
+}

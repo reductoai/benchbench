@@ -1,0 +1,961 @@
+judge,condition,benchmark,preset,vendor,matched_pages,mean_pair_score,sol_mean_pair_score,lo_score,hi_score
+argon,clean,dp_bench,reducto_r1,Reducto,200,8.91,9.585,8.745,9.07
+argon,clean,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.605,8.95,8.455,8.745249999999999
+argon,clean,dp_bench,datalab_accurate,Datalab,200,8.585,9.0025,8.39,8.77
+argon,clean,dp_bench,extend_performance_agentic_formulas,Extend,200,8.17,8.615,7.955,8.38
+argon,clean,dp_bench,mistral_ocr_4_1,Mistral OCR,200,8.265,8.7025,8.02,8.505
+argon,clean,dp_bench,azure_layout_high_res_formulas,Azure DI,200,7.365,8.1675,7.13,7.6
+argon,clean,dp_bench,pulse_ultra_2,Pulse,200,8.925,9.2375,8.75,9.09
+argon,clean,dp_bench,cohere_parse_v5,Cohere,200,8.625,8.795,8.44,8.81
+astra,clean,dp_bench,reducto_r1,Reducto,200,9.52,9.585,9.415,9.625
+astra,clean,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.895,8.95,8.795,8.995
+astra,clean,dp_bench,datalab_accurate,Datalab,200,8.9,9.0025,8.72,9.06
+astra,clean,dp_bench,extend_performance_agentic_formulas,Extend,200,8.525,8.615,8.36,8.69
+astra,clean,dp_bench,mistral_ocr_4_1,Mistral OCR,200,8.69,8.7025,8.52,8.85
+astra,clean,dp_bench,azure_layout_high_res_formulas,Azure DI,200,8.095,8.1675,7.93,8.26
+astra,clean,dp_bench,pulse_ultra_2,Pulse,200,9.135,9.2375,9.035,9.235
+astra,clean,dp_bench,cohere_parse_v5,Cohere,200,8.715,8.795,8.555,8.875
+fable,clean,dp_bench,reducto_r1,Reducto,200,9.28,9.585,9.16,9.4
+fable,clean,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.605,8.95,8.475,8.73
+fable,clean,dp_bench,datalab_accurate,Datalab,200,8.37,9.0025,8.165,8.57
+fable,clean,dp_bench,extend_performance_agentic_formulas,Extend,200,7.665,8.615,7.475,7.865
+fable,clean,dp_bench,mistral_ocr_4_1,Mistral OCR,200,7.91,8.7025,7.695,8.115
+fable,clean,dp_bench,azure_layout_high_res_formulas,Azure DI,200,6.965,8.1675,6.775,7.16
+fable,clean,dp_bench,pulse_ultra_2,Pulse,200,8.535,9.2375,8.395,8.675
+fable,clean,dp_bench,cohere_parse_v5,Cohere,200,8.205,8.795,8.005,8.405
+terse,clean,dp_bench,reducto_r1,Reducto,200,9.385,9.585,9.285,9.48
+terse,clean,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.8,8.95,8.71,8.885
+terse,clean,dp_bench,datalab_accurate,Datalab,200,8.65,9.0025,8.49,8.81
+terse,clean,dp_bench,extend_performance_agentic_formulas,Extend,200,8.245,8.615,8.11975,8.37
+terse,clean,dp_bench,mistral_ocr_4_1,Mistral OCR,200,9.03,8.7025,8.905,9.15
+terse,clean,dp_bench,azure_layout_high_res_formulas,Azure DI,200,7.855,8.1675,7.72,7.99025
+terse,clean,dp_bench,pulse_ultra_2,Pulse,200,8.785,9.2375,8.675,8.895
+terse,clean,dp_bench,cohere_parse_v5,Cohere,200,8.675,8.795,8.515,8.83
+minimal,clean,dp_bench,reducto_r1,Reducto,200,9.105,9.585,9.005,9.215
+minimal,clean,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.405,8.95,8.3,8.51
+minimal,clean,dp_bench,datalab_accurate,Datalab,200,8.335,9.0025,8.16,8.50025
+minimal,clean,dp_bench,extend_performance_agentic_formulas,Extend,200,7.82,8.615,7.69,7.945
+minimal,clean,dp_bench,mistral_ocr_4_1,Mistral OCR,200,8.47,8.7025,8.335,8.59
+minimal,clean,dp_bench,azure_layout_high_res_formulas,Azure DI,200,7.585,8.1675,7.46,7.715
+minimal,clean,dp_bench,pulse_ultra_2,Pulse,200,8.445,9.2375,8.334750000000001,8.555
+minimal,clean,dp_bench,cohere_parse_v5,Cohere,200,8.435,8.795,8.275,8.585
+argon,tilt_2_4,dp_bench,reducto_r1,Reducto,200,8.915,9.385,8.745,9.09
+argon,tilt_2_4,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.17,8.6,7.97,8.370249999999999
+argon,tilt_2_4,dp_bench,datalab_accurate,Datalab,200,8.59,8.71,8.405,8.775
+argon,tilt_2_4,dp_bench,extend_performance_agentic_formulas,Extend,200,7.81,8.28,7.575,8.045
+argon,tilt_2_4,dp_bench,mistral_ocr_4_1,Mistral OCR,200,8.72,8.865,8.52,8.93
+argon,tilt_2_4,dp_bench,azure_layout_high_res_formulas,Azure DI,200,7.55,8.045,7.3,7.8
+argon,tilt_2_4,dp_bench,pulse_ultra_2,Pulse,200,8.76,8.815,8.565,8.96
+argon,tilt_2_4,dp_bench,cohere_parse_v5,Cohere,200,7.65,7.805,7.375,7.915
+astra,tilt_2_4,dp_bench,reducto_r1,Reducto,200,9.32,9.385,9.185,9.445
+astra,tilt_2_4,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.555,8.6,8.395,8.705
+astra,tilt_2_4,dp_bench,datalab_accurate,Datalab,200,8.625,8.71,8.435,8.815
+astra,tilt_2_4,dp_bench,extend_performance_agentic_formulas,Extend,200,8.165,8.28,7.985,8.35
+astra,tilt_2_4,dp_bench,mistral_ocr_4_1,Mistral OCR,200,8.855,8.865,8.705,8.995
+astra,tilt_2_4,dp_bench,azure_layout_high_res_formulas,Azure DI,200,7.975,8.045,7.7997499999999995,8.15
+astra,tilt_2_4,dp_bench,pulse_ultra_2,Pulse,200,8.72,8.815,8.56,8.875
+astra,tilt_2_4,dp_bench,cohere_parse_v5,Cohere,200,7.69,7.805,7.45975,7.925
+fable,tilt_2_4,dp_bench,reducto_r1,Reducto,200,9.095,9.385,8.95,9.235
+fable,tilt_2_4,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.1,8.6,7.9,8.28525
+fable,tilt_2_4,dp_bench,datalab_accurate,Datalab,200,8.045,8.71,7.82,8.27
+fable,tilt_2_4,dp_bench,extend_performance_agentic_formulas,Extend,200,7.18,8.28,6.9647499999999996,7.4
+fable,tilt_2_4,dp_bench,mistral_ocr_4_1,Mistral OCR,200,8.175,8.865,7.98,8.360249999999999
+fable,tilt_2_4,dp_bench,azure_layout_high_res_formulas,Azure DI,200,7.035,8.045,6.835,7.23525
+fable,tilt_2_4,dp_bench,pulse_ultra_2,Pulse,200,8.095,8.815,7.89,8.31
+fable,tilt_2_4,dp_bench,cohere_parse_v5,Cohere,200,6.81,7.805,6.515,7.100249999999999
+terse,tilt_2_4,dp_bench,reducto_r1,Reducto,200,9.245,9.385,9.125,9.365
+terse,tilt_2_4,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.43,8.6,8.275,8.585
+terse,tilt_2_4,dp_bench,datalab_accurate,Datalab,200,8.475,8.71,8.29,8.65
+terse,tilt_2_4,dp_bench,extend_performance_agentic_formulas,Extend,200,7.855,8.28,7.695,8.015
+terse,tilt_2_4,dp_bench,mistral_ocr_4_1,Mistral OCR,200,9.275,8.865,9.18,9.375
+terse,tilt_2_4,dp_bench,azure_layout_high_res_formulas,Azure DI,200,7.915,8.045,7.765,8.06
+terse,tilt_2_4,dp_bench,pulse_ultra_2,Pulse,200,8.485,8.815,8.34,8.625
+terse,tilt_2_4,dp_bench,cohere_parse_v5,Cohere,200,7.84,7.805,7.625,8.06
+minimal,tilt_2_4,dp_bench,reducto_r1,Reducto,200,9.0,9.385,8.88,9.12
+minimal,tilt_2_4,dp_bench,llamaparse_agentic_plus,LlamaParse,200,8.11,8.6,7.955,8.26
+minimal,tilt_2_4,dp_bench,datalab_accurate,Datalab,200,8.2,8.71,8.0,8.39025
+minimal,tilt_2_4,dp_bench,extend_performance_agentic_formulas,Extend,200,7.475,8.28,7.315,7.625
+minimal,tilt_2_4,dp_bench,mistral_ocr_4_1,Mistral OCR,200,8.76,8.865,8.645,8.87
+minimal,tilt_2_4,dp_bench,azure_layout_high_res_formulas,Azure DI,200,7.65,8.045,7.51,7.785
+minimal,tilt_2_4,dp_bench,pulse_ultra_2,Pulse,200,8.235,8.815,8.095,8.37
+minimal,tilt_2_4,dp_bench,cohere_parse_v5,Cohere,200,7.625,7.805,7.415,7.83
+argon,clean,score_bench,reducto_r1,Reducto,223,8.654708520179373,9.154708520179373,8.466367713004484,8.829596412556054
+argon,clean,score_bench,llamaparse_agentic_plus,LlamaParse,223,8.466367713004484,8.769058295964125,8.295739910313902,8.636995515695066
+argon,clean,score_bench,datalab_accurate,Datalab,223,8.547085201793722,8.739910313901346,8.345291479820627,8.721973094170403
+argon,clean,score_bench,extend_performance_agentic_formulas,Extend,223,7.982062780269058,8.52914798206278,7.748878923766816,8.20627802690583
+argon,clean,score_bench,mistral_ocr_4_1,Mistral OCR,223,8.0,8.338565022421525,7.739910313901345,8.237668161434977
+argon,clean,score_bench,azure_layout_high_res_formulas,Azure DI,223,6.623318385650224,7.437219730941704,6.358744394618834,6.878923766816143
+argon,clean,score_bench,pulse_ultra_2,Pulse,223,8.25560538116592,8.558295964125561,8.008968609865471,8.497757847533633
+argon,clean,score_bench,cohere_parse_v5,Cohere,223,8.026905829596412,8.127802690582959,7.802690582959642,8.242376681614349
+astra,clean,score_bench,reducto_r1,Reducto,224,9.035714285714286,9.158482142857142,8.875,9.191964285714286
+astra,clean,score_bench,llamaparse_agentic_plus,LlamaParse,224,8.727678571428571,8.770089285714286,8.598214285714286,8.843973214285715
+astra,clean,score_bench,datalab_accurate,Datalab,224,8.598214285714286,8.741071428571429,8.428571428571429,8.758928571428571
+astra,clean,score_bench,extend_performance_agentic_formulas,Extend,224,8.383928571428571,8.517857142857142,8.196428571428571,8.553571428571429
+astra,clean,score_bench,mistral_ocr_4_1,Mistral OCR,224,8.214285714285714,8.341517857142858,8.008928571428571,8.40625
+astra,clean,score_bench,azure_layout_high_res_formulas,Azure DI,224,7.263392857142857,7.435267857142857,7.0625,7.473214285714286
+astra,clean,score_bench,pulse_ultra_2,Pulse,224,8.4375,8.560267857142858,8.236607142857142,8.629464285714286
+astra,clean,score_bench,cohere_parse_v5,Cohere,224,7.910714285714286,8.131696428571429,7.696428571428571,8.116071428571429
+fable,clean,score_bench,reducto_r1,Reducto,223,8.79372197309417,9.170403587443946,8.63677130044843,8.946188340807176
+fable,clean,score_bench,llamaparse_agentic_plus,LlamaParse,223,8.27354260089686,8.771300448430493,8.116591928251122,8.42152466367713
+fable,clean,score_bench,datalab_accurate,Datalab,223,8.228699551569507,8.746636771300448,8.058295964125561,8.399103139013453
+fable,clean,score_bench,extend_performance_agentic_formulas,Extend,223,7.524663677130045,8.522421524663677,7.327354260089686,7.708744394618834
+fable,clean,score_bench,mistral_ocr_4_1,Mistral OCR,223,7.708520179372197,8.34304932735426,7.479820627802691,7.937219730941704
+fable,clean,score_bench,azure_layout_high_res_formulas,Azure DI,223,6.076233183856503,7.441704035874439,5.851793721973094,6.309417040358745
+fable,clean,score_bench,pulse_ultra_2,Pulse,223,7.7040358744394615,8.562780269058296,7.466367713004484,7.932959641255605
+fable,clean,score_bench,cohere_parse_v5,Cohere,223,7.4125560538116595,8.139013452914797,7.188340807174888,7.641255605381166
+terse,clean,score_bench,reducto_r1,Reducto,224,8.991071428571429,9.158482142857142,8.839285714285714,9.129464285714286
+terse,clean,score_bench,llamaparse_agentic_plus,LlamaParse,224,8.5625,8.770089285714286,8.441964285714286,8.674107142857142
+terse,clean,score_bench,datalab_accurate,Datalab,224,8.526785714285714,8.741071428571429,8.383928571428571,8.65625
+terse,clean,score_bench,extend_performance_agentic_formulas,Extend,224,8.0625,8.517857142857142,7.915178571428571,8.200892857142858
+terse,clean,score_bench,mistral_ocr_4_1,Mistral OCR,224,8.549107142857142,8.341517857142858,8.392857142857142,8.700892857142858
+terse,clean,score_bench,azure_layout_high_res_formulas,Azure DI,224,7.334821428571429,7.435267857142857,7.174107142857143,7.4912946428571425
+terse,clean,score_bench,pulse_ultra_2,Pulse,224,8.142857142857142,8.560267857142858,7.955357142857143,8.3125
+terse,clean,score_bench,cohere_parse_v5,Cohere,224,8.071428571428571,8.131696428571429,7.892857142857143,8.241294642857143
+minimal,clean,score_bench,reducto_r1,Reducto,224,8.825892857142858,9.158482142857142,8.687276785714285,8.955357142857142
+minimal,clean,score_bench,llamaparse_agentic_plus,LlamaParse,224,8.321428571428571,8.770089285714286,8.191964285714286,8.441964285714286
+minimal,clean,score_bench,datalab_accurate,Datalab,224,8.236607142857142,8.741071428571429,8.089285714285714,8.375
+minimal,clean,score_bench,extend_performance_agentic_formulas,Extend,224,7.616071428571429,8.517857142857142,7.473214285714286,7.75
+minimal,clean,score_bench,mistral_ocr_4_1,Mistral OCR,224,8.138392857142858,8.341517857142858,7.986607142857143,8.290178571428571
+minimal,clean,score_bench,azure_layout_high_res_formulas,Azure DI,224,7.035714285714286,7.435267857142857,6.888392857142857,7.178571428571429
+minimal,clean,score_bench,pulse_ultra_2,Pulse,224,7.875,8.560267857142858,7.705357142857143,8.03125
+minimal,clean,score_bench,cohere_parse_v5,Cohere,224,8.0,8.131696428571429,7.830357142857143,8.169642857142858
+argon,tilt_2_4,score_bench,reducto_r1,Reducto,224,8.526785714285714,9.120535714285714,8.34375,8.700892857142858
+argon,tilt_2_4,score_bench,llamaparse_agentic_plus,LlamaParse,224,7.758928571428571,8.258928571428571,7.535714285714286,7.982142857142857
+argon,tilt_2_4,score_bench,datalab_accurate,Datalab,224,8.379464285714286,8.598214285714286,8.169642857142858,8.580357142857142
+argon,tilt_2_4,score_bench,extend_performance_agentic_formulas,Extend,224,7.026785714285714,8.040178571428571,6.772321428571429,7.285714285714286
+argon,tilt_2_4,score_bench,mistral_ocr_4_1,Mistral OCR,224,7.825892857142857,8.254464285714286,7.566964285714286,8.066964285714286
+argon,tilt_2_4,score_bench,azure_layout_high_res_formulas,Azure DI,224,6.03125,7.142857142857143,5.758705357142857,6.308035714285714
+argon,tilt_2_4,score_bench,pulse_ultra_2,Pulse,224,7.522321428571429,7.821428571428571,7.223214285714286,7.808035714285714
+argon,tilt_2_4,score_bench,cohere_parse_v5,Cohere,224,6.857142857142857,6.9375,6.589285714285714,7.133928571428571
+astra,tilt_2_4,score_bench,reducto_r1,Reducto,224,9.044642857142858,9.120535714285714,8.870535714285714,9.209821428571429
+astra,tilt_2_4,score_bench,llamaparse_agentic_plus,LlamaParse,224,8.196428571428571,8.258928571428571,8.004464285714286,8.392857142857142
+astra,tilt_2_4,score_bench,datalab_accurate,Datalab,224,8.549107142857142,8.598214285714286,8.375,8.723214285714286
+astra,tilt_2_4,score_bench,extend_performance_agentic_formulas,Extend,224,7.9375,8.040178571428571,7.767857142857143,8.111607142857142
+astra,tilt_2_4,score_bench,mistral_ocr_4_1,Mistral OCR,224,8.138392857142858,8.254464285714286,7.937276785714285,8.339285714285714
+astra,tilt_2_4,score_bench,azure_layout_high_res_formulas,Azure DI,224,6.959821428571429,7.142857142857143,6.723214285714286,7.1875
+astra,tilt_2_4,score_bench,pulse_ultra_2,Pulse,224,7.696428571428571,7.821428571428571,7.450892857142857,7.928571428571429
+astra,tilt_2_4,score_bench,cohere_parse_v5,Cohere,224,6.745535714285714,6.9375,6.491071428571429,7.004464285714286
+fable,tilt_2_4,score_bench,reducto_r1,Reducto,223,8.73542600896861,9.125560538116591,8.551569506726457,8.905829596412556
+fable,tilt_2_4,score_bench,llamaparse_agentic_plus,LlamaParse,223,7.650224215246637,8.25560538116592,7.42152466367713,7.883408071748879
+fable,tilt_2_4,score_bench,datalab_accurate,Datalab,223,8.134529147982063,8.600896860986547,7.928251121076233,8.340807174887892
+fable,tilt_2_4,score_bench,extend_performance_agentic_formulas,Extend,223,6.798206278026906,8.044843049327355,6.582959641255606,7.0
+fable,tilt_2_4,score_bench,mistral_ocr_4_1,Mistral OCR,223,7.650224215246637,8.260089686098654,7.42152466367713,7.883408071748879
+fable,tilt_2_4,score_bench,azure_layout_high_res_formulas,Azure DI,223,5.856502242152466,7.161434977578475,5.605381165919282,6.1076233183856505
+fable,tilt_2_4,score_bench,pulse_ultra_2,Pulse,223,6.834080717488789,7.820627802690583,6.542600896860987,7.112107623318385
+fable,tilt_2_4,score_bench,cohere_parse_v5,Cohere,223,5.977578475336323,6.941704035874439,5.7040358744394615,6.278026905829597
+terse,tilt_2_4,score_bench,reducto_r1,Reducto,224,9.026785714285714,9.120535714285714,8.870535714285714,9.165178571428571
+terse,tilt_2_4,score_bench,llamaparse_agentic_plus,LlamaParse,224,8.102678571428571,8.258928571428571,7.928571428571429,8.276785714285714
+terse,tilt_2_4,score_bench,datalab_accurate,Datalab,224,8.455357142857142,8.598214285714286,8.290178571428571,8.602678571428571
+terse,tilt_2_4,score_bench,extend_performance_agentic_formulas,Extend,224,7.629464285714286,8.040178571428571,7.482142857142857,7.776785714285714
+terse,tilt_2_4,score_bench,mistral_ocr_4_1,Mistral OCR,224,8.575892857142858,8.254464285714286,8.415178571428571,8.732142857142858
+terse,tilt_2_4,score_bench,azure_layout_high_res_formulas,Azure DI,224,7.053571428571429,7.142857142857143,6.852678571428571,7.236607142857143
+terse,tilt_2_4,score_bench,pulse_ultra_2,Pulse,224,7.540178571428571,7.821428571428571,7.316964285714286,7.75
+terse,tilt_2_4,score_bench,cohere_parse_v5,Cohere,224,7.022321428571429,6.9375,6.790178571428571,7.254464285714286
+minimal,tilt_2_4,score_bench,reducto_r1,Reducto,224,8.870535714285714,9.120535714285714,8.71875,9.004464285714286
+minimal,tilt_2_4,score_bench,llamaparse_agentic_plus,LlamaParse,224,7.946428571428571,8.258928571428571,7.790178571428571,8.111607142857142
+minimal,tilt_2_4,score_bench,datalab_accurate,Datalab,224,8.267857142857142,8.598214285714286,8.09375,8.433035714285714
+minimal,tilt_2_4,score_bench,extend_performance_agentic_formulas,Extend,224,7.209821428571429,8.040178571428571,7.0625,7.357142857142857
+minimal,tilt_2_4,score_bench,mistral_ocr_4_1,Mistral OCR,224,8.28125,8.254464285714286,8.116071428571429,8.433035714285714
+minimal,tilt_2_4,score_bench,azure_layout_high_res_formulas,Azure DI,224,6.875,7.142857142857143,6.691964285714286,7.035714285714286
+minimal,tilt_2_4,score_bench,pulse_ultra_2,Pulse,224,7.383928571428571,7.821428571428571,7.174107142857143,7.575892857142857
+minimal,tilt_2_4,score_bench,cohere_parse_v5,Cohere,224,6.991071428571429,6.9375,6.767857142857143,7.209821428571429
+argon,clean,olmocr_bench,reducto_r1,Reducto,500,8.868,9.138,8.764,8.966
+argon,clean,olmocr_bench,llamaparse_agentic_plus,LlamaParse,500,8.486,8.743,8.3659,8.594
+argon,clean,olmocr_bench,datalab_accurate,Datalab,500,8.896,8.993,8.786,9.002
+argon,clean,olmocr_bench,extend_performance_agentic_formulas,Extend,500,6.522,6.875,6.3579,6.71
+argon,clean,olmocr_bench,mistral_ocr_4_1,Mistral OCR,500,8.576,8.754,8.4499,8.704
+argon,clean,olmocr_bench,azure_layout_high_res_formulas,Azure DI,500,6.45,7.154,6.2939,6.612
+argon,clean,olmocr_bench,pulse_ultra_2,Pulse,500,8.502,8.522,8.35,8.6481
+argon,clean,olmocr_bench,cohere_parse_v5,Cohere,500,8.336,8.22,8.2,8.47
+astra,clean,olmocr_bench,reducto_r1,Reducto,500,9.092,9.138,9.006,9.186
+astra,clean,olmocr_bench,llamaparse_agentic_plus,LlamaParse,500,8.698,8.743,8.608,8.788
+astra,clean,olmocr_bench,datalab_accurate,Datalab,500,8.902,8.993,8.806,8.998
+astra,clean,olmocr_bench,extend_performance_agentic_formulas,Extend,500,6.764,6.875,6.616,6.928
+astra,clean,olmocr_bench,mistral_ocr_4_1,Mistral OCR,500,8.684,8.754,8.576,8.804
+astra,clean,olmocr_bench,azure_layout_high_res_formulas,Azure DI,500,7.05,7.154,6.912,7.1960999999999995
+astra,clean,olmocr_bench,pulse_ultra_2,Pulse,500,8.442,8.522,8.302,8.578
+astra,clean,olmocr_bench,cohere_parse_v5,Cohere,500,8.148,8.22,8.018,8.282
+fable,clean,olmocr_bench,reducto_r1,Reducto,499,8.811623246492985,9.140280561122244,8.719438877755511,8.909819639278558
+fable,clean,olmocr_bench,llamaparse_agentic_plus,LlamaParse,499,8.330661322645291,8.74248496993988,8.224448897795591,8.432865731462925
+fable,clean,olmocr_bench,datalab_accurate,Datalab,499,8.647294589178356,8.99498997995992,8.54498997995992,8.749498997995993
+fable,clean,olmocr_bench,extend_performance_agentic_formulas,Extend,499,5.701402805611222,6.875751503006012,5.541082164328658,5.875751503006012
+fable,clean,olmocr_bench,mistral_ocr_4_1,Mistral OCR,499,8.208416833667334,8.753507014028056,8.082164328657315,8.33877755511022
+fable,clean,olmocr_bench,azure_layout_high_res_formulas,Azure DI,499,5.869739478957916,7.154308617234469,5.7374749498997994,6.014028056112225
+fable,clean,olmocr_bench,pulse_ultra_2,Pulse,499,7.921843687374749,8.521042084168336,7.7695390781563125,8.066132264529058
+fable,clean,olmocr_bench,cohere_parse_v5,Cohere,499,7.603206412825651,8.220440881763528,7.448897795591182,7.761623246492986
+terse,clean,olmocr_bench,reducto_r1,Reducto,500,9.158,9.138,9.088,9.232
+terse,clean,olmocr_bench,llamaparse_agentic_plus,LlamaParse,500,8.626,8.743,8.542,8.71
+terse,clean,olmocr_bench,datalab_accurate,Datalab,500,8.9,8.993,8.812,8.982
+terse,clean,olmocr_bench,extend_performance_agentic_formulas,Extend,500,6.86,6.875,6.742,6.992
+terse,clean,olmocr_bench,mistral_ocr_4_1,Mistral OCR,500,8.842,8.754,8.76,8.92
+terse,clean,olmocr_bench,azure_layout_high_res_formulas,Azure DI,500,7.176,7.154,7.058,7.298
+terse,clean,olmocr_bench,pulse_ultra_2,Pulse,500,8.398,8.522,8.278,8.516
+terse,clean,olmocr_bench,cohere_parse_v5,Cohere,500,8.418,8.22,8.306,8.532
+minimal,clean,olmocr_bench,reducto_r1,Reducto,500,8.976,9.138,8.904,9.05
+minimal,clean,olmocr_bench,llamaparse_agentic_plus,LlamaParse,500,8.448,8.743,8.362,8.532
+minimal,clean,olmocr_bench,datalab_accurate,Datalab,500,8.754,8.993,8.662,8.842
+minimal,clean,olmocr_bench,extend_performance_agentic_formulas,Extend,500,6.576,6.875,6.468,6.688
+minimal,clean,olmocr_bench,mistral_ocr_4_1,Mistral OCR,500,8.644,8.754,8.566,8.72
+minimal,clean,olmocr_bench,azure_layout_high_res_formulas,Azure DI,500,6.902,7.154,6.802,7.006
+minimal,clean,olmocr_bench,pulse_ultra_2,Pulse,500,8.276,8.522,8.16,8.388
+minimal,clean,olmocr_bench,cohere_parse_v5,Cohere,500,8.354,8.22,8.2539,8.46
+argon,tilt_2_4,olmocr_bench,reducto_r1,Reducto,500,8.862,9.078,8.7639,8.962
+argon,tilt_2_4,olmocr_bench,llamaparse_agentic_plus,LlamaParse,500,8.308,8.448,8.19,8.428
+argon,tilt_2_4,olmocr_bench,datalab_accurate,Datalab,500,8.986,8.928,8.876,9.088
+argon,tilt_2_4,olmocr_bench,extend_performance_agentic_formulas,Extend,500,5.984,6.586,5.796,6.182
+argon,tilt_2_4,olmocr_bench,mistral_ocr_4_1,Mistral OCR,500,8.622,8.692,8.5039,8.74
+argon,tilt_2_4,olmocr_bench,azure_layout_high_res_formulas,Azure DI,500,6.126,6.862,5.96,6.298
+argon,tilt_2_4,olmocr_bench,pulse_ultra_2,Pulse,500,7.584,7.726,7.391900000000001,7.774
+argon,tilt_2_4,olmocr_bench,cohere_parse_v5,Cohere,500,6.808,7.024,6.633900000000001,6.994
+astra,tilt_2_4,olmocr_bench,reducto_r1,Reducto,500,9.02,9.078,8.93,9.116
+astra,tilt_2_4,olmocr_bench,llamaparse_agentic_plus,LlamaParse,500,8.352,8.448,8.246,8.456
+astra,tilt_2_4,olmocr_bench,datalab_accurate,Datalab,500,8.876,8.928,8.778,8.972
+astra,tilt_2_4,olmocr_bench,extend_performance_agentic_formulas,Extend,500,6.448,6.586,6.296,6.612
+astra,tilt_2_4,olmocr_bench,mistral_ocr_4_1,Mistral OCR,500,8.642,8.692,8.532,8.752
+astra,tilt_2_4,olmocr_bench,azure_layout_high_res_formulas,Azure DI,500,6.758,6.862,6.6159,6.912
+astra,tilt_2_4,olmocr_bench,pulse_ultra_2,Pulse,500,7.58,7.726,7.408,7.752
+astra,tilt_2_4,olmocr_bench,cohere_parse_v5,Cohere,500,6.904,7.024,6.744,7.072
+fable,tilt_2_4,olmocr_bench,reducto_r1,Reducto,499,8.819639278557114,9.080160320641282,8.719438877755511,8.92184368737475
+fable,tilt_2_4,olmocr_bench,llamaparse_agentic_plus,LlamaParse,499,7.847695390781563,8.446893787575151,7.721342685370741,7.971943887775551
+fable,tilt_2_4,olmocr_bench,datalab_accurate,Datalab,499,8.619238476953909,8.929859719438877,8.507014028056112,8.72745490981964
+fable,tilt_2_4,olmocr_bench,extend_performance_agentic_formulas,Extend,499,5.340681362725451,6.587174348697395,5.182364729458918,5.515130260521042
+fable,tilt_2_4,olmocr_bench,mistral_ocr_4_1,Mistral OCR,499,8.160320641282565,8.691382765531062,8.036072144288577,8.284569138276552
+fable,tilt_2_4,olmocr_bench,azure_layout_high_res_formulas,Azure DI,499,5.655310621242485,6.86372745490982,5.514929859719439,5.809819639278557
+fable,tilt_2_4,olmocr_bench,pulse_ultra_2,Pulse,499,6.901803607214429,7.7234468937875755,6.721342685370741,7.088276553106212
+fable,tilt_2_4,olmocr_bench,cohere_parse_v5,Cohere,499,5.985971943887775,7.028056112224449,5.811623246492986,6.184468937875751
+terse,tilt_2_4,olmocr_bench,reducto_r1,Reducto,500,9.172,9.078,9.098,9.248099999999999
+terse,tilt_2_4,olmocr_bench,llamaparse_agentic_plus,LlamaParse,500,8.416,8.448,8.32,8.512
+terse,tilt_2_4,olmocr_bench,datalab_accurate,Datalab,500,8.93,8.928,8.84,9.016
+terse,tilt_2_4,olmocr_bench,extend_performance_agentic_formulas,Extend,500,6.516,6.586,6.3899,6.66
+terse,tilt_2_4,olmocr_bench,mistral_ocr_4_1,Mistral OCR,500,8.856,8.692,8.778,8.934
+terse,tilt_2_4,olmocr_bench,azure_layout_high_res_formulas,Azure DI,500,6.986,6.862,6.86,7.12
+terse,tilt_2_4,olmocr_bench,pulse_ultra_2,Pulse,500,7.746,7.726,7.592,7.898
+terse,tilt_2_4,olmocr_bench,cohere_parse_v5,Cohere,500,7.298,7.024,7.148,7.4540999999999995
+minimal,tilt_2_4,olmocr_bench,reducto_r1,Reducto,500,9.042,9.078,8.97,9.114
+minimal,tilt_2_4,olmocr_bench,llamaparse_agentic_plus,LlamaParse,500,8.304,8.448,8.212,8.4
+minimal,tilt_2_4,olmocr_bench,datalab_accurate,Datalab,500,8.84,8.928,8.744,8.928
+minimal,tilt_2_4,olmocr_bench,extend_performance_agentic_formulas,Extend,500,6.272,6.586,6.154,6.4
+minimal,tilt_2_4,olmocr_bench,mistral_ocr_4_1,Mistral OCR,500,8.686,8.692,8.616,8.76
+minimal,tilt_2_4,olmocr_bench,azure_layout_high_res_formulas,Azure DI,500,6.772,6.862,6.658,6.886
+minimal,tilt_2_4,olmocr_bench,pulse_ultra_2,Pulse,500,7.66,7.726,7.518,7.798
+minimal,tilt_2_4,olmocr_bench,cohere_parse_v5,Cohere,500,7.318,7.024,7.182,7.46
+argon,clean,omniparsebench,reducto_r1,Reducto,500,8.396,8.679,8.252,8.53
+argon,clean,omniparsebench,llamaparse_agentic_plus,LlamaParse,500,8.142,8.434,8.014,8.2621
+argon,clean,omniparsebench,datalab_accurate,Datalab,500,8.502,8.652,8.37,8.628
+argon,clean,omniparsebench,extend_performance_agentic_formulas,Extend,500,7.012,7.352,6.8359000000000005,7.186
+argon,clean,omniparsebench,mistral_ocr_4_1,Mistral OCR,500,7.776,8.018,7.604,7.932
+argon,clean,omniparsebench,azure_layout_high_res_formulas,Azure DI,500,5.612,6.416,5.4299,5.784
+argon,clean,omniparsebench,pulse_ultra_2,Pulse,500,7.56,7.756,7.3719,7.736
+argon,clean,omniparsebench,cohere_parse_v5,Cohere,500,6.846,6.888,6.644,7.036
+astra,clean,omniparsebench,reducto_r1,Reducto,500,8.582,8.679,8.44,8.7121
+astra,clean,omniparsebench,llamaparse_agentic_plus,LlamaParse,500,8.316,8.434,8.2,8.422
+astra,clean,omniparsebench,datalab_accurate,Datalab,500,8.572,8.652,8.459900000000001,8.6781
+astra,clean,omniparsebench,extend_performance_agentic_formulas,Extend,500,7.268,7.352,7.114,7.4181
+astra,clean,omniparsebench,mistral_ocr_4_1,Mistral OCR,500,7.894,8.018,7.729900000000001,8.0361
+astra,clean,omniparsebench,azure_layout_high_res_formulas,Azure DI,500,6.302,6.416,6.132,6.46
+astra,clean,omniparsebench,pulse_ultra_2,Pulse,500,7.63,7.756,7.46,7.796
+astra,clean,omniparsebench,cohere_parse_v5,Cohere,500,6.742,6.888,6.542,6.924
+fable,clean,omniparsebench,reducto_r1,Reducto,494,8.226720647773279,8.69331983805668,8.078846153846154,8.368421052631579
+fable,clean,omniparsebench,llamaparse_agentic_plus,LlamaParse,494,7.94331983805668,8.435222672064777,7.809716599190283,8.075000000000001
+fable,clean,omniparsebench,datalab_accurate,Datalab,494,8.208502024291498,8.652834008097166,8.082995951417004,8.31993927125506
+fable,clean,omniparsebench,extend_performance_agentic_formulas,Extend,494,6.3785425101214575,7.354251012145749,6.206376518218623,6.538461538461538
+fable,clean,omniparsebench,mistral_ocr_4_1,Mistral OCR,494,7.319838056680162,8.009109311740891,7.1437246963562755,7.48582995951417
+fable,clean,omniparsebench,azure_layout_high_res_formulas,Azure DI,494,5.145748987854251,6.431174089068826,4.9757085020242915,5.297570850202429
+fable,clean,omniparsebench,pulse_ultra_2,Pulse,494,6.9271255060728745,7.75,6.7408906882591095,7.101315789473684
+fable,clean,omniparsebench,cohere_parse_v5,Cohere,494,6.054655870445344,6.8917004048583,5.82995951417004,6.25921052631579
+terse,clean,omniparsebench,reducto_r1,Reducto,500,8.808,8.679,8.6959,8.916
+terse,clean,omniparsebench,llamaparse_agentic_plus,LlamaParse,500,8.442,8.434,8.342,8.53
+terse,clean,omniparsebench,datalab_accurate,Datalab,500,8.654,8.652,8.562,8.74
+terse,clean,omniparsebench,extend_performance_agentic_formulas,Extend,500,7.378,7.352,7.248,7.508
+terse,clean,omniparsebench,mistral_ocr_4_1,Mistral OCR,500,8.238,8.018,8.102,8.364
+terse,clean,omniparsebench,azure_layout_high_res_formulas,Azure DI,500,6.574,6.416,6.414,6.718
+terse,clean,omniparsebench,pulse_ultra_2,Pulse,500,7.76,7.756,7.6019000000000005,7.906
+terse,clean,omniparsebench,cohere_parse_v5,Cohere,500,7.114,6.888,6.92,7.286
+minimal,clean,omniparsebench,reducto_r1,Reducto,500,8.67,8.679,8.56,8.772
+minimal,clean,omniparsebench,llamaparse_agentic_plus,LlamaParse,500,8.24,8.434,8.148,8.326
+minimal,clean,omniparsebench,datalab_accurate,Datalab,500,8.524,8.652,8.432,8.6101
+minimal,clean,omniparsebench,extend_performance_agentic_formulas,Extend,500,7.1,7.352,6.982,7.216
+minimal,clean,omniparsebench,mistral_ocr_4_1,Mistral OCR,500,8.09,8.018,7.96,8.2081
+minimal,clean,omniparsebench,azure_layout_high_res_formulas,Azure DI,500,6.38,6.416,6.2419,6.508
+minimal,clean,omniparsebench,pulse_ultra_2,Pulse,500,7.594,7.756,7.4419,7.734
+minimal,clean,omniparsebench,cohere_parse_v5,Cohere,500,7.102,6.888,6.924,7.264
+argon,tilt_2_4,omniparsebench,reducto_r1,Reducto,499,8.220440881763528,8.519038076152304,8.070140280561123,8.358717434869739
+argon,tilt_2_4,omniparsebench,llamaparse_agentic_plus,LlamaParse,499,7.649298597194389,7.807615230460922,7.4928857715430865,7.801803607214429
+argon,tilt_2_4,omniparsebench,datalab_accurate,Datalab,499,8.45691382765531,8.460921843687375,8.314629258517034,8.589178356713427
+argon,tilt_2_4,omniparsebench,extend_performance_agentic_formulas,Extend,499,6.398797595190381,6.939879759519038,6.222444889779559,6.571142284569138
+argon,tilt_2_4,omniparsebench,mistral_ocr_4_1,Mistral OCR,499,7.701402805611222,7.955911823647295,7.520941883767535,7.871743486973948
+argon,tilt_2_4,omniparsebench,azure_layout_high_res_formulas,Azure DI,499,5.3607214428857715,6.186372745490982,5.180260521042085,5.537174348697395
+argon,tilt_2_4,omniparsebench,pulse_ultra_2,Pulse,499,6.651302605210421,6.791583166332665,6.436773547094188,6.857715430861724
+argon,tilt_2_4,omniparsebench,cohere_parse_v5,Cohere,499,5.430861723446894,5.565130260521042,5.238376753507014,5.625250501002004
+astra,tilt_2_4,omniparsebench,reducto_r1,Reducto,500,8.402,8.518,8.254,8.536
+astra,tilt_2_4,omniparsebench,llamaparse_agentic_plus,LlamaParse,500,7.662,7.808,7.508,7.8001
+astra,tilt_2_4,omniparsebench,datalab_accurate,Datalab,500,8.368,8.46,8.238,8.488
+astra,tilt_2_4,omniparsebench,extend_performance_agentic_formulas,Extend,500,6.77,6.936,6.6159,6.916
+astra,tilt_2_4,omniparsebench,mistral_ocr_4_1,Mistral OCR,500,7.824,7.952,7.6619,7.976
+astra,tilt_2_4,omniparsebench,azure_layout_high_res_formulas,Azure DI,500,6.024,6.186,5.862,6.1781
+astra,tilt_2_4,omniparsebench,pulse_ultra_2,Pulse,500,6.634,6.786,6.452,6.816
+astra,tilt_2_4,omniparsebench,cohere_parse_v5,Cohere,500,5.402,5.558,5.2159,5.576099999999999
+fable,tilt_2_4,omniparsebench,reducto_r1,Reducto,495,8.1010101010101,8.523232323232323,7.947474747474748,8.246464646464647
+fable,tilt_2_4,omniparsebench,llamaparse_agentic_plus,LlamaParse,495,7.119191919191919,7.806060606060606,6.957575757575758,7.270707070707071
+fable,tilt_2_4,omniparsebench,datalab_accurate,Datalab,495,8.030303030303031,8.462626262626262,7.88878787878788,8.16777777777778
+fable,tilt_2_4,omniparsebench,extend_performance_agentic_formulas,Extend,495,5.785858585858586,6.935353535353535,5.634343434343434,5.9393939393939394
+fable,tilt_2_4,omniparsebench,mistral_ocr_4_1,Mistral OCR,495,7.347474747474747,7.94949494949495,7.175656565656566,7.511111111111111
+fable,tilt_2_4,omniparsebench,azure_layout_high_res_formulas,Azure DI,495,4.925252525252525,6.195959595959596,4.765656565656566,5.084848484848485
+fable,tilt_2_4,omniparsebench,pulse_ultra_2,Pulse,495,5.852525252525252,6.8,5.654545454545454,6.0606060606060606
+fable,tilt_2_4,omniparsebench,cohere_parse_v5,Cohere,495,4.511111111111111,5.581818181818182,4.335252525252526,4.688888888888889
+terse,tilt_2_4,omniparsebench,reducto_r1,Reducto,500,8.668,8.518,8.54,8.7781
+terse,tilt_2_4,omniparsebench,llamaparse_agentic_plus,LlamaParse,500,7.886,7.808,7.746,8.012
+terse,tilt_2_4,omniparsebench,datalab_accurate,Datalab,500,8.552,8.46,8.438,8.654
+terse,tilt_2_4,omniparsebench,extend_performance_agentic_formulas,Extend,500,6.956,6.936,6.824,7.0901
+terse,tilt_2_4,omniparsebench,mistral_ocr_4_1,Mistral OCR,500,8.184,7.952,8.034,8.324
+terse,tilt_2_4,omniparsebench,azure_layout_high_res_formulas,Azure DI,500,6.42,6.186,6.26,6.564
+terse,tilt_2_4,omniparsebench,pulse_ultra_2,Pulse,500,6.842,6.786,6.67,7.0020999999999995
+terse,tilt_2_4,omniparsebench,cohere_parse_v5,Cohere,500,5.884,5.558,5.702,6.060099999999999
+minimal,tilt_2_4,omniparsebench,reducto_r1,Reducto,500,8.664,8.518,8.546,8.772
+minimal,tilt_2_4,omniparsebench,llamaparse_agentic_plus,LlamaParse,500,7.864,7.808,7.736,7.986
+minimal,tilt_2_4,omniparsebench,datalab_accurate,Datalab,500,8.494,8.46,8.384,8.592
+minimal,tilt_2_4,omniparsebench,extend_performance_agentic_formulas,Extend,500,6.764,6.936,6.644,6.886
+minimal,tilt_2_4,omniparsebench,mistral_ocr_4_1,Mistral OCR,500,8.112,7.952,7.976,8.242
+minimal,tilt_2_4,omniparsebench,azure_layout_high_res_formulas,Azure DI,500,6.328,6.186,6.182,6.4620999999999995
+minimal,tilt_2_4,omniparsebench,pulse_ultra_2,Pulse,500,6.856,6.786,6.698,7.0081
+minimal,tilt_2_4,omniparsebench,cohere_parse_v5,Cohere,500,5.952,5.558,5.7739,6.1201
+argon,clean,ocrflux_bench,reducto_r1,Reducto,500,9.116,9.679,9.022,9.202
+argon,clean,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,8.748,9.056,8.664,8.824
+argon,clean,ocrflux_bench,datalab_accurate,Datalab,500,9.07,9.439,8.972,9.166
+argon,clean,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,8.724,9.12,8.59,8.848
+argon,clean,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,9.018,9.325,8.91,9.124
+argon,clean,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,6.926,7.87,6.742,7.092
+argon,clean,ocrflux_bench,pulse_ultra_2,Pulse,500,9.236,9.41,9.14,9.326
+argon,clean,ocrflux_bench,cohere_parse_v5,Cohere,500,7.126,7.407,6.94,7.306
+astra,clean,ocrflux_bench,reducto_r1,Reducto,500,9.664,9.679,9.6,9.726
+astra,clean,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,9.024,9.056,8.968,9.08
+astra,clean,ocrflux_bench,datalab_accurate,Datalab,500,9.404,9.439,9.334,9.474
+astra,clean,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,9.074,9.12,8.972,9.168
+astra,clean,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,9.32,9.325,9.2399,9.4
+astra,clean,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,7.784,7.87,7.648,7.906
+astra,clean,ocrflux_bench,pulse_ultra_2,Pulse,500,9.36,9.41,9.28,9.438
+astra,clean,ocrflux_bench,cohere_parse_v5,Cohere,500,7.28,7.407,7.106,7.444
+fable,clean,ocrflux_bench,reducto_r1,Reducto,500,9.54,9.679,9.47,9.608
+fable,clean,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,8.672,9.056,8.594,8.748
+fable,clean,ocrflux_bench,datalab_accurate,Datalab,500,9.07,9.439,8.984,9.156
+fable,clean,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,8.572,9.12,8.443900000000001,8.69
+fable,clean,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,8.94,9.325,8.834,9.0461
+fable,clean,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,6.64,7.87,6.458,6.802099999999999
+fable,clean,ocrflux_bench,pulse_ultra_2,Pulse,500,8.984,9.41,8.8719,9.09
+fable,clean,ocrflux_bench,cohere_parse_v5,Cohere,500,6.236,7.407,6.022,6.4521
+terse,clean,ocrflux_bench,reducto_r1,Reducto,500,9.518,9.679,9.458,9.578
+terse,clean,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,8.846,9.056,8.788,8.906
+terse,clean,ocrflux_bench,datalab_accurate,Datalab,500,9.128,9.439,9.062,9.194
+terse,clean,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,8.732,9.12,8.646,8.812
+terse,clean,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,9.218,9.325,9.158,9.274
+terse,clean,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,7.806,7.87,7.698,7.904
+terse,clean,ocrflux_bench,pulse_ultra_2,Pulse,500,9.16,9.41,9.09,9.226
+terse,clean,ocrflux_bench,cohere_parse_v5,Cohere,500,7.654,7.407,7.522,7.7821
+minimal,clean,ocrflux_bench,reducto_r1,Reducto,500,9.282,9.679,9.22,9.3421
+minimal,clean,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,8.474,9.056,8.404,8.546
+minimal,clean,ocrflux_bench,datalab_accurate,Datalab,500,8.952,9.439,8.882,9.02
+minimal,clean,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,8.202,9.12,8.12,8.28
+minimal,clean,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,8.892,9.325,8.822,8.96
+minimal,clean,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,7.454,7.87,7.356,7.544
+minimal,clean,ocrflux_bench,pulse_ultra_2,Pulse,500,8.884,9.41,8.8119,8.952
+minimal,clean,ocrflux_bench,cohere_parse_v5,Cohere,500,7.624,7.407,7.512,7.736
+argon,tilt_2_4,ocrflux_bench,reducto_r1,Reducto,500,9.152,9.642,9.06,9.24
+argon,tilt_2_4,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,8.056,8.45,7.9139,8.212
+argon,tilt_2_4,ocrflux_bench,datalab_accurate,Datalab,500,9.024,9.36,8.91,9.13
+argon,tilt_2_4,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,8.224,8.772,8.074,8.366
+argon,tilt_2_4,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,9.038,9.372,8.9299,9.14
+argon,tilt_2_4,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,7.078,7.914,6.896,7.258
+argon,tilt_2_4,ocrflux_bench,pulse_ultra_2,Pulse,500,8.246,8.544,8.082,8.412
+argon,tilt_2_4,ocrflux_bench,cohere_parse_v5,Cohere,500,5.54,6.1,5.346,5.736
+astra,tilt_2_4,ocrflux_bench,reducto_r1,Reducto,500,9.63,9.642,9.558,9.698
+astra,tilt_2_4,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,8.382,8.45,8.258,8.512
+astra,tilt_2_4,ocrflux_bench,datalab_accurate,Datalab,500,9.304,9.36,9.216,9.388
+astra,tilt_2_4,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,8.668,8.772,8.566,8.768
+astra,tilt_2_4,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,9.322,9.372,9.246,9.396
+astra,tilt_2_4,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,7.808,7.914,7.67,7.944
+astra,tilt_2_4,ocrflux_bench,pulse_ultra_2,Pulse,500,8.46,8.544,8.312,8.606
+astra,tilt_2_4,ocrflux_bench,cohere_parse_v5,Cohere,500,5.97,6.1,5.792,6.152
+fable,tilt_2_4,ocrflux_bench,reducto_r1,Reducto,500,9.48,9.642,9.398,9.5541
+fable,tilt_2_4,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,7.718,8.45,7.5539000000000005,7.882
+fable,tilt_2_4,ocrflux_bench,datalab_accurate,Datalab,500,8.982,9.36,8.882,9.0821
+fable,tilt_2_4,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,7.788,8.772,7.6559,7.924
+fable,tilt_2_4,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,9.014,9.372,8.912,9.108
+fable,tilt_2_4,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,6.76,7.914,6.5859000000000005,6.932
+fable,tilt_2_4,ocrflux_bench,pulse_ultra_2,Pulse,500,7.832,8.544,7.6479,8.022
+fable,tilt_2_4,ocrflux_bench,cohere_parse_v5,Cohere,500,4.672,6.1,4.474,4.874
+terse,tilt_2_4,ocrflux_bench,reducto_r1,Reducto,500,9.516,9.642,9.442,9.582
+terse,tilt_2_4,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,8.272,8.45,8.158,8.388
+terse,tilt_2_4,ocrflux_bench,datalab_accurate,Datalab,500,9.102,9.36,9.024,9.18
+terse,tilt_2_4,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,8.384,8.772,8.29,8.474
+terse,tilt_2_4,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,9.326,9.372,9.274,9.3741
+terse,tilt_2_4,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,7.894,7.914,7.782,8.002
+terse,tilt_2_4,ocrflux_bench,pulse_ultra_2,Pulse,500,8.41,8.544,8.28,8.538
+terse,tilt_2_4,ocrflux_bench,cohere_parse_v5,Cohere,500,6.366,6.1,6.204,6.5301
+minimal,tilt_2_4,ocrflux_bench,reducto_r1,Reducto,500,9.326,9.642,9.254,9.394
+minimal,tilt_2_4,ocrflux_bench,llamaparse_agentic_plus,LlamaParse,500,8.006,8.45,7.894,8.118
+minimal,tilt_2_4,ocrflux_bench,datalab_accurate,Datalab,500,8.952,9.36,8.8739,9.032
+minimal,tilt_2_4,ocrflux_bench,extend_performance_agentic_formulas,Extend,500,7.9,8.772,7.81,7.988
+minimal,tilt_2_4,ocrflux_bench,mistral_ocr_4_1,Mistral OCR,500,9.058,9.372,9.0,9.116
+minimal,tilt_2_4,ocrflux_bench,azure_layout_high_res_formulas,Azure DI,500,7.542,7.914,7.44,7.644
+minimal,tilt_2_4,ocrflux_bench,pulse_ultra_2,Pulse,500,8.27,8.544,8.15,8.39
+minimal,tilt_2_4,ocrflux_bench,cohere_parse_v5,Cohere,500,6.426,6.1,6.278,6.582
+argon,clean,idp_leaderboard,reducto_r1,Reducto,300,8.266666666666667,7.791666666666667,8.076666666666666,8.446666666666667
+argon,clean,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,8.76,8.676666666666666,8.583166666666667,8.920166666666667
+argon,clean,idp_leaderboard,datalab_accurate,Datalab,300,7.766666666666667,7.713333333333333,7.516666666666667,8.006666666666666
+argon,clean,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,8.45,7.755,8.249833333333333,8.633333333333333
+argon,clean,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,7.373333333333333,7.515,7.096666666666667,7.626833333333334
+argon,clean,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,5.08,5.468333333333334,4.906666666666666,5.26
+argon,clean,idp_leaderboard,pulse_ultra_2,Pulse,300,6.423333333333333,6.948333333333333,6.13,6.71
+argon,clean,idp_leaderboard,cohere_parse_v5,Cohere,300,7.29,6.545,7.079833333333333,7.4835
+astra,clean,idp_leaderboard,reducto_r1,Reducto,300,7.693333333333333,7.791666666666667,7.516666666666667,7.86
+astra,clean,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,8.686666666666667,8.676666666666666,8.556666666666667,8.81
+astra,clean,idp_leaderboard,datalab_accurate,Datalab,300,7.56,7.713333333333333,7.373333333333333,7.74
+astra,clean,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,7.576666666666667,7.755,7.39,7.750166666666667
+astra,clean,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,7.31,7.515,7.073333333333333,7.536666666666667
+astra,clean,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,5.06,5.468333333333334,4.9265,5.213333333333333
+astra,clean,idp_leaderboard,pulse_ultra_2,Pulse,300,6.766666666666667,6.948333333333333,6.546666666666667,6.973333333333334
+astra,clean,idp_leaderboard,cohere_parse_v5,Cohere,300,6.193333333333333,6.545,6.006666666666667,6.38
+fable,clean,idp_leaderboard,reducto_r1,Reducto,300,7.596666666666667,7.791666666666667,7.413166666666666,7.77
+fable,clean,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,9.136666666666667,8.676666666666666,9.02,9.246833333333333
+fable,clean,idp_leaderboard,datalab_accurate,Datalab,300,7.126666666666667,7.713333333333333,6.923166666666666,7.336833333333334
+fable,clean,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,7.486666666666666,7.755,7.286666666666667,7.673333333333333
+fable,clean,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,7.1466666666666665,7.515,6.89,7.386666666666667
+fable,clean,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,3.8766666666666665,5.468333333333334,3.75,4.016666666666667
+fable,clean,idp_leaderboard,pulse_ultra_2,Pulse,300,6.053333333333334,6.948333333333333,5.8,6.31
+fable,clean,idp_leaderboard,cohere_parse_v5,Cohere,300,5.533333333333333,6.545,5.326666666666667,5.736666666666666
+terse,clean,idp_leaderboard,reducto_r1,Reducto,300,8.573333333333334,7.791666666666667,8.423333333333334,8.713333333333333
+terse,clean,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,9.243333333333334,8.676666666666666,9.176666666666666,9.306666666666667
+terse,clean,idp_leaderboard,datalab_accurate,Datalab,300,8.403333333333334,7.713333333333333,8.236666666666666,8.556666666666667
+terse,clean,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,8.57,7.755,8.413333333333334,8.713333333333333
+terse,clean,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,8.276666666666667,7.515,8.063166666666666,8.473333333333333
+terse,clean,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,6.806666666666667,5.468333333333334,6.693333333333333,6.916666666666667
+terse,clean,idp_leaderboard,pulse_ultra_2,Pulse,300,7.583333333333333,6.948333333333333,7.383333333333334,7.783333333333333
+terse,clean,idp_leaderboard,cohere_parse_v5,Cohere,300,7.69,6.545,7.51,7.866666666666666
+minimal,clean,idp_leaderboard,reducto_r1,Reducto,300,8.601666666666667,7.791666666666667,8.447333333333335,8.741050000000001
+minimal,clean,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,9.350333333333333,8.676666666666666,9.279633333333335,9.41735
+minimal,clean,idp_leaderboard,datalab_accurate,Datalab,300,8.376666666666667,7.713333333333333,8.201,8.546349999999999
+minimal,clean,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,8.619666666666667,7.755,8.451283333333333,8.77235
+minimal,clean,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,8.233333333333333,7.515,8.013633333333333,8.437016666666667
+minimal,clean,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,7.028999999999999,5.468333333333334,6.906266666666667,7.1480500000000005
+minimal,clean,idp_leaderboard,pulse_ultra_2,Pulse,300,7.550333333333333,6.948333333333333,7.334666666666667,7.756666666666667
+minimal,clean,idp_leaderboard,cohere_parse_v5,Cohere,300,7.808333333333334,6.545,7.627299999999999,7.983683333333333
+argon,tilt_2_4,idp_leaderboard,reducto_r1,Reducto,300,7.956666666666667,7.493333333333333,7.766666666666667,8.146666666666667
+argon,tilt_2_4,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,7.42,7.223333333333334,7.136666666666667,7.690166666666667
+argon,tilt_2_4,idp_leaderboard,datalab_accurate,Datalab,300,7.553333333333334,7.4,7.326666666666667,7.78
+argon,tilt_2_4,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,7.81,7.3,7.5865,8.0235
+argon,tilt_2_4,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,7.3966666666666665,7.58,7.13,7.663333333333333
+argon,tilt_2_4,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,4.95,5.54,4.76,5.136666666666667
+argon,tilt_2_4,idp_leaderboard,pulse_ultra_2,Pulse,300,5.293333333333333,6.206666666666667,5.026666666666666,5.5735
+argon,tilt_2_4,idp_leaderboard,cohere_parse_v5,Cohere,300,5.15,5.476666666666667,4.89,5.4035
+astra,tilt_2_4,idp_leaderboard,reducto_r1,Reducto,300,7.32,7.493333333333333,7.136666666666667,7.4935
+astra,tilt_2_4,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,7.1033333333333335,7.223333333333334,6.86,7.333333333333333
+astra,tilt_2_4,idp_leaderboard,datalab_accurate,Datalab,300,7.166666666666667,7.4,6.979833333333334,7.3501666666666665
+astra,tilt_2_4,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,7.023333333333333,7.3,6.82,7.220166666666667
+astra,tilt_2_4,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,7.323333333333333,7.58,7.076666666666667,7.5568333333333335
+astra,tilt_2_4,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,5.213333333333333,5.54,5.076666666666667,5.3566666666666665
+astra,tilt_2_4,idp_leaderboard,pulse_ultra_2,Pulse,300,5.923333333333333,6.206666666666667,5.71,6.1635
+astra,tilt_2_4,idp_leaderboard,cohere_parse_v5,Cohere,300,5.13,5.476666666666667,4.94,5.330166666666667
+fable,tilt_2_4,idp_leaderboard,reducto_r1,Reducto,300,7.406666666666666,7.493333333333333,7.21,7.593500000000001
+fable,tilt_2_4,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,7.1,7.223333333333334,6.83,7.3635
+fable,tilt_2_4,idp_leaderboard,datalab_accurate,Datalab,300,6.9,7.4,6.6866666666666665,7.123333333333333
+fable,tilt_2_4,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,7.1,7.3,6.87,7.327
+fable,tilt_2_4,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,7.43,7.58,7.17,7.66
+fable,tilt_2_4,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,4.14,5.54,3.999833333333333,4.29
+fable,tilt_2_4,idp_leaderboard,pulse_ultra_2,Pulse,300,4.956666666666667,6.206666666666667,4.72,5.223333333333334
+fable,tilt_2_4,idp_leaderboard,cohere_parse_v5,Cohere,300,4.3133333333333335,5.476666666666667,4.093333333333334,4.536666666666667
+terse,tilt_2_4,idp_leaderboard,reducto_r1,Reducto,300,8.36,7.493333333333333,8.22,8.493333333333334
+terse,tilt_2_4,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,7.92,7.223333333333334,7.709833333333333,8.113333333333333
+terse,tilt_2_4,idp_leaderboard,datalab_accurate,Datalab,300,8.123333333333333,7.4,7.966666666666667,8.273333333333333
+terse,tilt_2_4,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,8.026666666666667,7.3,7.86,8.196666666666667
+terse,tilt_2_4,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,8.39,7.58,8.19,8.573333333333334
+terse,tilt_2_4,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,6.733333333333333,5.54,6.6066666666666665,6.86
+terse,tilt_2_4,idp_leaderboard,pulse_ultra_2,Pulse,300,6.743333333333333,6.206666666666667,6.53,6.976666666666667
+terse,tilt_2_4,idp_leaderboard,cohere_parse_v5,Cohere,300,6.333333333333333,5.476666666666667,6.126666666666667,6.5335
+minimal,tilt_2_4,idp_leaderboard,reducto_r1,Reducto,300,8.432333333333332,7.493333333333333,8.294616666666666,8.57
+minimal,tilt_2_4,idp_leaderboard,llamaparse_agentic_plus,LlamaParse,300,7.9383333333333335,7.223333333333334,7.713333333333333,8.14175
+minimal,tilt_2_4,idp_leaderboard,datalab_accurate,Datalab,300,8.130666666666666,7.4,7.973333333333334,8.283999999999999
+minimal,tilt_2_4,idp_leaderboard,extend_performance_agentic_formulas,Extend,300,8.081999999999999,7.3,7.8986,8.262033333333333
+minimal,tilt_2_4,idp_leaderboard,mistral_ocr_4_1,Mistral OCR,300,8.426,7.58,8.209333333333333,8.625333333333334
+minimal,tilt_2_4,idp_leaderboard,azure_layout_high_res_formulas,Azure DI,300,7.088333333333333,5.54,6.965,7.21
+minimal,tilt_2_4,idp_leaderboard,pulse_ultra_2,Pulse,300,6.792333333333334,6.206666666666667,6.6,7.005716666666666
+minimal,tilt_2_4,idp_leaderboard,cohere_parse_v5,Cohere,300,6.574666666666667,5.476666666666667,6.388,6.762700000000001
+argon,clean,mdpbench,reducto_r1,Reducto,497,7.484909456740443,7.435613682092555,7.309859154929577,7.655935613682092
+argon,clean,mdpbench,llamaparse_agentic_plus,LlamaParse,497,7.913480885311872,7.801810865191147,7.758551307847083,8.060362173038229
+argon,clean,mdpbench,datalab_accurate,Datalab,497,7.742454728370221,7.477867203219316,7.599597585513078,7.8913480885311875
+argon,clean,mdpbench,extend_performance_agentic_formulas,Extend,497,6.175050301810865,6.605633802816901,5.9978873239436625,6.352213279678068
+argon,clean,mdpbench,mistral_ocr_4_1,Mistral OCR,497,5.338028169014085,5.5,5.106539235412475,5.553420523138833
+argon,clean,mdpbench,azure_layout_high_res_formulas,Azure DI,497,5.428571428571429,6.0321931589537225,5.24738430583501,5.613682092555332
+argon,clean,mdpbench,pulse_ultra_2,Pulse,497,5.527162977867203,5.77364185110664,5.327867203219316,5.728470824949698
+argon,clean,mdpbench,cohere_parse_v5,Cohere,497,4.338028169014085,4.346076458752515,4.144869215291751,4.531187122736418
+astra,clean,mdpbench,reducto_r1,Reducto,497,7.28169014084507,7.435613682092555,7.104527162977868,7.458853118712273
+astra,clean,mdpbench,llamaparse_agentic_plus,LlamaParse,497,7.682092555331992,7.801810865191147,7.535211267605634,7.822937625754527
+astra,clean,mdpbench,datalab_accurate,Datalab,497,7.305835010060362,7.477867203219316,7.167002012072435,7.440643863179075
+astra,clean,mdpbench,extend_performance_agentic_formulas,Extend,497,6.408450704225352,6.605633802816901,6.253420523138833,6.569517102615694
+astra,clean,mdpbench,mistral_ocr_4_1,Mistral OCR,497,5.354124748490945,5.5,5.128772635814889,5.561468812877263
+astra,clean,mdpbench,azure_layout_high_res_formulas,Azure DI,497,5.899396378269618,6.0321931589537225,5.748390342052314,6.056338028169014
+astra,clean,mdpbench,pulse_ultra_2,Pulse,497,5.625754527162978,5.77364185110664,5.430482897384306,5.826961770623742
+astra,clean,mdpbench,cohere_parse_v5,Cohere,497,4.189134808853119,4.346076458752515,4.0,4.380281690140845
+fable,clean,mdpbench,reducto_r1,Reducto,497,6.905432595573441,7.435613682092555,6.71830985915493,7.0885311871227366
+fable,clean,mdpbench,llamaparse_agentic_plus,LlamaParse,497,7.398390342052314,7.801810865191147,7.241348088531187,7.549295774647887
+fable,clean,mdpbench,datalab_accurate,Datalab,497,6.9678068410462775,7.477867203219316,6.822937625754527,7.108752515090543
+fable,clean,mdpbench,extend_performance_agentic_formulas,Extend,497,5.635814889336016,6.605633802816901,5.47877263581489,5.790744466800805
+fable,clean,mdpbench,mistral_ocr_4_1,Mistral OCR,497,4.724346076458753,5.5,4.511066398390342,4.925553319919517
+fable,clean,mdpbench,azure_layout_high_res_formulas,Azure DI,497,5.074446680080483,6.0321931589537225,4.927565392354125,5.229476861167002
+fable,clean,mdpbench,pulse_ultra_2,Pulse,497,4.875251509054326,5.77364185110664,4.694164989939638,5.06851106639839
+fable,clean,mdpbench,cohere_parse_v5,Cohere,497,3.507042253521127,4.346076458752515,3.3440643863179074,3.670020120724346
+terse,clean,mdpbench,reducto_r1,Reducto,497,7.744466800804829,7.435613682092555,7.585513078470825,7.901509054325955
+terse,clean,mdpbench,llamaparse_agentic_plus,LlamaParse,497,8.018108651911469,7.801810865191147,7.881287726358149,8.146981891348089
+terse,clean,mdpbench,datalab_accurate,Datalab,497,7.706237424547283,7.477867203219316,7.575452716297787,7.835110663983903
+terse,clean,mdpbench,extend_performance_agentic_formulas,Extend,497,6.601609657947686,6.605633802816901,6.4607645875251505,6.742454728370221
+terse,clean,mdpbench,mistral_ocr_4_1,Mistral OCR,497,5.9476861167002015,5.5,5.716197183098592,6.167002012072435
+terse,clean,mdpbench,azure_layout_high_res_formulas,Azure DI,497,6.344064386317908,6.0321931589537225,6.207243460764587,6.482897384305835
+terse,clean,mdpbench,pulse_ultra_2,Pulse,497,5.857142857142857,5.77364185110664,5.6658953722334005,6.050301810865191
+terse,clean,mdpbench,cohere_parse_v5,Cohere,497,4.543259557344064,4.346076458752515,4.344064386317908,4.740442655935614
+minimal,clean,mdpbench,reducto_r1,Reducto,497,7.824949698189135,7.435613682092555,7.676056338028169,7.9738430583501
+minimal,clean,mdpbench,llamaparse_agentic_plus,LlamaParse,497,8.096579476861168,7.801810865191147,7.96579476861167,8.219315895372233
+minimal,clean,mdpbench,datalab_accurate,Datalab,497,7.744466800804829,7.477867203219316,7.6237424547283705,7.867203219315895
+minimal,clean,mdpbench,extend_performance_agentic_formulas,Extend,497,6.505030181086519,6.605633802816901,6.378269617706238,6.629778672032193
+minimal,clean,mdpbench,mistral_ocr_4_1,Mistral OCR,497,6.036217303822937,5.5,5.816901408450704,6.24758551307847
+minimal,clean,mdpbench,azure_layout_high_res_formulas,Azure DI,497,6.408450704225352,6.0321931589537225,6.283601609657948,6.531187122736418
+minimal,clean,mdpbench,pulse_ultra_2,Pulse,497,5.923541247484909,5.77364185110664,5.750503018108652,6.106639839034205
+minimal,clean,mdpbench,cohere_parse_v5,Cohere,497,4.670020120724346,4.346076458752515,4.476861167002012,4.8612676056338024
+argon,tilt_2_4,mdpbench,reducto_r1,Reducto,495,7.353535353535354,7.1737373737373735,7.16969696969697,7.529393939393939
+argon,tilt_2_4,mdpbench,llamaparse_agentic_plus,LlamaParse,495,7.729292929292929,7.531313131313131,7.5636363636363635,7.8969696969696965
+argon,tilt_2_4,mdpbench,datalab_accurate,Datalab,495,7.58989898989899,7.307070707070707,7.4222222222222225,7.7435353535353535
+argon,tilt_2_4,mdpbench,extend_performance_agentic_formulas,Extend,495,5.8,6.246464646464647,5.618181818181818,5.98989898989899
+argon,tilt_2_4,mdpbench,mistral_ocr_4_1,Mistral OCR,495,5.105050505050505,5.264646464646464,4.890909090909091,5.3172727272727265
+argon,tilt_2_4,mdpbench,azure_layout_high_res_formulas,Azure DI,495,5.278787878787878,5.682828282828283,5.098989898989899,5.458585858585859
+argon,tilt_2_4,mdpbench,pulse_ultra_2,Pulse,495,5.319191919191919,5.565656565656566,5.123131313131314,5.527272727272727
+argon,tilt_2_4,mdpbench,cohere_parse_v5,Cohere,495,3.7333333333333334,3.8424242424242423,3.5595959595959594,3.9131313131313132
+astra,tilt_2_4,mdpbench,reducto_r1,Reducto,498,7.052208835341365,7.182730923694779,6.871485943775101,7.225
+astra,tilt_2_4,mdpbench,llamaparse_agentic_plus,LlamaParse,498,7.423694779116466,7.524096385542169,7.269076305220883,7.580321285140562
+astra,tilt_2_4,mdpbench,datalab_accurate,Datalab,498,7.184738955823293,7.319277108433735,7.034136546184739,7.335341365461847
+astra,tilt_2_4,mdpbench,extend_performance_agentic_formulas,Extend,498,6.066265060240964,6.259036144578313,5.901606425702811,6.224899598393574
+astra,tilt_2_4,mdpbench,mistral_ocr_4_1,Mistral OCR,498,5.14859437751004,5.263052208835341,4.933734939759036,5.36144578313253
+astra,tilt_2_4,mdpbench,azure_layout_high_res_formulas,Azure DI,498,5.506024096385542,5.688755020080321,5.355321285140562,5.658634538152611
+astra,tilt_2_4,mdpbench,pulse_ultra_2,Pulse,498,5.443775100401607,5.570281124497992,5.242971887550201,5.644578313253012
+astra,tilt_2_4,mdpbench,cohere_parse_v5,Cohere,498,3.6726907630522088,3.8433734939759034,3.5099397590361447,3.843473895582329
+fable,tilt_2_4,mdpbench,reducto_r1,Reducto,498,6.586345381526105,7.182730923694779,6.399598393574297,6.763052208835341
+fable,tilt_2_4,mdpbench,llamaparse_agentic_plus,LlamaParse,498,7.046184738955823,7.524096385542169,6.889558232931727,7.208835341365462
+fable,tilt_2_4,mdpbench,datalab_accurate,Datalab,498,6.827309236947791,7.319277108433735,6.670682730923695,6.981927710843373
+fable,tilt_2_4,mdpbench,extend_performance_agentic_formulas,Extend,498,5.160642570281125,6.259036144578313,5.0120481927710845,5.313353413654618
+fable,tilt_2_4,mdpbench,mistral_ocr_4_1,Mistral OCR,498,4.536144578313253,5.263052208835341,4.335240963855421,4.73504016064257
+fable,tilt_2_4,mdpbench,azure_layout_high_res_formulas,Azure DI,498,4.7028112449799195,5.688755020080321,4.548192771084337,4.853413654618474
+fable,tilt_2_4,mdpbench,pulse_ultra_2,Pulse,498,4.678714859437751,5.570281124497992,4.495983935742972,4.869578313253012
+fable,tilt_2_4,mdpbench,cohere_parse_v5,Cohere,498,3.0240963855421685,3.8433734939759034,2.8855421686746987,3.1666666666666665
+terse,tilt_2_4,mdpbench,reducto_r1,Reducto,498,7.469879518072289,7.182730923694779,7.2971887550200805,7.6305220883534135
+terse,tilt_2_4,mdpbench,llamaparse_agentic_plus,LlamaParse,498,7.785140562248996,7.524096385542169,7.640461847389558,7.927811244979919
+terse,tilt_2_4,mdpbench,datalab_accurate,Datalab,498,7.568273092369478,7.319277108433735,7.429618473895582,7.71285140562249
+terse,tilt_2_4,mdpbench,extend_performance_agentic_formulas,Extend,498,6.269076305220883,6.259036144578313,6.126506024096385,6.405622489959839
+terse,tilt_2_4,mdpbench,mistral_ocr_4_1,Mistral OCR,498,5.724899598393574,5.263052208835341,5.493975903614458,5.945783132530121
+terse,tilt_2_4,mdpbench,azure_layout_high_res_formulas,Azure DI,498,5.9879518072289155,5.688755020080321,5.843373493975903,6.1305220883534135
+terse,tilt_2_4,mdpbench,pulse_ultra_2,Pulse,498,5.676706827309237,5.570281124497992,5.485943775100401,5.873493975903615
+terse,tilt_2_4,mdpbench,cohere_parse_v5,Cohere,498,4.034136546184739,3.8433734939759034,3.859437751004016,4.216867469879518
+minimal,tilt_2_4,mdpbench,reducto_r1,Reducto,498,7.6305220883534135,7.182730923694779,7.475903614457831,7.77710843373494
+minimal,tilt_2_4,mdpbench,llamaparse_agentic_plus,LlamaParse,498,7.921686746987952,7.524096385542169,7.78714859437751,8.052208835341366
+minimal,tilt_2_4,mdpbench,datalab_accurate,Datalab,498,7.6546184738955825,7.319277108433735,7.522088353413655,7.78714859437751
+minimal,tilt_2_4,mdpbench,extend_performance_agentic_formulas,Extend,498,6.218875502008032,6.259036144578313,6.088353413654619,6.3453815261044175
+minimal,tilt_2_4,mdpbench,mistral_ocr_4_1,Mistral OCR,498,5.837349397590361,5.263052208835341,5.616365461847389,6.050200803212851
+minimal,tilt_2_4,mdpbench,azure_layout_high_res_formulas,Azure DI,498,6.176706827309237,5.688755020080321,6.046184738955823,6.307228915662651
+minimal,tilt_2_4,mdpbench,pulse_ultra_2,Pulse,498,5.755020080321285,5.570281124497992,5.568273092369478,5.937751004016064
+minimal,tilt_2_4,mdpbench,cohere_parse_v5,Cohere,498,4.214859437751004,3.8433734939759034,4.040160642570281,4.399598393574297
+argon,clean,rd_tablebench,reducto_r1,Reducto,500,9.156,9.497,9.056,9.25
+argon,clean,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,9.206,9.328,9.113900000000001,9.2961
+argon,clean,rd_tablebench,datalab_accurate,Datalab,500,8.54,9.061,8.396,8.682
+argon,clean,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.822,9.066,8.6959,8.952
+argon,clean,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,8.592,8.808,8.4539,8.726
+argon,clean,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,6.06,7.268,5.884,6.242
+argon,clean,rd_tablebench,pulse_ultra_2,Pulse,500,6.67,7.42,6.466,6.882
+argon,clean,rd_tablebench,cohere_parse_v5,Cohere,500,7.316,7.537,7.1399,7.4921
+astra,clean,rd_tablebench,reducto_r1,Reducto,500,9.46,9.497,9.39,9.532
+astra,clean,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,9.29,9.328,9.22,9.364
+astra,clean,rd_tablebench,datalab_accurate,Datalab,500,8.988,9.061,8.896,9.084
+astra,clean,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.978,9.066,8.88,9.076
+astra,clean,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,8.726,8.808,8.6119,8.84
+astra,clean,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,7.152,7.268,7.02,7.286
+astra,clean,rd_tablebench,pulse_ultra_2,Pulse,500,7.324,7.42,7.168,7.4901
+astra,clean,rd_tablebench,cohere_parse_v5,Cohere,500,7.426,7.537,7.276,7.58
+fable,clean,rd_tablebench,reducto_r1,Reducto,500,9.316,9.497,9.225900000000001,9.404
+fable,clean,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,9.23,9.328,9.146,9.3141
+fable,clean,rd_tablebench,datalab_accurate,Datalab,500,8.754,9.061,8.642,8.866
+fable,clean,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.684,9.066,8.5739,8.796
+fable,clean,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,8.534,8.808,8.408,8.668
+fable,clean,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,5.914,7.268,5.758,6.076099999999999
+fable,clean,rd_tablebench,pulse_ultra_2,Pulse,500,6.382,7.42,6.19,6.582
+fable,clean,rd_tablebench,cohere_parse_v5,Cohere,500,6.73,7.537,6.5579,6.91
+terse,clean,rd_tablebench,reducto_r1,Reducto,500,9.528,9.497,9.47,9.5821
+terse,clean,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,9.354,9.328,9.296,9.412
+terse,clean,rd_tablebench,datalab_accurate,Datalab,500,8.952,9.061,8.874,9.03
+terse,clean,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.958,9.066,8.872,9.044
+terse,clean,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,8.932,8.808,8.842,9.018
+terse,clean,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,7.242,7.268,7.136,7.356
+terse,clean,rd_tablebench,pulse_ultra_2,Pulse,500,7.36,7.42,7.212,7.512099999999999
+terse,clean,rd_tablebench,cohere_parse_v5,Cohere,500,7.67,7.537,7.546,7.806
+minimal,clean,rd_tablebench,reducto_r1,Reducto,500,9.452,9.497,9.39,9.512
+minimal,clean,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,9.234,9.328,9.172,9.298
+minimal,clean,rd_tablebench,datalab_accurate,Datalab,500,8.714,9.061,8.628,8.798
+minimal,clean,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.646,9.066,8.5519,8.74
+minimal,clean,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,8.768,8.808,8.678,8.858
+minimal,clean,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,6.882,7.268,6.78,6.992
+minimal,clean,rd_tablebench,pulse_ultra_2,Pulse,500,7.022,7.42,6.874,7.172
+minimal,clean,rd_tablebench,cohere_parse_v5,Cohere,500,7.494,7.537,7.376,7.616
+argon,tilt_2_4,rd_tablebench,reducto_r1,Reducto,499,8.915831663326653,9.294589178356713,8.793587174348698,9.034068136272545
+argon,tilt_2_4,rd_tablebench,llamaparse_agentic_plus,LlamaParse,499,7.809619238476954,7.9579158316633265,7.617234468937876,8.016132264529057
+argon,tilt_2_4,rd_tablebench,datalab_accurate,Datalab,499,8.210420841683367,8.587174348697395,8.054008016032064,8.364829659318637
+argon,tilt_2_4,rd_tablebench,extend_performance_agentic_formulas,Extend,499,8.49498997995992,8.783567134268537,8.338577154308616,8.637274549098196
+argon,tilt_2_4,rd_tablebench,mistral_ocr_4_1,Mistral OCR,499,8.545090180360722,8.93186372745491,8.400801603206412,8.687374749498998
+argon,tilt_2_4,rd_tablebench,azure_layout_high_res_formulas,Azure DI,499,6.0881763527054105,7.16432865731463,5.895791583166333,6.272545090180361
+argon,tilt_2_4,rd_tablebench,pulse_ultra_2,Pulse,499,5.482965931863728,6.322645290581162,5.278557114228457,5.707414829659319
+argon,tilt_2_4,rd_tablebench,cohere_parse_v5,Cohere,499,5.771543086172345,6.168336673346693,5.567134268537074,5.973947895791583
+astra,tilt_2_4,rd_tablebench,reducto_r1,Reducto,500,9.234,9.296,9.144,9.326
+astra,tilt_2_4,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,7.902,7.962,7.722,8.086
+astra,tilt_2_4,rd_tablebench,datalab_accurate,Datalab,500,8.512,8.59,8.39,8.6381
+astra,tilt_2_4,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.698,8.786,8.588,8.8001
+astra,tilt_2_4,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,8.866,8.934,8.76,8.9721
+astra,tilt_2_4,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,7.08,7.164,6.95,7.2141
+astra,tilt_2_4,rd_tablebench,pulse_ultra_2,Pulse,500,6.18,6.33,6.0,6.3761
+astra,tilt_2_4,rd_tablebench,cohere_parse_v5,Cohere,500,6.014,6.164,5.838,6.204
+fable,tilt_2_4,rd_tablebench,reducto_r1,Reducto,500,9.1,9.296,8.9959,9.2041
+fable,tilt_2_4,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,7.49,7.962,7.272,7.706
+fable,tilt_2_4,rd_tablebench,datalab_accurate,Datalab,500,8.182,8.59,8.032,8.3401
+fable,tilt_2_4,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.374,8.786,8.2379,8.5
+fable,tilt_2_4,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,8.754,8.934,8.632,8.878
+fable,tilt_2_4,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,5.942,7.164,5.784,6.104
+fable,tilt_2_4,rd_tablebench,pulse_ultra_2,Pulse,500,5.186,6.33,4.992,5.402
+fable,tilt_2_4,rd_tablebench,cohere_parse_v5,Cohere,500,5.166,6.164,4.976,5.37
+terse,tilt_2_4,rd_tablebench,reducto_r1,Reducto,500,9.368,9.296,9.294,9.44
+terse,tilt_2_4,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,8.11,7.962,7.946,8.278
+terse,tilt_2_4,rd_tablebench,datalab_accurate,Datalab,500,8.638,8.59,8.5379,8.7381
+terse,tilt_2_4,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.82,8.786,8.728,8.904
+terse,tilt_2_4,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,9.092,8.934,9.01,9.174
+terse,tilt_2_4,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,7.256,7.164,7.142,7.374099999999999
+terse,tilt_2_4,rd_tablebench,pulse_ultra_2,Pulse,500,6.37,6.33,6.2,6.546
+terse,tilt_2_4,rd_tablebench,cohere_parse_v5,Cohere,500,6.388,6.164,6.234,6.5621
+minimal,tilt_2_4,rd_tablebench,reducto_r1,Reducto,500,9.312,9.296,9.236,9.388
+minimal,tilt_2_4,rd_tablebench,llamaparse_agentic_plus,LlamaParse,500,8.044,7.962,7.886,8.206
+minimal,tilt_2_4,rd_tablebench,datalab_accurate,Datalab,500,8.478,8.59,8.376,8.578
+minimal,tilt_2_4,rd_tablebench,extend_performance_agentic_formulas,Extend,500,8.596,8.786,8.49,8.69
+minimal,tilt_2_4,rd_tablebench,mistral_ocr_4_1,Mistral OCR,500,9.006,8.934,8.922,9.088
+minimal,tilt_2_4,rd_tablebench,azure_layout_high_res_formulas,Azure DI,500,6.946,7.164,6.836,7.064
+minimal,tilt_2_4,rd_tablebench,pulse_ultra_2,Pulse,500,6.158,6.33,6.0,6.3301
+minimal,tilt_2_4,rd_tablebench,cohere_parse_v5,Cohere,500,6.292,6.164,6.1459,6.462
+argon,clean,puredocbench,reducto_r1,Reducto,500,8.704,8.687,8.602,8.806
+argon,clean,puredocbench,llamaparse_agentic_plus,LlamaParse,500,8.444,8.479,8.346,8.536
+argon,clean,puredocbench,datalab_accurate,Datalab,500,8.79,8.604,8.688,8.886
+argon,clean,puredocbench,extend_performance_agentic_formulas,Extend,500,7.19,7.432,7.034,7.338
+argon,clean,puredocbench,mistral_ocr_4_1,Mistral OCR,500,4.662,4.829,4.4459,4.872
+argon,clean,puredocbench,azure_layout_high_res_formulas,Azure DI,500,5.374,6.193,5.236,5.520099999999999
+argon,clean,puredocbench,pulse_ultra_2,Pulse,500,7.866,7.794,7.69,8.034
+argon,clean,puredocbench,cohere_parse_v5,Cohere,500,5.4,5.284,5.216,5.578
+astra,clean,puredocbench,reducto_r1,Reducto,500,8.668,8.687,8.568,8.762
+astra,clean,puredocbench,llamaparse_agentic_plus,LlamaParse,500,8.394,8.479,8.31,8.478
+astra,clean,puredocbench,datalab_accurate,Datalab,500,8.522,8.604,8.438,8.6001
+astra,clean,puredocbench,extend_performance_agentic_formulas,Extend,500,7.33,7.432,7.192,7.4601
+astra,clean,puredocbench,mistral_ocr_4_1,Mistral OCR,500,4.676,4.829,4.468,4.872
+astra,clean,puredocbench,azure_layout_high_res_formulas,Azure DI,500,6.058,6.193,5.94,6.1701
+astra,clean,puredocbench,pulse_ultra_2,Pulse,500,7.672,7.794,7.526,7.814
+astra,clean,puredocbench,cohere_parse_v5,Cohere,500,5.032,5.284,4.8719,5.192
+fable,clean,puredocbench,reducto_r1,Reducto,500,8.282,8.687,8.154,8.402
+fable,clean,puredocbench,llamaparse_agentic_plus,LlamaParse,500,7.96,8.479,7.852,8.0641
+fable,clean,puredocbench,datalab_accurate,Datalab,500,8.162,8.604,8.062,8.254
+fable,clean,puredocbench,extend_performance_agentic_formulas,Extend,500,6.458,7.432,6.3099,6.6021
+fable,clean,puredocbench,mistral_ocr_4_1,Mistral OCR,500,3.858,4.829,3.664,4.042
+fable,clean,puredocbench,azure_layout_high_res_formulas,Azure DI,500,4.644,6.193,4.5359,4.75
+fable,clean,puredocbench,pulse_ultra_2,Pulse,500,7.01,7.794,6.8439000000000005,7.1741
+fable,clean,puredocbench,cohere_parse_v5,Cohere,500,4.172,5.284,4.0,4.34
+terse,clean,puredocbench,reducto_r1,Reducto,500,8.892,8.687,8.816,8.9621
+terse,clean,puredocbench,llamaparse_agentic_plus,LlamaParse,500,8.534,8.479,8.468,8.6
+terse,clean,puredocbench,datalab_accurate,Datalab,500,8.738,8.604,8.672,8.798
+terse,clean,puredocbench,extend_performance_agentic_formulas,Extend,500,7.508,7.432,7.4,7.614
+terse,clean,puredocbench,mistral_ocr_4_1,Mistral OCR,500,5.202,4.829,4.9859,5.406199999999999
+terse,clean,puredocbench,azure_layout_high_res_formulas,Azure DI,500,6.562,6.193,6.47,6.656
+terse,clean,puredocbench,pulse_ultra_2,Pulse,500,7.892,7.794,7.75,8.028
+terse,clean,puredocbench,cohere_parse_v5,Cohere,500,5.788,5.284,5.633900000000001,5.948
+minimal,clean,puredocbench,reducto_r1,Reducto,500,8.944,8.687,8.876,9.008
+minimal,clean,puredocbench,llamaparse_agentic_plus,LlamaParse,500,8.358,8.479,8.292,8.424
+minimal,clean,puredocbench,datalab_accurate,Datalab,500,8.658,8.604,8.586,8.726
+minimal,clean,puredocbench,extend_performance_agentic_formulas,Extend,500,7.276,7.432,7.178,7.3701
+minimal,clean,puredocbench,mistral_ocr_4_1,Mistral OCR,500,5.366,4.829,5.154,5.566
+minimal,clean,puredocbench,azure_layout_high_res_formulas,Azure DI,500,6.516,6.193,6.434,6.594
+minimal,clean,puredocbench,pulse_ultra_2,Pulse,500,7.766,7.794,7.6378,7.892
+minimal,clean,puredocbench,cohere_parse_v5,Cohere,500,6.064,5.284,5.918,6.2101
+argon,tilt_2_4,puredocbench,reducto_r1,Reducto,500,8.704,8.444,8.598,8.8
+argon,tilt_2_4,puredocbench,llamaparse_agentic_plus,LlamaParse,500,7.738,7.818,7.612,7.868
+argon,tilt_2_4,puredocbench,datalab_accurate,Datalab,500,8.792,8.512,8.692,8.886
+argon,tilt_2_4,puredocbench,extend_performance_agentic_formulas,Extend,500,6.55,6.828,6.402,6.692
+argon,tilt_2_4,puredocbench,mistral_ocr_4_1,Mistral OCR,500,4.004,4.29,3.8,4.1960999999999995
+argon,tilt_2_4,puredocbench,azure_layout_high_res_formulas,Azure DI,500,4.902,5.852,4.748,5.044
+argon,tilt_2_4,puredocbench,pulse_ultra_2,Pulse,500,6.692,6.734,6.5,6.8961
+argon,tilt_2_4,puredocbench,cohere_parse_v5,Cohere,500,4.382,4.464,4.226,4.5461
+astra,tilt_2_4,puredocbench,reducto_r1,Reducto,500,8.334,8.444,8.218,8.442
+astra,tilt_2_4,puredocbench,llamaparse_agentic_plus,LlamaParse,500,7.742,7.818,7.628,7.856
+astra,tilt_2_4,puredocbench,datalab_accurate,Datalab,500,8.454,8.512,8.37,8.538
+astra,tilt_2_4,puredocbench,extend_performance_agentic_formulas,Extend,500,6.714,6.828,6.5899,6.8301
+astra,tilt_2_4,puredocbench,mistral_ocr_4_1,Mistral OCR,500,4.114,4.29,3.922,4.3001
+astra,tilt_2_4,puredocbench,azure_layout_high_res_formulas,Azure DI,500,5.72,5.852,5.5979,5.836
+astra,tilt_2_4,puredocbench,pulse_ultra_2,Pulse,500,6.592,6.734,6.416,6.774
+astra,tilt_2_4,puredocbench,cohere_parse_v5,Cohere,500,4.296,4.464,4.152,4.4460999999999995
+fable,tilt_2_4,puredocbench,reducto_r1,Reducto,500,7.938,8.444,7.7959000000000005,8.072
+fable,tilt_2_4,puredocbench,llamaparse_agentic_plus,LlamaParse,500,6.99,7.818,6.856,7.124
+fable,tilt_2_4,puredocbench,datalab_accurate,Datalab,500,8.082,8.512,7.978,8.178
+fable,tilt_2_4,puredocbench,extend_performance_agentic_formulas,Extend,500,5.566,6.828,5.442,5.686
+fable,tilt_2_4,puredocbench,mistral_ocr_4_1,Mistral OCR,500,3.396,4.29,3.216,3.574
+fable,tilt_2_4,puredocbench,azure_layout_high_res_formulas,Azure DI,500,4.31,5.852,4.19,4.43
+fable,tilt_2_4,puredocbench,pulse_ultra_2,Pulse,500,5.754,6.734,5.566,5.95
+fable,tilt_2_4,puredocbench,cohere_parse_v5,Cohere,500,3.364,4.464,3.2299,3.504
+terse,tilt_2_4,puredocbench,reducto_r1,Reducto,500,8.746,8.444,8.656,8.83
+terse,tilt_2_4,puredocbench,llamaparse_agentic_plus,LlamaParse,500,7.97,7.818,7.88,8.0621
+terse,tilt_2_4,puredocbench,datalab_accurate,Datalab,500,8.73,8.512,8.664,8.794
+terse,tilt_2_4,puredocbench,extend_performance_agentic_formulas,Extend,500,7.048,6.828,6.946,7.144
+terse,tilt_2_4,puredocbench,mistral_ocr_4_1,Mistral OCR,500,4.706,4.29,4.482,4.912
+terse,tilt_2_4,puredocbench,azure_layout_high_res_formulas,Azure DI,500,6.28,5.852,6.18,6.376
+terse,tilt_2_4,puredocbench,pulse_ultra_2,Pulse,500,6.982,6.734,6.8119000000000005,7.156
+terse,tilt_2_4,puredocbench,cohere_parse_v5,Cohere,500,4.924,4.464,4.782,5.078
+minimal,tilt_2_4,puredocbench,reducto_r1,Reducto,500,8.807,8.444,8.727,8.884
+minimal,tilt_2_4,puredocbench,llamaparse_agentic_plus,LlamaParse,500,7.928,7.818,7.844,8.0141
+minimal,tilt_2_4,puredocbench,datalab_accurate,Datalab,500,8.772,8.512,8.7039,8.838
+minimal,tilt_2_4,puredocbench,extend_performance_agentic_formulas,Extend,500,6.944,6.828,6.86,7.028099999999999
+minimal,tilt_2_4,puredocbench,mistral_ocr_4_1,Mistral OCR,500,4.948,4.29,4.73,5.15
+minimal,tilt_2_4,puredocbench,azure_layout_high_res_formulas,Azure DI,500,6.388,5.852,6.3,6.474
+minimal,tilt_2_4,puredocbench,pulse_ultra_2,Pulse,500,6.97,6.734,6.808,7.128
+minimal,tilt_2_4,puredocbench,cohere_parse_v5,Cohere,500,5.274,4.464,5.136,5.422
+argon,clean,omnidocbench,reducto_r1,Reducto,500,8.662,9.057,8.532,8.7801
+argon,clean,omnidocbench,llamaparse_agentic_plus,LlamaParse,500,8.548,8.693,8.442,8.65
+argon,clean,omnidocbench,datalab_accurate,Datalab,500,8.602,8.748,8.4799,8.722
+argon,clean,omnidocbench,extend_performance_agentic_formulas,Extend,500,7.334,7.656,7.164,7.5
+argon,clean,omnidocbench,mistral_ocr_4_1,Mistral OCR,500,7.91,8.13,7.744,8.068
+argon,clean,omnidocbench,azure_layout_high_res_formulas,Azure DI,500,5.502,6.405,5.312,5.6781
+argon,clean,omnidocbench,pulse_ultra_2,Pulse,500,8.502,8.528,8.3619,8.636
+argon,clean,omnidocbench,cohere_parse_v5,Cohere,500,6.232,6.354,6.01,6.436
+astra,clean,omnidocbench,reducto_r1,Reducto,500,8.998,9.057,8.892,9.098
+astra,clean,omnidocbench,llamaparse_agentic_plus,LlamaParse,500,8.642,8.693,8.56,8.726
+astra,clean,omnidocbench,datalab_accurate,Datalab,500,8.68,8.748,8.576,8.782
+astra,clean,omnidocbench,extend_performance_agentic_formulas,Extend,500,7.532,7.656,7.386,7.6720999999999995
+astra,clean,omnidocbench,mistral_ocr_4_1,Mistral OCR,500,8.01,8.13,7.862,8.1501
+astra,clean,omnidocbench,azure_layout_high_res_formulas,Azure DI,500,6.274,6.405,6.126,6.418
+astra,clean,omnidocbench,pulse_ultra_2,Pulse,500,8.418,8.528,8.288,8.536
+astra,clean,omnidocbench,cohere_parse_v5,Cohere,500,6.186,6.354,5.976,6.382099999999999
+fable,clean,omnidocbench,reducto_r1,Reducto,500,8.668,9.057,8.548,8.7821
+fable,clean,omnidocbench,llamaparse_agentic_plus,LlamaParse,500,8.32,8.693,8.214,8.418
+fable,clean,omnidocbench,datalab_accurate,Datalab,500,8.274,8.748,8.16,8.386
+fable,clean,omnidocbench,extend_performance_agentic_formulas,Extend,500,6.608,7.656,6.452,6.764
+fable,clean,omnidocbench,mistral_ocr_4_1,Mistral OCR,500,7.478,8.13,7.312,7.638
+fable,clean,omnidocbench,azure_layout_high_res_formulas,Azure DI,500,5.106,6.405,4.95,5.26
+fable,clean,omnidocbench,pulse_ultra_2,Pulse,500,7.88,8.528,7.738,8.014
+fable,clean,omnidocbench,cohere_parse_v5,Cohere,500,5.392,6.354,5.172,5.606
+terse,clean,omnidocbench,reducto_r1,Reducto,500,9.016,9.057,8.932,9.1
+terse,clean,omnidocbench,llamaparse_agentic_plus,LlamaParse,500,8.706,8.693,8.634,8.776
+terse,clean,omnidocbench,datalab_accurate,Datalab,500,8.612,8.748,8.518,8.702
+terse,clean,omnidocbench,extend_performance_agentic_formulas,Extend,500,7.554,7.656,7.444,7.66
+terse,clean,omnidocbench,mistral_ocr_4_1,Mistral OCR,500,8.47,8.13,8.342,8.592
+terse,clean,omnidocbench,azure_layout_high_res_formulas,Azure DI,500,6.556,6.405,6.42,6.678
+terse,clean,omnidocbench,pulse_ultra_2,Pulse,500,8.446,8.528,8.338,8.548
+terse,clean,omnidocbench,cohere_parse_v5,Cohere,500,6.596,6.354,6.398,6.784
+minimal,clean,omnidocbench,reducto_r1,Reducto,500,8.798,9.057,8.714,8.878
+minimal,clean,omnidocbench,llamaparse_agentic_plus,LlamaParse,500,8.55,8.693,8.474,8.62
+minimal,clean,omnidocbench,datalab_accurate,Datalab,500,8.4,8.748,8.294,8.5
+minimal,clean,omnidocbench,extend_performance_agentic_formulas,Extend,500,7.126,7.656,7.026,7.228
+minimal,clean,omnidocbench,mistral_ocr_4_1,Mistral OCR,500,8.318,8.13,8.202,8.43
+minimal,clean,omnidocbench,azure_layout_high_res_formulas,Azure DI,500,6.384,6.405,6.262,6.494
+minimal,clean,omnidocbench,pulse_ultra_2,Pulse,500,8.268,8.528,8.168,8.3661
+minimal,clean,omnidocbench,cohere_parse_v5,Cohere,500,6.656,6.354,6.464,6.8301
+argon,tilt_2_4,omnidocbench,reducto_r1,Reducto,499,8.619238476953909,9.01002004008016,8.490981963927856,8.737575150300602
+argon,tilt_2_4,omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.094188376753507,8.342685370741483,7.959919839679359,8.226452905811623
+argon,tilt_2_4,omnidocbench,datalab_accurate,Datalab,499,8.492985971943888,8.591182364729459,8.352705410821644,8.62124248496994
+argon,tilt_2_4,omnidocbench,extend_performance_agentic_formulas,Extend,499,6.69939879759519,7.30060120240481,6.525050100200401,6.859719438877756
+argon,tilt_2_4,omnidocbench,mistral_ocr_4_1,Mistral OCR,499,7.891783567134269,8.026052104208416,7.727454909819639,8.056112224448897
+argon,tilt_2_4,omnidocbench,azure_layout_high_res_formulas,Azure DI,499,5.202404809619239,6.148296593186373,5.0160320641282565,5.386773547094188
+argon,tilt_2_4,omnidocbench,pulse_ultra_2,Pulse,499,8.036072144288577,8.086172344689379,7.875751503006012,8.19438877755511
+argon,tilt_2_4,omnidocbench,cohere_parse_v5,Cohere,499,5.498997995991984,5.739478957915832,5.286573146292585,5.695390781563126
+astra,tilt_2_4,omnidocbench,reducto_r1,Reducto,499,8.957915831663327,9.01002004008016,8.837675350701403,9.066132264529058
+astra,tilt_2_4,omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.256513026052104,8.342685370741483,8.140280561122244,8.366833667334669
+astra,tilt_2_4,omnidocbench,datalab_accurate,Datalab,499,8.529058116232465,8.591182364729459,8.40681362725451,8.633266533066132
+astra,tilt_2_4,omnidocbench,extend_performance_agentic_formulas,Extend,499,7.174348697394789,7.30060120240481,7.022044088176353,7.31062124248497
+astra,tilt_2_4,omnidocbench,mistral_ocr_4_1,Mistral OCR,499,7.9318637274549095,8.026052104208416,7.781563126252505,8.080160320641282
+astra,tilt_2_4,omnidocbench,azure_layout_high_res_formulas,Azure DI,499,6.018036072144288,6.148296593186373,5.8636272545090184,6.168336673346693
+astra,tilt_2_4,omnidocbench,pulse_ultra_2,Pulse,499,7.9839679358717435,8.086172344689379,7.843687374749499,8.118336673346693
+astra,tilt_2_4,omnidocbench,cohere_parse_v5,Cohere,499,5.619238476953908,5.739478957915832,5.4188376753507015,5.815731462925852
+fable,tilt_2_4,omnidocbench,reducto_r1,Reducto,499,8.703406813627254,9.01002004008016,8.581062124248497,8.819639278557114
+fable,tilt_2_4,omnidocbench,llamaparse_agentic_plus,LlamaParse,499,7.717434869739479,8.342685370741483,7.583066132264529,7.855711422845691
+fable,tilt_2_4,omnidocbench,datalab_accurate,Datalab,499,8.11623246492986,8.591182364729459,7.983867735470942,8.242585170340682
+fable,tilt_2_4,omnidocbench,extend_performance_agentic_formulas,Extend,499,6.0881763527054105,7.30060120240481,5.927855711422846,6.234569138276553
+fable,tilt_2_4,omnidocbench,mistral_ocr_4_1,Mistral OCR,499,7.438877755511022,8.026052104208416,7.272545090180361,7.6072144288577155
+fable,tilt_2_4,omnidocbench,azure_layout_high_res_formulas,Azure DI,499,4.937875751503006,6.148296593186373,4.775551102204409,5.094188376753507
+fable,tilt_2_4,omnidocbench,pulse_ultra_2,Pulse,499,7.3346693386773545,8.086172344689379,7.1783567134268536,7.489078156312625
+fable,tilt_2_4,omnidocbench,cohere_parse_v5,Cohere,499,4.713426853707415,5.739478957915832,4.511022044088176,4.917835671342686
+terse,tilt_2_4,omnidocbench,reducto_r1,Reducto,499,8.97995991983968,9.01002004008016,8.881763527054108,9.06813627254509
+terse,tilt_2_4,omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.348697394789578,8.342685370741483,8.242384769539079,8.446893787575151
+terse,tilt_2_4,omnidocbench,datalab_accurate,Datalab,499,8.525050100200401,8.591182364729459,8.414829659318638,8.625350701402805
+terse,tilt_2_4,omnidocbench,extend_performance_agentic_formulas,Extend,499,7.174348697394789,7.30060120240481,7.04809619238477,7.286573146292585
+terse,tilt_2_4,omnidocbench,mistral_ocr_4_1,Mistral OCR,499,8.442885771543086,8.026052104208416,8.302605210420841,8.575150300601202
+terse,tilt_2_4,omnidocbench,azure_layout_high_res_formulas,Azure DI,499,6.294589178356714,6.148296593186373,6.152304609218437,6.432865731462926
+terse,tilt_2_4,omnidocbench,pulse_ultra_2,Pulse,499,8.100200400801603,8.086172344689379,7.979859719438878,8.220440881763528
+terse,tilt_2_4,omnidocbench,cohere_parse_v5,Cohere,499,5.953907815631262,5.739478957915832,5.765531062124248,6.14438877755511
+minimal,tilt_2_4,omnidocbench,reducto_r1,Reducto,499,8.80561122244489,9.01002004008016,8.719438877755511,8.889779559118237
+minimal,tilt_2_4,omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.238476953907815,8.342685370741483,8.136272545090181,8.334669338677354
+minimal,tilt_2_4,omnidocbench,datalab_accurate,Datalab,499,8.372745490981965,8.591182364729459,8.264428857715432,8.480961923847696
+minimal,tilt_2_4,omnidocbench,extend_performance_agentic_formulas,Extend,499,6.849699398797595,7.30060120240481,6.735470941883768,6.95190380761523
+minimal,tilt_2_4,omnidocbench,mistral_ocr_4_1,Mistral OCR,499,8.302605210420841,8.026052104208416,8.17625250501002,8.424849699398798
+minimal,tilt_2_4,omnidocbench,azure_layout_high_res_formulas,Azure DI,499,6.192384769539078,6.148296593186373,6.05811623246493,6.326653306613227
+minimal,tilt_2_4,omnidocbench,pulse_ultra_2,Pulse,499,7.979959919839679,8.086172344689379,7.873647294589179,8.090180360721442
+minimal,tilt_2_4,omnidocbench,cohere_parse_v5,Cohere,499,6.020040080160321,5.739478957915832,5.83567134268537,6.202404809619239
+argon,clean,real5_omnidocbench,reducto_r1,Reducto,499,8.6312625250501,9.06312625250501,8.507014028056112,8.755511022044088
+argon,clean,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.412825651302605,8.706412825651302,8.308617234468938,8.517034068136272
+argon,clean,real5_omnidocbench,datalab_accurate,Datalab,499,8.47695390781563,8.637274549098196,8.352705410821644,8.597194388777556
+argon,clean,real5_omnidocbench,extend_performance_agentic_formulas,Extend,499,7.394789579158316,7.772545090180361,7.228456913827655,7.557114228456914
+argon,clean,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,499,7.7434869739478955,8.074148296593187,7.583066132264529,7.907815631262525
+argon,clean,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,499,5.68937875751503,6.576152304609218,5.50501002004008,5.87374749498998
+argon,clean,real5_omnidocbench,pulse_ultra_2,Pulse,499,8.432865731462925,8.628256513026052,8.296593186372746,8.569138276553106
+argon,clean,real5_omnidocbench,cohere_parse_v5,Cohere,499,6.05811623246493,6.181362725450902,5.837675350701403,6.274549098196393
+astra,clean,real5_omnidocbench,reducto_r1,Reducto,500,8.99,9.059,8.878,9.1
+astra,clean,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,500,8.616,8.705,8.528,8.698
+astra,clean,real5_omnidocbench,datalab_accurate,Datalab,500,8.516,8.633,8.408,8.618
+astra,clean,real5_omnidocbench,extend_performance_agentic_formulas,Extend,500,7.622,7.767,7.4839,7.762099999999999
+astra,clean,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,500,7.932,8.061,7.788,8.074
+astra,clean,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,500,6.428,6.569,6.284,6.574
+astra,clean,real5_omnidocbench,pulse_ultra_2,Pulse,500,8.5,8.627,8.384,8.612
+astra,clean,real5_omnidocbench,cohere_parse_v5,Cohere,500,5.998,6.179,5.7959000000000005,6.206
+fable,clean,real5_omnidocbench,reducto_r1,Reducto,499,8.627254509018035,9.057114228456914,8.503006012024048,8.753507014028056
+fable,clean,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.250501002004007,8.70440881763527,8.142184368737475,8.358717434869739
+fable,clean,real5_omnidocbench,datalab_accurate,Datalab,499,8.08817635270541,8.633266533066132,7.97184368737475,8.214428857715431
+fable,clean,real5_omnidocbench,extend_performance_agentic_formulas,Extend,499,6.68937875751503,7.763527054108216,6.537074148296593,6.841783567134269
+fable,clean,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,499,7.278557114228457,8.061122244488978,7.112224448897796,7.442885771543086
+fable,clean,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,499,5.296593186372745,6.569138276553106,5.144288577154309,5.456913827655311
+fable,clean,real5_omnidocbench,pulse_ultra_2,Pulse,499,7.877755511022044,8.624248496993989,7.749498997995992,8.008016032064129
+fable,clean,real5_omnidocbench,cohere_parse_v5,Cohere,499,5.174348697394789,6.1723446893787575,4.959919839679359,5.3927855711422845
+terse,clean,real5_omnidocbench,reducto_r1,Reducto,500,8.938,9.059,8.848,9.03
+terse,clean,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,500,8.658,8.705,8.5839,8.7341
+terse,clean,real5_omnidocbench,datalab_accurate,Datalab,500,8.484,8.633,8.386,8.5821
+terse,clean,real5_omnidocbench,extend_performance_agentic_formulas,Extend,500,7.568,7.767,7.463900000000001,7.674
+terse,clean,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,500,8.42,8.061,8.294,8.540099999999999
+terse,clean,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,500,6.608,6.569,6.4839,6.728
+terse,clean,real5_omnidocbench,pulse_ultra_2,Pulse,500,8.474,8.627,8.38,8.572
+terse,clean,real5_omnidocbench,cohere_parse_v5,Cohere,500,6.292,6.179,6.102,6.488
+minimal,clean,real5_omnidocbench,reducto_r1,Reducto,500,8.73,9.059,8.644,8.818
+minimal,clean,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,500,8.436,8.705,8.36,8.514
+minimal,clean,real5_omnidocbench,datalab_accurate,Datalab,500,8.272,8.633,8.164,8.378
+minimal,clean,real5_omnidocbench,extend_performance_agentic_formulas,Extend,500,7.158,7.767,7.062,7.2561
+minimal,clean,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,500,8.272,8.061,8.1579,8.378
+minimal,clean,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,500,6.48,6.569,6.368,6.594
+minimal,clean,real5_omnidocbench,pulse_ultra_2,Pulse,500,8.252,8.627,8.161900000000001,8.342
+minimal,clean,real5_omnidocbench,cohere_parse_v5,Cohere,500,6.342,6.179,6.157900000000001,6.528
+argon,tilt_2_4,real5_omnidocbench,reducto_r1,Reducto,497,8.6579476861167,8.907444668008049,8.545271629778671,8.772736418511066
+argon,tilt_2_4,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,497,8.209255533199196,8.456740442655935,8.086519114688128,8.329979879275655
+argon,tilt_2_4,real5_omnidocbench,datalab_accurate,Datalab,497,8.32394366197183,8.53118712273642,8.193158953722333,8.458752515090543
+argon,tilt_2_4,real5_omnidocbench,extend_performance_agentic_formulas,Extend,497,6.937625754527163,7.492957746478873,6.774647887323944,7.100704225352112
+argon,tilt_2_4,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,497,7.682092555331992,7.959758551307847,7.504929577464789,7.857142857142857
+argon,tilt_2_4,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,497,5.416498993963783,6.217303822937626,5.241448692152917,5.595674044265594
+argon,tilt_2_4,real5_omnidocbench,pulse_ultra_2,Pulse,497,8.082494969818914,8.247484909456741,7.921529175050302,8.235412474849095
+argon,tilt_2_4,real5_omnidocbench,cohere_parse_v5,Cohere,497,5.492957746478873,5.663983903420523,5.277565392354125,5.698189134808853
+astra,tilt_2_4,real5_omnidocbench,reducto_r1,Reducto,499,8.861723446893787,8.90380761523046,8.749498997995993,8.97194388777555
+astra,tilt_2_4,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.380761523046091,8.458917835671343,8.274549098196394,8.478957915831664
+astra,tilt_2_4,real5_omnidocbench,datalab_accurate,Datalab,499,8.422845691382765,8.525050100200401,8.314629258517034,8.53306613226453
+astra,tilt_2_4,real5_omnidocbench,extend_performance_agentic_formulas,Extend,499,7.344689378757515,7.486973947895792,7.210420841683367,7.480961923847695
+astra,tilt_2_4,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,499,7.819639278557114,7.947895791583166,7.667334669338677,7.963927855711423
+astra,tilt_2_4,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,499,6.11623246492986,6.218436873747495,5.9579158316633265,6.272545090180361
+astra,tilt_2_4,real5_omnidocbench,pulse_ultra_2,Pulse,499,8.090180360721442,8.246492985971944,7.9579158316633265,8.214428857715431
+astra,tilt_2_4,real5_omnidocbench,cohere_parse_v5,Cohere,499,5.462925851703407,5.663326653306613,5.256412825651303,5.6653306613226455
+fable,tilt_2_4,real5_omnidocbench,reducto_r1,Reducto,498,8.558232931726907,8.903614457831326,8.43574297188755,8.682730923694779
+fable,tilt_2_4,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,498,7.881526104417671,8.461847389558233,7.757028112449799,8.002008032128513
+fable,tilt_2_4,real5_omnidocbench,datalab_accurate,Datalab,498,7.959839357429719,8.524096385542169,7.833333333333333,8.086345381526105
+fable,tilt_2_4,real5_omnidocbench,extend_performance_agentic_formulas,Extend,498,6.257028112449799,7.485943775100401,6.104417670682731,6.409638554216867
+fable,tilt_2_4,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,498,7.216867469879518,7.947791164658635,7.042168674698795,7.3876506024096384
+fable,tilt_2_4,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,498,5.068273092369478,6.218875502008032,4.909638554216867,5.238955823293173
+fable,tilt_2_4,real5_omnidocbench,pulse_ultra_2,Pulse,498,7.377510040160643,8.244979919678714,7.228915662650603,7.524196787148594
+fable,tilt_2_4,real5_omnidocbench,cohere_parse_v5,Cohere,498,4.646586345381526,5.664658634538153,4.43574297188755,4.86144578313253
+terse,tilt_2_4,real5_omnidocbench,reducto_r1,Reducto,499,8.87374749498998,8.90380761523046,8.773547094188377,8.975951903807616
+terse,tilt_2_4,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.408817635270541,8.458917835671343,8.314529058116232,8.50501002004008
+terse,tilt_2_4,real5_omnidocbench,datalab_accurate,Datalab,499,8.428857715430862,8.525050100200401,8.322645290581162,8.537074148296593
+terse,tilt_2_4,real5_omnidocbench,extend_performance_agentic_formulas,Extend,499,7.2765531062124245,7.486973947895792,7.166332665330661,7.38877755511022
+terse,tilt_2_4,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,499,8.350701402805612,7.947895791583166,8.208316633266532,8.478957915831664
+terse,tilt_2_4,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,499,6.350701402805611,6.218436873747495,6.200400801603206,6.492985971943888
+terse,tilt_2_4,real5_omnidocbench,pulse_ultra_2,Pulse,499,8.160320641282565,8.246492985971944,8.047995991983967,8.268537074148297
+terse,tilt_2_4,real5_omnidocbench,cohere_parse_v5,Cohere,499,5.81563126252505,5.663326653306613,5.617234468937876,6.012024048096192
+minimal,tilt_2_4,real5_omnidocbench,reducto_r1,Reducto,499,8.715430861723448,8.90380761523046,8.625250501002004,8.803607214428858
+minimal,tilt_2_4,real5_omnidocbench,llamaparse_agentic_plus,LlamaParse,499,8.280561122244489,8.458917835671343,8.192384769539078,8.370741482965931
+minimal,tilt_2_4,real5_omnidocbench,datalab_accurate,Datalab,499,8.250501002004007,8.525050100200401,8.140280561122244,8.364729458917836
+minimal,tilt_2_4,real5_omnidocbench,extend_performance_agentic_formulas,Extend,499,6.8997995991983965,7.486973947895792,6.799599198396794,6.99809619238477
+minimal,tilt_2_4,real5_omnidocbench,mistral_ocr_4_1,Mistral OCR,499,8.270541082164328,7.947895791583166,8.144288577154308,8.38877755511022
+minimal,tilt_2_4,real5_omnidocbench,azure_layout_high_res_formulas,Azure DI,499,6.286573146292585,6.218436873747495,6.148296593186373,6.41683366733467
+minimal,tilt_2_4,real5_omnidocbench,pulse_ultra_2,Pulse,499,8.02805611222445,8.246492985971944,7.92374749498998,8.132264529058116
+minimal,tilt_2_4,real5_omnidocbench,cohere_parse_v5,Cohere,499,5.86372745490982,5.663326653306613,5.6752505010020045,6.052104208416834
+argon,clean,parsebench2,reducto_r1,Reducto,500,8.816,9.336,8.7,8.932
+argon,clean,parsebench2,llamaparse_agentic_plus,LlamaParse,500,8.422,8.955,8.308,8.538
+argon,clean,parsebench2,datalab_accurate,Datalab,500,8.508,9.04,8.36,8.646
+argon,clean,parsebench2,extend_performance_agentic_formulas,Extend,500,8.588,8.972,8.45,8.722
+argon,clean,parsebench2,mistral_ocr_4_1,Mistral OCR,500,7.888,8.33,7.7159,8.064
+argon,clean,parsebench2,azure_layout_high_res_formulas,Azure DI,500,6.57,7.482,6.3939,6.7481
+argon,clean,parsebench2,pulse_ultra_2,Pulse,500,7.672,8.153,7.479900000000001,7.858
+argon,clean,parsebench2,cohere_parse_v5,Cohere,500,7.808,7.95,7.63,7.986
+astra,clean,parsebench2,reducto_r1,Reducto,500,9.286,9.336,9.186,9.376
+astra,clean,parsebench2,llamaparse_agentic_plus,LlamaParse,500,8.936,8.955,8.868,9.002
+astra,clean,parsebench2,datalab_accurate,Datalab,500,8.962,9.04,8.85,9.066
+astra,clean,parsebench2,extend_performance_agentic_formulas,Extend,500,8.934,8.972,8.83,9.034
+astra,clean,parsebench2,mistral_ocr_4_1,Mistral OCR,500,8.242,8.33,8.084,8.392
+astra,clean,parsebench2,azure_layout_high_res_formulas,Azure DI,500,7.36,7.482,7.216,7.498
+astra,clean,parsebench2,pulse_ultra_2,Pulse,500,8.044,8.153,7.875900000000001,8.2041
+astra,clean,parsebench2,cohere_parse_v5,Cohere,500,7.842,7.95,7.68,7.9940999999999995
+fable,clean,parsebench2,reducto_r1,Reducto,500,9.036,9.336,8.9219,9.144
+fable,clean,parsebench2,llamaparse_agentic_plus,LlamaParse,500,8.498,8.955,8.406,8.588
+fable,clean,parsebench2,datalab_accurate,Datalab,500,8.558,9.04,8.442,8.67
+fable,clean,parsebench2,extend_performance_agentic_formulas,Extend,500,8.27,8.972,8.14,8.392
+fable,clean,parsebench2,mistral_ocr_4_1,Mistral OCR,500,7.598,8.33,7.414,7.7741
+fable,clean,parsebench2,azure_layout_high_res_formulas,Azure DI,500,5.978,7.482,5.8199000000000005,6.138
+fable,clean,parsebench2,pulse_ultra_2,Pulse,500,7.236,8.153,7.0339,7.4181
+fable,clean,parsebench2,cohere_parse_v5,Cohere,500,7.222,7.95,7.024,7.414
+terse,clean,parsebench2,reducto_r1,Reducto,500,9.402,9.336,9.318,9.476
+terse,clean,parsebench2,llamaparse_agentic_plus,LlamaParse,500,8.766,8.955,8.698,8.828
+terse,clean,parsebench2,datalab_accurate,Datalab,500,8.778,9.04,8.69,8.8581
+terse,clean,parsebench2,extend_performance_agentic_formulas,Extend,500,8.674,8.972,8.58,8.762
+terse,clean,parsebench2,mistral_ocr_4_1,Mistral OCR,500,8.334,8.33,8.204,8.462
+terse,clean,parsebench2,azure_layout_high_res_formulas,Azure DI,500,7.488,7.482,7.3799,7.592
+terse,clean,parsebench2,pulse_ultra_2,Pulse,500,7.952,8.153,7.798,8.106
+terse,clean,parsebench2,cohere_parse_v5,Cohere,500,7.962,7.95,7.818,8.102
+minimal,clean,parsebench2,reducto_r1,Reducto,500,9.2964,9.336,9.218399999999999,9.368419999999999
+minimal,clean,parsebench2,llamaparse_agentic_plus,LlamaParse,500,8.454,8.955,8.374,8.53
+minimal,clean,parsebench2,datalab_accurate,Datalab,500,8.5174,9.04,8.42797,8.602829999999999
+minimal,clean,parsebench2,extend_performance_agentic_formulas,Extend,500,8.264,8.972,8.17,8.3501
+minimal,clean,parsebench2,mistral_ocr_4_1,Mistral OCR,500,8.1342,8.33,8.02219,8.244409999999998
+minimal,clean,parsebench2,azure_layout_high_res_formulas,Azure DI,500,7.188,7.482,7.09,7.284
+minimal,clean,parsebench2,pulse_ultra_2,Pulse,500,7.635,8.153,7.4879500000000005,7.77405
+minimal,clean,parsebench2,cohere_parse_v5,Cohere,500,7.8116,7.95,7.6756,7.9432
+argon,tilt_2_4,parsebench2,reducto_r1,Reducto,500,8.618,9.032,8.475900000000001,8.752
+argon,tilt_2_4,parsebench2,llamaparse_agentic_plus,LlamaParse,500,7.256,7.634,7.076,7.4161
+argon,tilt_2_4,parsebench2,datalab_accurate,Datalab,500,8.432,8.81,8.266,8.578
+argon,tilt_2_4,parsebench2,extend_performance_agentic_formulas,Extend,500,7.606,8.198,7.447900000000001,7.764
+argon,tilt_2_4,parsebench2,mistral_ocr_4_1,Mistral OCR,500,7.904,8.3,7.72,8.078
+argon,tilt_2_4,parsebench2,azure_layout_high_res_formulas,Azure DI,500,6.022,7.026,5.818,6.208
+argon,tilt_2_4,parsebench2,pulse_ultra_2,Pulse,500,6.166,6.666,5.946,6.372
+argon,tilt_2_4,parsebench2,cohere_parse_v5,Cohere,500,5.64,5.96,5.44,5.8461
+astra,tilt_2_4,parsebench2,reducto_r1,Reducto,500,8.942,9.032,8.816,9.056099999999999
+astra,tilt_2_4,parsebench2,llamaparse_agentic_plus,LlamaParse,500,7.538,7.634,7.382,7.686
+astra,tilt_2_4,parsebench2,datalab_accurate,Datalab,500,8.7,8.81,8.568,8.828
+astra,tilt_2_4,parsebench2,extend_performance_agentic_formulas,Extend,500,8.068,8.198,7.948,8.184
+astra,tilt_2_4,parsebench2,mistral_ocr_4_1,Mistral OCR,500,8.188,8.3,8.026,8.34
+astra,tilt_2_4,parsebench2,azure_layout_high_res_formulas,Azure DI,500,6.908,7.026,6.756,7.058
+astra,tilt_2_4,parsebench2,pulse_ultra_2,Pulse,500,6.43,6.666,6.2319,6.62
+astra,tilt_2_4,parsebench2,cohere_parse_v5,Cohere,500,5.778,5.96,5.58,5.968
+fable,tilt_2_4,parsebench2,reducto_r1,Reducto,500,8.69,9.032,8.536,8.834
+fable,tilt_2_4,parsebench2,llamaparse_agentic_plus,LlamaParse,500,6.714,7.634,6.5159,6.8900999999999994
+fable,tilt_2_4,parsebench2,datalab_accurate,Datalab,500,8.246,8.81,8.096,8.392
+fable,tilt_2_4,parsebench2,extend_performance_agentic_formulas,Extend,500,7.086,8.198,6.938,7.2280999999999995
+fable,tilt_2_4,parsebench2,mistral_ocr_4_1,Mistral OCR,500,7.568,8.3,7.388,7.7481
+fable,tilt_2_4,parsebench2,azure_layout_high_res_formulas,Azure DI,500,5.616,7.026,5.4379,5.782
+fable,tilt_2_4,parsebench2,pulse_ultra_2,Pulse,500,5.496,6.666,5.284,5.7101
+fable,tilt_2_4,parsebench2,cohere_parse_v5,Cohere,500,4.826,5.96,4.624,5.032
+terse,tilt_2_4,parsebench2,reducto_r1,Reducto,500,9.16,9.032,9.0599,9.252
+terse,tilt_2_4,parsebench2,llamaparse_agentic_plus,LlamaParse,500,7.674,7.634,7.53,7.806
+terse,tilt_2_4,parsebench2,datalab_accurate,Datalab,500,8.66,8.81,8.556,8.76
+terse,tilt_2_4,parsebench2,extend_performance_agentic_formulas,Extend,500,8.028,8.198,7.924,8.134
+terse,tilt_2_4,parsebench2,mistral_ocr_4_1,Mistral OCR,500,8.348,8.3,8.212,8.482
+terse,tilt_2_4,parsebench2,azure_layout_high_res_formulas,Azure DI,500,7.148,7.026,7.0159,7.27
+terse,tilt_2_4,parsebench2,pulse_ultra_2,Pulse,500,6.582,6.666,6.3959,6.766
+terse,tilt_2_4,parsebench2,cohere_parse_v5,Cohere,500,6.128,5.96,5.946,6.3001
+minimal,tilt_2_4,parsebench2,reducto_r1,Reducto,500,9.174,9.032,9.0799,9.258099999999999
+minimal,tilt_2_4,parsebench2,llamaparse_agentic_plus,LlamaParse,500,7.55,7.634,7.42,7.674
+minimal,tilt_2_4,parsebench2,datalab_accurate,Datalab,500,8.554,8.81,8.456,8.648
+minimal,tilt_2_4,parsebench2,extend_performance_agentic_formulas,Extend,500,7.774,8.198,7.673900000000001,7.872
+minimal,tilt_2_4,parsebench2,mistral_ocr_4_1,Mistral OCR,500,8.232,8.3,8.1099,8.3481
+minimal,tilt_2_4,parsebench2,azure_layout_high_res_formulas,Azure DI,500,7.012,7.026,6.896,7.124
+minimal,tilt_2_4,parsebench2,pulse_ultra_2,Pulse,500,6.5,6.666,6.326,6.672
+minimal,tilt_2_4,parsebench2,cohere_parse_v5,Cohere,500,6.176,5.96,6.01,6.338

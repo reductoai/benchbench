@@ -1,0 +1,9 @@
+BenchBench
+Copyright 2026 Reducto, Inc.
+
+BenchBench invokes third-party datasets and native scorers at the revisions recorded
+in benchbench/catalog.yaml and the adapters. Those projects retain their respective
+licenses. Page images and third-party scorer source are not distributed here.
+
+The bridge reuses Parse Judge (https://github.com/reductoai/parsejudge), Apache-2.0,
+at commit 76f65c45c13dd7bf0b0af8bae2cea5ffd93c9cc0.

@@ -1,0 +1,15 @@
+{
+ "CDM_TEXLIVE_ROOT": "${BENCHBENCH_RUNS}/native-tools/texlive/2025",
+ "BENCHBENCH_NATIVE_PYTHON": "${BENCHBENCH_RUNS}/native_python.sh",
+ "OPB_SCORER_DIR": "${BENCHBENCH_RUNS}/scorers/omniparsebench",
+ "OMNIDOCBENCH_DIR": "${BENCHBENCH_RUNS}/scorers/omnidocbench",
+ "OLMOCR_DIR": "${BENCHBENCH_RUNS}/scorers/olmocr",
+ "OLMOCR_PYTHON": "${BENCHBENCH_RUNS}/scorers/olmocr/.venv/bin/python",
+ "MDPBENCH_SCORER_DIR": "${BENCHBENCH_RUNS}/scorers/mdpbench",
+ "MDPBENCH_PYTHON": "${BENCHBENCH_RUNS}/scorers/mdpbench/.venv/bin/python",
+ "OMNIDOCBENCH_RUNNER": "native",
+ "OMNIDOCBENCH_WORKERS": "6",
+ "PUREDOCBENCH_SCORER_DIR": "${BENCHBENCH_RUNS}/scorers/puredocbench",
+ "PUREDOCBENCH_ROOT": "${BENCHBENCH_RUNS}/puredoc-release",
+ "PUREDOCBENCH_EVAL_PYTHON": "${BENCHBENCH_RUNS}/scorers/omnidocbench/.venv/bin/python"
+}

@@ -1,0 +1,121 @@
+judge,condition,benchmark,benchmark_name,status,sol_r0_pages,sol_pages,judge_complete_pages,matched_pages,coverage_pct,failed_pages,missing_pages,invalid_pages,winner,sol_winner,same_winner,reducto_first,reducto_rank,spearman,p_reducto_top
+argon,clean,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Pulse,Reducto,0,0,2,0.8809523809523809,0.452
+astra,clean,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,clean,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+terse,clean,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Reducto,Reducto,1,1,1,0.6428571428571429,1.0
+minimal,clean,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Reducto,Reducto,1,1,1,0.6666666666666666,1.0
+argon,tilt_2_4,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9523809523809523,0.842
+astra,tilt_2_4,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,tilt_2_4,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+terse,tilt_2_4,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Mistral OCR,Reducto,0,0,2,0.9523809523809523,0.383
+minimal,tilt_2_4,dp_bench,DP-Bench,complete,200,200,200,200,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,0.996
+argon,clean,score_bench,SCORE-Bench,complete_with_failures,224,224,223,223,99.55357142857143,1,0,0,Reducto,Reducto,1,1,1,0.8809523809523809,0.8075
+astra,clean,score_bench,SCORE-Bench,complete,224,224,224,224,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.9995
+fable,clean,score_bench,SCORE-Bench,complete_with_failures,224,224,223,223,99.55357142857143,1,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+terse,clean,score_bench,SCORE-Bench,complete,224,224,224,224,100.0,0,0,0,Reducto,Reducto,1,1,1,0.8095238095238095,0.9995
+minimal,clean,score_bench,SCORE-Bench,complete,224,224,224,224,100.0,0,0,0,Reducto,Reducto,1,1,1,0.8095238095238095,1.0
+argon,tilt_2_4,score_bench,SCORE-Bench,complete,224,224,224,224,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,0.8815
+astra,tilt_2_4,score_bench,SCORE-Bench,complete,224,224,224,224,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,tilt_2_4,score_bench,SCORE-Bench,complete_with_failures,224,224,223,223,99.55357142857143,1,0,0,Reducto,Reducto,1,1,1,0.9461247469114746,1.0
+terse,tilt_2_4,score_bench,SCORE-Bench,complete,224,224,224,224,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+minimal,tilt_2_4,score_bench,SCORE-Bench,complete,224,224,224,224,100.0,0,0,0,Reducto,Reducto,1,1,1,0.8809523809523809,1.0
+argon,clean,olmocr_bench,olmOCR-Bench,complete,500,500,500,500,100.0,0,0,0,Datalab,Reducto,0,0,2,0.9285714285714286,0.325
+astra,clean,olmocr_bench,olmOCR-Bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+fable,clean,olmocr_bench,olmOCR-Bench,complete_with_failures,500,500,499,499,99.8,1,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.9965
+terse,clean,olmocr_bench,olmOCR-Bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+minimal,clean,olmocr_bench,olmOCR-Bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+argon,tilt_2_4,olmocr_bench,olmOCR-Bench,complete,500,500,500,500,100.0,0,0,0,Datalab,Reducto,0,0,2,0.9761904761904762,0.039
+astra,tilt_2_4,olmocr_bench,olmOCR-Bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.9965
+fable,tilt_2_4,olmocr_bench,olmOCR-Bench,complete_with_failures,500,500,499,499,99.8,1,0,0,Reducto,Reducto,1,1,1,1.0,0.999
+terse,tilt_2_4,olmocr_bench,olmOCR-Bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+minimal,tilt_2_4,olmocr_bench,olmOCR-Bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+argon,clean,omniparsebench,OmniParseBench,complete,500,500,500,500,100.0,0,0,0,Datalab,Reducto,0,0,2,0.9761904761904762,0.1225
+astra,clean,omniparsebench,OmniParseBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.5615
+fable,clean,omniparsebench,OmniParseBench,complete_with_failures,500,500,494,494,98.8,6,0,0,Reducto,Reducto,1,1,1,1.0,0.591
+terse,clean,omniparsebench,OmniParseBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.9865
+minimal,clean,omniparsebench,OmniParseBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.9845
+argon,tilt_2_4,omniparsebench,OmniParseBench,complete_with_failures,500,500,499,499,99.8,1,0,0,Datalab,Reducto,0,0,2,0.9285714285714286,0.008
+astra,tilt_2_4,omniparsebench,OmniParseBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.666
+fable,tilt_2_4,omniparsebench,OmniParseBench,complete_with_failures,500,500,495,495,99.0,5,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.774
+terse,tilt_2_4,omniparsebench,OmniParseBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.9505
+minimal,tilt_2_4,omniparsebench,OmniParseBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.988
+argon,clean,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Pulse,Reducto,0,0,2,0.8809523809523809,0.037
+astra,clean,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,clean,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+terse,clean,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.8809523809523809,1.0
+minimal,clean,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+argon,tilt_2_4,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.934
+astra,tilt_2_4,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,tilt_2_4,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+terse,tilt_2_4,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+minimal,tilt_2_4,ocrflux_bench,OCRFlux-bench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+argon,clean,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,0.9523809523809523,0.0
+astra,clean,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,LlamaParse,LlamaParse,1,0,2,1.0,0.0
+fable,clean,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,LlamaParse,LlamaParse,1,0,2,0.9761904761904762,0.0
+terse,clean,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,LlamaParse,LlamaParse,1,0,2,0.9761904761904762,0.0
+minimal,clean,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,0.9523809523809523,0.0
+argon,tilt_2_4,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,Reducto,Mistral OCR,0,1,1,0.7142857142857143,0.841
+astra,tilt_2_4,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,Mistral OCR,Mistral OCR,1,0,2,0.9761904761904762,0.4735
+fable,tilt_2_4,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,Mistral OCR,Mistral OCR,1,0,2,0.8982196964349443,0.438
+terse,tilt_2_4,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,Mistral OCR,Mistral OCR,1,0,2,1.0,0.3975
+minimal,tilt_2_4,idp_leaderboard,IDP Leaderboard,complete,300,300,300,300,100.0,0,0,0,Reducto,Mistral OCR,0,1,1,0.9523809523809523,0.5315
+argon,clean,mdpbench,MDPBench,complete,497,497,497,497,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,0.9761904761904762,0.0
+astra,clean,mdpbench,MDPBench,complete,497,497,497,497,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,1.0,0.0
+fable,clean,mdpbench,MDPBench,complete,497,497,497,497,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,1.0,0.0
+terse,clean,mdpbench,MDPBench,complete,497,497,497,497,100.0,0,0,0,LlamaParse,LlamaParse,1,0,2,0.9523809523809523,0.0015
+minimal,clean,mdpbench,MDPBench,complete,497,497,497,497,100.0,0,0,0,LlamaParse,LlamaParse,1,0,2,0.9523809523809523,0.0015
+argon,tilt_2_4,mdpbench,MDPBench,complete_with_failures,498,498,495,495,99.39759036144578,3,0,0,LlamaParse,LlamaParse,1,0,3,0.9761904761904762,0.0005
+astra,tilt_2_4,mdpbench,MDPBench,complete,498,498,498,498,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,1.0,0.0
+fable,tilt_2_4,mdpbench,MDPBench,complete,498,498,498,498,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,1.0,0.0
+terse,tilt_2_4,mdpbench,MDPBench,complete,498,498,498,498,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,0.9761904761904762,0.0
+minimal,tilt_2_4,mdpbench,MDPBench,complete,498,498,498,498,100.0,0,0,0,LlamaParse,LlamaParse,1,0,3,0.9761904761904762,0.001
+argon,clean,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,LlamaParse,Reducto,0,0,2,0.9523809523809523,0.2335
+astra,clean,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.9985
+fable,clean,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.9095
+terse,clean,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+minimal,clean,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9047619047619048,1.0
+argon,tilt_2_4,rd_tablebench,RD-TableBench,complete_with_failures,500,500,499,499,99.8,1,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+astra,tilt_2_4,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,tilt_2_4,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+terse,tilt_2_4,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+minimal,tilt_2_4,rd_tablebench,RD-TableBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+argon,clean,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Datalab,Reducto,0,0,2,0.9523809523809523,0.1005
+astra,clean,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.9925
+fable,clean,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.9465
+terse,clean,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,0.999
+minimal,clean,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+argon,tilt_2_4,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Datalab,Datalab,1,0,2,0.9761904761904762,0.121
+astra,tilt_2_4,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Datalab,Datalab,1,0,2,1.0,0.0275
+fable,tilt_2_4,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Datalab,Datalab,1,0,2,0.9523809523809523,0.0335
+terse,tilt_2_4,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Datalab,0,1,1,0.9761904761904762,0.6265
+minimal,tilt_2_4,puredocbench,PureDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Datalab,0,1,1,0.9523809523809523,0.7455
+argon,clean,omnidocbench,OmniDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.7305
+astra,clean,omnidocbench,OmniDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,clean,omnidocbench,OmniDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9523809523809523,1.0
+terse,clean,omnidocbench,OmniDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+minimal,clean,omnidocbench,OmniDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+argon,tilt_2_4,omnidocbench,OmniDocBench,complete,499,499,499,499,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.941
+astra,tilt_2_4,omnidocbench,OmniDocBench,complete,499,499,499,499,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,tilt_2_4,omnidocbench,OmniDocBench,complete,499,499,499,499,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+terse,tilt_2_4,omnidocbench,OmniDocBench,complete,499,499,499,499,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+minimal,tilt_2_4,omnidocbench,OmniDocBench,complete,499,499,499,499,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9285714285714286,1.0
+argon,clean,real5_omnidocbench,Real5-OmniDocBench,complete_with_failures,500,500,499,499,99.8,1,0,0,Reducto,Reducto,1,1,1,0.9047619047619048,0.9505
+astra,clean,real5_omnidocbench,Real5-OmniDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,clean,real5_omnidocbench,Real5-OmniDocBench,complete_with_failures,500,500,499,499,99.8,1,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+terse,clean,real5_omnidocbench,Real5-OmniDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+minimal,clean,real5_omnidocbench,Real5-OmniDocBench,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9581010095306072,1.0
+argon,tilt_2_4,real5_omnidocbench,Real5-OmniDocBench,complete_with_failures,499,499,497,497,99.59919839679358,2,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.9995
+astra,tilt_2_4,real5_omnidocbench,Real5-OmniDocBench,complete,499,499,499,499,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,tilt_2_4,real5_omnidocbench,Real5-OmniDocBench,complete_with_failures,499,499,498,498,99.79959919839679,1,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+terse,tilt_2_4,real5_omnidocbench,Real5-OmniDocBench,complete,499,499,499,499,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+minimal,tilt_2_4,real5_omnidocbench,Real5-OmniDocBench,complete,499,499,499,499,100.0,0,0,0,Reducto,Reducto,1,1,1,0.8809523809523809,1.0
+argon,clean,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9523809523809523,0.995
+astra,clean,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+fable,clean,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,1.0
+terse,clean,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9523809523809523,1.0
+minimal,clean,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9523809523809523,1.0
+argon,tilt_2_4,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,0.9761904761904762,0.9855
+astra,tilt_2_4,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+fable,tilt_2_4,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+terse,tilt_2_4,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0
+minimal,tilt_2_4,parsebench2,ParseBench-2,complete,500,500,500,500,100.0,0,0,0,Reducto,Reducto,1,1,1,1.0,1.0

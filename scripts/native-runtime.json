@@ -1,0 +1,148 @@
+{
+ "platform": "Linux-6.8.0-1060-aws-x86_64-with-glibc2.39",
+ "texlive": "pdfTeX 3.141592653-2.6-1.40.28 (TeX Live 2025)",
+ "imagemagick": "Version: ImageMagick 7.1.2-37 (Beta) Q16-HDRI x86_64 dcec873ed:20261116 https://imagemagick.org",
+ "formulas": {
+  "formula-selfcheck-mdpbench": {
+   "formulas": [
+    "x^2+y^2=z^2",
+    "\\frac{a+b}{c}=\\sum_{i=1}^{n} i",
+    "\\text{\u4e2d\u6587\u516c\u5f0f}+x=1"
+   ],
+   "scores": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "formula-selfcheck-omnidocbench": {
+   "formulas": [
+    "x^2+y^2=z^2",
+    "\\frac{a+b}{c}=\\sum_{i=1}^{n} i",
+    "\\text{\u4e2d\u6587\u516c\u5f0f}+x=1"
+   ],
+   "scores": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "formula-selfcheck-puredoc-evaluator": {
+   "formulas": [
+    "x^2+y^2=z^2",
+    "\\frac{a+b}{c}=\\sum_{i=1}^{n} i",
+    "\\text{\u4e2d\u6587\u516c\u5f0f}+x=1"
+   ],
+   "scores": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "smokes": {
+  "native-ready-parsebench2": {
+   "benchmark": "parsebench2",
+   "rows": 2,
+   "scores": [
+    0.0,
+    100.0
+   ]
+  },
+  "native-ready-mdpbench": {
+   "benchmark": "mdpbench",
+   "rows": 2,
+   "scores": [
+    99.78013924514474,
+    99.24464960134284
+   ]
+  },
+  "native-ready-idp_leaderboard": {
+   "benchmark": "idp_leaderboard",
+   "rows": 2,
+   "scores": [
+    99.13260582010584,
+    98.57793898809523
+   ]
+  },
+  "native-ready-score_bench": {
+   "benchmark": "score_bench",
+   "rows": 2,
+   "scores": [
+    72.0,
+    100.0
+   ]
+  },
+  "native-ready-ocrflux_bench": {
+   "benchmark": "ocrflux_bench",
+   "rows": 2,
+   "scores": [
+    28.80724174653887,
+    85.15471993732864
+   ]
+  },
+  "native-ready-olmocr_bench": {
+   "benchmark": "olmocr_bench",
+   "rows": 2,
+   "scores": [
+    50.0,
+    80.0
+   ]
+  },
+  "native-ready-rd_tablebench": {
+   "benchmark": "rd_tablebench",
+   "rows": 2,
+   "scores": [
+    76.2499988079071,
+    77.88272500038147
+   ]
+  },
+  "native-ready-real5_omnidocbench": {
+   "benchmark": "real5_omnidocbench",
+   "rows": 2,
+   "scores": [
+    100.0,
+    100.0
+   ]
+  },
+  "native-ready-omnidocbench": {
+   "benchmark": "omnidocbench",
+   "rows": 2,
+   "scores": [
+    100.0,
+    99.44598337950139
+   ]
+  },
+  "native-ready-dp_bench": {
+   "benchmark": "dp_bench",
+   "rows": 2,
+   "scores": [
+    97.98165137614679,
+    98.22890877928013
+   ]
+  },
+  "native-ready-omniparsebench": {
+   "benchmark": "omniparsebench",
+   "rows": 2,
+   "scores": [
+    100.0,
+    100.0
+   ]
+  },
+  "native-ready-puredocbench": {
+   "benchmark": "puredocbench",
+   "rows": 2,
+   "scores": [
+    88.49764605284169,
+    87.8502558994582
+   ]
+  }
+ },
+ "mdpbench_packages": {
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "scikit-image": "0.22.0",
+  "pyarrow": "20.0.0",
+  "datasets": "3.6.0"
+ }
+}

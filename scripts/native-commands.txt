@@ -1,0 +1,12 @@
+benchbench native ${BENCHBENCH_RUNS}/dp_bench --benchmark dp_bench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/idp_leaderboard --benchmark idp_leaderboard --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/mdpbench --benchmark mdpbench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/ocrflux_bench --benchmark ocrflux_bench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/olmocr_bench --benchmark olmocr_bench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/omnidocbench --benchmark omnidocbench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/omniparsebench --benchmark omniparsebench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/parsebench2 --benchmark parsebench2 --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/puredocbench --benchmark puredocbench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/rd_tablebench --benchmark rd_tablebench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/real5_omnidocbench --benchmark real5_omnidocbench --presets datalab_accurate --conditions clean tilt_2_4
+benchbench native ${BENCHBENCH_RUNS}/score_bench --benchmark score_bench --presets datalab_accurate --conditions clean tilt_2_4

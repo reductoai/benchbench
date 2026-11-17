@@ -1,0 +1,63 @@
+{
+ "pages": 499,
+ "missing": [
+  "real5_omnidocbench__images_newspaper_The_Wall_Street_Journal_-_2025-01-08_magazinesclubnew_page_018.png"
+ ],
+ "gpt_mean": {
+  "reducto_r1": 9.06,
+  "llamaparse_agentic_plus": 8.71,
+  "datalab_accurate": 8.681,
+  "extend_performance_agentic_formulas": 7.746,
+  "mistral_ocr_4_1": 8.026,
+  "azure_layout_high_res_formulas": 6.531,
+  "pulse_ultra_2": 8.628,
+  "cohere_parse_v5": 6.126
+ },
+ "gemini_own_mean": {
+  "reducto_r1": 8.195,
+  "llamaparse_agentic_plus": 7.665,
+  "datalab_accurate": 7.63,
+  "extend_performance_agentic_formulas": 6.446,
+  "mistral_ocr_4_1": 7.041,
+  "azure_layout_high_res_formulas": 4.758,
+  "pulse_ultra_2": 7.558,
+  "cohere_parse_v5": 5.331
+ },
+ "agreement": {
+  "agreement": 0.9642857142857143,
+  "ci90": [
+   0.8928571428571429,
+   0.9642857142857143
+  ],
+  "pairs": 28
+ },
+ "confirmed": [
+  "reducto_r1 > llamaparse_agentic_plus",
+  "reducto_r1 > datalab_accurate",
+  "reducto_r1 > extend_performance_agentic_formulas",
+  "reducto_r1 > mistral_ocr_4_1",
+  "reducto_r1 > azure_layout_high_res_formulas",
+  "reducto_r1 > pulse_ultra_2",
+  "reducto_r1 > cohere_parse_v5",
+  "llamaparse_agentic_plus > extend_performance_agentic_formulas",
+  "llamaparse_agentic_plus > mistral_ocr_4_1",
+  "llamaparse_agentic_plus > azure_layout_high_res_formulas",
+  "llamaparse_agentic_plus > cohere_parse_v5",
+  "datalab_accurate > extend_performance_agentic_formulas",
+  "datalab_accurate > mistral_ocr_4_1",
+  "datalab_accurate > azure_layout_high_res_formulas",
+  "datalab_accurate > cohere_parse_v5",
+  "mistral_ocr_4_1 > extend_performance_agentic_formulas",
+  "extend_performance_agentic_formulas > azure_layout_high_res_formulas",
+  "pulse_ultra_2 > extend_performance_agentic_formulas",
+  "extend_performance_agentic_formulas > cohere_parse_v5",
+  "mistral_ocr_4_1 > azure_layout_high_res_formulas",
+  "pulse_ultra_2 > mistral_ocr_4_1",
+  "mistral_ocr_4_1 > cohere_parse_v5",
+  "pulse_ultra_2 > azure_layout_high_res_formulas",
+  "pulse_ultra_2 > cohere_parse_v5"
+ ],
+ "gpt_only": [
+  "azure_layout_high_res_formulas vs cohere_parse_v5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "seed": 20261107,
+ "dpi": 200,
+ "benchmarks": [
+  "omnidocbench"
+ ],
+ "sample_n": 500,
+ "parsejudge_commit": "76f65c45c13dd7bf0b0af8bae2cea5ffd93c9cc0",
+ "notes": "",
+ "created": "2026-11-07T23:31:33.733902+00:00"
+}

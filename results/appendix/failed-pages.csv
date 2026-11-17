@@ -1,0 +1,27 @@
+judge,condition,benchmark,page,in_sol_r0,error
+argon,clean,score_bench,score_bench__src_2020-jinich_p1-6-p006.pdf,1,Invalid judge output: Expected a valid JSON string
+fable,clean,score_bench,score_bench__src_patent-y2016-9493801-p17.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,tilt_2_4,score_bench,score_bench__src_patent-y2016-9493801-p17.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,clean,olmocr_bench,olmocr_bench__bench_data_pdfs_multi_column_05aa71fa77e07bccb443ef4fd28dde3ecfd6_page_7_pg1.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,tilt_2_4,olmocr_bench,olmocr_bench__bench_data_pdfs_multi_column_05aa71fa77e07bccb443ef4fd28dde3ecfd6_page_7_pg1.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,clean,omniparsebench,omniparsebench__pages_olmo_multi_column-05aa71fa77e07bccb443ef4fd28dde3ecfd6_page_7_pg1-p1.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,clean,omniparsebench,omniparsebench__pages_tables_derived-PMC10914731.1_doc-p5.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,clean,omniparsebench,omniparsebench__pages_tables_derived-PMC10914731.1_doc-p9.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,clean,omniparsebench,omniparsebench__pages_tables_derived-PMC2657108.1_doc-p7.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,clean,omniparsebench,omniparsebench__pages_tables_derived-PMC4742983.1_doc-p2.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,clean,omniparsebench,omniparsebench__pages_tables_derived-PMC9297761.1_doc-p6.pdf,1,Judge response has no message content (finish_reason content_filter)
+argon,tilt_2_4,omniparsebench,omniparsebench__pages_docparsing_images-images_7d9004a7_images_research_academic_paper_00052-p1.png,1,Invalid judge output: Expected a valid JSON string
+fable,tilt_2_4,omniparsebench,omniparsebench__pages_olmo_multi_column-05aa71fa77e07bccb443ef4fd28dde3ecfd6_page_7_pg1-p1.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,tilt_2_4,omniparsebench,omniparsebench__pages_tables_derived-PMC10914731.1_doc-p5.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,tilt_2_4,omniparsebench,omniparsebench__pages_tables_derived-PMC10914731.1_doc-p9.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,tilt_2_4,omniparsebench,omniparsebench__pages_tables_derived-PMC2657108.1_doc-p7.pdf,1,Judge response has no message content (finish_reason content_filter)
+fable,tilt_2_4,omniparsebench,omniparsebench__pages_tables_derived-PMC9297761.1_doc-p6.pdf,1,Judge response has no message content (finish_reason content_filter)
+argon,tilt_2_4,mdpbench,mdpbench__MDPBench_img_public_hi_book_12.png,1,Invalid judge output: Expected a valid JSON string
+argon,tilt_2_4,mdpbench,mdpbench__MDPBench_img_public_hi_report_30.jpeg,1,Judge response has no message content (finish_reason content_filter: PROHIBITED_CONTENT)
+argon,tilt_2_4,mdpbench,mdpbench__MDPBench_img_public_nl_slide_10_indoor_light_oblique_wrinkle.png,1,Judge response has no message content (finish_reason content_filter: PROHIBITED_CONTENT)
+argon,tilt_2_4,rd_tablebench,rd_tablebench__rd-tablebench__images_21520_png.rf.cdf46c497c42af5f4b2cc05c90a54b49.jpg,1,Invalid judge output: Expected a valid JSON string
+argon,clean,real5_omnidocbench,real5_omnidocbench__images_newspaper_The_Wall_Street_Journal_-_2025-01-08_magazinesclubnew_page_018.png,1,Judge response has no message content (finish_reason content_filter: OTHER)
+fable,clean,real5_omnidocbench,real5_omnidocbench__images_docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7.jpg,1,Judge response has no message content (finish_reason content_filter)
+argon,tilt_2_4,real5_omnidocbench,real5_omnidocbench__images_newspaper_The_Wall_Street_Journal_-_2025-01-08_magazinesclubnew_page_018.png,1,Judge response has no message content (finish_reason other)
+argon,tilt_2_4,real5_omnidocbench,real5_omnidocbench__images_yanbaopptmerge_yanbaoPPT_5555.jpg,1,Judge response has no message content (finish_reason content_filter: PROHIBITED_CONTENT)
+fable,tilt_2_4,real5_omnidocbench,real5_omnidocbench__images_docstructbench_llm-raw-scihub-o.O-j.ab.2008.05.027.pdf_7.jpg,1,Invalid judge output: Expected a valid JSON string

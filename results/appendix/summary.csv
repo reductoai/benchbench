@@ -1,0 +1,11 @@
+judge,condition,benchmarks,same_winner,reducto_first,matched_pages,sol_pages,failed_pages,non_reducto_winners
+argon,clean,12,6,4,5219,5221,2,DP-Bench: Pulse; olmOCR-Bench: Datalab; OmniParseBench: Datalab; OCRFlux-bench: Pulse; IDP Leaderboard: LlamaParse; MDPBench: LlamaParse; RD-TableBench: LlamaParse; PureDocBench: Datalab
+argon,tilt_2_4,12,9,8,5213,5220,7,olmOCR-Bench: Datalab; OmniParseBench: Datalab; MDPBench: LlamaParse; PureDocBench: Datalab
+astra,clean,12,12,10,5221,5221,0,IDP Leaderboard: LlamaParse; MDPBench: LlamaParse
+astra,tilt_2_4,12,12,9,5220,5220,0,IDP Leaderboard: Mistral OCR; MDPBench: LlamaParse; PureDocBench: Datalab
+fable,clean,12,12,10,5212,5221,9,IDP Leaderboard: LlamaParse; MDPBench: LlamaParse
+fable,tilt_2_4,12,12,9,5212,5220,8,IDP Leaderboard: Mistral OCR; MDPBench: LlamaParse; PureDocBench: Datalab
+terse,clean,12,12,10,5221,5221,0,IDP Leaderboard: LlamaParse; MDPBench: LlamaParse
+terse,tilt_2_4,12,10,9,5220,5220,0,DP-Bench: Mistral OCR; IDP Leaderboard: Mistral OCR; MDPBench: LlamaParse
+minimal,clean,12,12,10,5221,5221,0,IDP Leaderboard: LlamaParse; MDPBench: LlamaParse
+minimal,tilt_2_4,12,10,11,5220,5220,0,MDPBench: LlamaParse

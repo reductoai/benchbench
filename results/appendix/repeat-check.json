@@ -1,0 +1,176 @@
+{
+  "tags": [
+    "gpt-6.1-sol-medium-r0",
+    "gpt-6.1-sol-medium-r1"
+  ],
+  "benchmarks": [
+    {
+      "id": "dp_bench",
+      "pages": 200,
+      "r0_pages": 200,
+      "r1_pages": 200,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "score_bench",
+      "pages": 224,
+      "r0_pages": 224,
+      "r1_pages": 224,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "olmocr_bench",
+      "pages": 500,
+      "r0_pages": 500,
+      "r1_pages": 500,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "omniparsebench",
+      "pages": 500,
+      "r0_pages": 500,
+      "r1_pages": 500,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "ocrflux_bench",
+      "pages": 500,
+      "r0_pages": 500,
+      "r1_pages": 500,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "idp_leaderboard",
+      "pages": 300,
+      "r0_pages": 300,
+      "r1_pages": 300,
+      "winners": [
+        [
+          "llamaparse_agentic_plus"
+        ],
+        [
+          "llamaparse_agentic_plus"
+        ]
+      ]
+    },
+    {
+      "id": "mdpbench",
+      "pages": 497,
+      "r0_pages": 497,
+      "r1_pages": 497,
+      "winners": [
+        [
+          "llamaparse_agentic_plus"
+        ],
+        [
+          "llamaparse_agentic_plus"
+        ]
+      ]
+    },
+    {
+      "id": "rd_tablebench",
+      "pages": 500,
+      "r0_pages": 500,
+      "r1_pages": 500,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "puredocbench",
+      "pages": 500,
+      "r0_pages": 500,
+      "r1_pages": 500,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "omnidocbench",
+      "pages": 500,
+      "r0_pages": 500,
+      "r1_pages": 500,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "real5_omnidocbench",
+      "pages": 500,
+      "r0_pages": 500,
+      "r1_pages": 500,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    },
+    {
+      "id": "parsebench2",
+      "pages": 500,
+      "r0_pages": 500,
+      "r1_pages": 500,
+      "winners": [
+        [
+          "reducto_r1"
+        ],
+        [
+          "reducto_r1"
+        ]
+      ]
+    }
+  ]
+}

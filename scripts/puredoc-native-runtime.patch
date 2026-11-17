@@ -1,0 +1,19 @@
+diff --git a/benchbench/adapters/puredocbench.py b/benchbench/adapters/puredocbench.py
+index a2f2278..10ca5e8 100644
+--- a/benchbench/adapters/puredocbench.py
++++ b/benchbench/adapters/puredocbench.py
+@@ -227,8 +227,13 @@ def score(run, cond, preset, pages, out_dir: Path) -> list[dict]:
+         "python /omni/pdf_validation.py --config /job/job.yaml",
+     ]
+     log = work / "evaluator.log"
++    if os.environ.get("OMNIDOCBENCH_RUNNER") == "native":
++        cfg["end2end_eval"]["dataset"]["ground_truth"]["data_path"] = str(work / "gt.json")
++        cfg["end2end_eval"]["dataset"]["prediction"]["data_path"] = str(work / "predictions")
++        (work / "job.yaml").write_text(yaml.safe_dump(cfg, sort_keys=False))
++        cmd = [os.environ["PUREDOCBENCH_EVAL_PYTHON"], str(omni / "pdf_validation.py"), "--config", str(work / "job.yaml")]
+     with log.open("w") as f:
+-        done = subprocess.run(cmd, stdout=f, stderr=subprocess.STDOUT)
++        done = subprocess.run(cmd, cwd=work if os.environ.get("OMNIDOCBENCH_RUNNER") == "native" else None, stdout=f, stderr=subprocess.STDOUT)
+     # The evaluator calls sys.exit() with status 0 on a matching exception, so check the outputs too.
+     if done.returncode != 0 or not (res / "predictions_quick_match_metric_result.json").exists():
+         raise RuntimeError(f"evaluator failed ({done.returncode}, no metric_result); see {log}")

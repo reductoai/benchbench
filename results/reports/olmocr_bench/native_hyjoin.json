@@ -1,0 +1,194 @@
+{
+ "pages": 500,
+ "reducto_r1": {
+  "official": 71.26113107364426,
+  "hyjoin": 74.165521894167,
+  "fmtnorm": 75.36878060163092,
+  "hyjoin_ci90": [
+   71.82239575078734,
+   75.9142760649648
+  ],
+  "delta": 2.9043908205227353,
+  "delta_ci90": [
+   2.0480071441545413,
+   3.8907483380941583
+  ],
+  "tests_fixed": 60,
+  "tests_broken": 1,
+  "official_rank": 6,
+  "hyjoin_rank": 3,
+  "fmtnorm_rank": 3
+ },
+ "llamaparse_agentic_plus": {
+  "official": 75.12656903119172,
+  "hyjoin": 75.12656903119172,
+  "fmtnorm": 75.86321580652647,
+  "hyjoin_ci90": [
+   72.87318091942329,
+   76.9827050488078
+  ],
+  "delta": 0.0,
+  "delta_ci90": [
+   0.0,
+   0.0
+  ],
+  "tests_fixed": 0,
+  "tests_broken": 0,
+  "reducto_minus_hyjoin_ci90": [
+   -2.3001122090920445,
+   0.21075500251316792
+  ],
+  "official_rank": 2,
+  "hyjoin_rank": 2,
+  "fmtnorm_rank": 2
+ },
+ "datalab_accurate": {
+  "official": 75.61483158515415,
+  "hyjoin": 75.61483158515415,
+  "fmtnorm": 76.2495863427451,
+  "hyjoin_ci90": [
+   73.39300519386798,
+   77.46241623986302
+  ],
+  "delta": 0.0,
+  "delta_ci90": [
+   0.0,
+   0.0
+  ],
+  "tests_fixed": 0,
+  "tests_broken": 0,
+  "reducto_minus_hyjoin_ci90": [
+   -2.818512591516896,
+   -0.2954727745573848
+  ],
+  "official_rank": 1,
+  "hyjoin_rank": 1,
+  "fmtnorm_rank": 1
+ },
+ "extend_performance_agentic_formulas": {
+  "official": 64.14899490925562,
+  "hyjoin": 64.14899490925562,
+  "fmtnorm": 64.14899490925562,
+  "hyjoin_ci90": [
+   61.44858073541192,
+   66.58506890791207
+  ],
+  "delta": 0.0,
+  "delta_ci90": [
+   0.0,
+   0.0
+  ],
+  "tests_fixed": 0,
+  "tests_broken": 0,
+  "reducto_minus_hyjoin_ci90": [
+   7.249494366147198,
+   12.566084081998115
+  ],
+  "official_rank": 7,
+  "hyjoin_rank": 8,
+  "fmtnorm_rank": 8
+ },
+ "mistral_ocr_4_1": {
+  "official": 73.16088315750461,
+  "hyjoin": 73.16088315750461,
+  "fmtnorm": 73.16088315750461,
+  "hyjoin_ci90": [
+   69.9228191202854,
+   76.0856907581363
+  ],
+  "delta": 0.0,
+  "delta_ci90": [
+   0.0,
+   0.0
+  ],
+  "tests_fixed": 0,
+  "tests_broken": 0,
+  "reducto_minus_hyjoin_ci90": [
+   -2.075623466380325,
+   4.352151557959066
+  ],
+  "official_rank": 4,
+  "hyjoin_rank": 5,
+  "fmtnorm_rank": 5
+ },
+ "azure_layout_high_res_formulas": {
+  "official": 62.52882074889398,
+  "hyjoin": 65.3914110782019,
+  "fmtnorm": 65.3914110782019,
+  "hyjoin_ci90": [
+   62.605307722323914,
+   68.22669790677334
+  ],
+  "delta": 2.8625903293079205,
+  "delta_ci90": [
+   2.0445597121227075,
+   3.8332777772303284
+  ],
+  "tests_fixed": 60,
+  "tests_broken": 1,
+  "reducto_minus_hyjoin_ci90": [
+   6.041608163497292,
+   11.368163494004223
+  ],
+  "official_rank": 8,
+  "hyjoin_rank": 7,
+  "fmtnorm_rank": 7
+ },
+ "pulse_ultra_2": {
+  "official": 73.11733873363437,
+  "hyjoin": 73.11733873363437,
+  "fmtnorm": 73.1570212733169,
+  "hyjoin_ci90": [
+   70.7608670645603,
+   75.04463701129802
+  ],
+  "delta": 0.0,
+  "delta_ci90": [
+   0.0,
+   0.0
+  ],
+  "tests_fixed": 0,
+  "tests_broken": 0,
+  "reducto_minus_hyjoin_ci90": [
+   -0.8808162488280167,
+   2.9072934648942463
+  ],
+  "official_rank": 5,
+  "hyjoin_rank": 6,
+  "fmtnorm_rank": 6
+ },
+ "cohere_parse_v5": {
+  "official": 73.35607105932614,
+  "hyjoin": 73.35607105932614,
+  "fmtnorm": 73.35607105932614,
+  "hyjoin_ci90": [
+   70.82124842758606,
+   75.28068446292802
+  ],
+  "delta": 0.0,
+  "delta_ci90": [
+   0.0,
+   0.0
+  ],
+  "tests_fixed": 0,
+  "tests_broken": 0,
+  "reducto_minus_hyjoin_ci90": [
+   -0.5486717683059005,
+   2.1075977665740626
+  ],
+  "official_rank": 3,
+  "hyjoin_rank": 4,
+  "fmtnorm_rank": 4
+ },
+ "_pages_changed": {
+  "reducto_r1": 261,
+  "llamaparse_agentic_plus": 1,
+  "datalab_accurate": 7,
+  "extend_performance_agentic_formulas": 0,
+  "mistral_ocr_4_1": 6,
+  "azure_layout_high_res_formulas": 249,
+  "pulse_ultra_2": 6,
+  "cohere_parse_v5": 3
+ },
+ "_rule": "re.sub(r'([A-Za-z])-[ \\t]*\\n[ \\t]*([a-z])', r'\\1\\2', markdown) on clean parses; pinned olmOCR scorer f7cfe4c; mean of per-suite pass rates on the pages every preset scored"
+}

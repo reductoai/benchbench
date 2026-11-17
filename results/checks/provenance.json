@@ -1,0 +1,295 @@
+{
+ "resample": {
+  "dp_bench": {
+   "bench": "dp_bench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 200,
+   "resampled": 200,
+   "identical_ids": true,
+   "same_set": true,
+   "hf_revision": "24702c61a2fb"
+  },
+  "score_bench": {
+   "bench": "score_bench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 224,
+   "resampled": 224,
+   "identical_ids": true,
+   "same_set": true,
+   "hf_revision": "15dc068f6f9adcfbfd84dbddfdf2a2c9c11bf0c0"
+  },
+  "olmocr_bench": {
+   "bench": "olmocr_bench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 500,
+   "resampled": 500,
+   "identical_ids": true,
+   "same_set": true,
+   "hf_revision": "54a96a6fb6a2"
+  },
+  "omniparsebench": {
+   "bench": "omniparsebench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 500,
+   "resampled": 500,
+   "identical_ids": true,
+   "same_set": true,
+   "hf_revision": "d70182b9f901"
+  },
+  "ocrflux_bench": {
+   "bench": "ocrflux_bench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 500,
+   "resampled": 500,
+   "identical_ids": true,
+   "same_set": true,
+   "hf_revision": "2ef2080038c7"
+  },
+  "idp_leaderboard": {
+   "bench": "idp_leaderboard",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 300,
+   "resampled": 300,
+   "identical_ids": true,
+   "same_set": true,
+   "hf_revision": null
+  },
+  "mdpbench": {
+   "bench": "mdpbench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 500,
+   "resampled": 500,
+   "identical_ids": true,
+   "same_set": true,
+   "hf_revision": "252df132fe1b"
+  },
+  "rd_tablebench": {
+   "bench": "rd_tablebench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 500,
+   "resampled": 500,
+   "identical_ids": true,
+   "same_set": true,
+   "hf_revision": "7748503e2bd5f210d27aa2ef5fdf4b8aa13099bb"
+  },
+  "puredocbench": {
+   "bench": "puredocbench",
+   "files_listed": 1475,
+   "prereg": 500,
+   "resampled": 500,
+   "same_set": true,
+   "note": "file list from streamed tar member names of pdb_full.tar.part-000..009"
+  },
+  "omnidocbench": {
+   "bench": "omnidocbench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 500,
+   "resampled": 500,
+   "identical_ids": false,
+   "same_set": true,
+   "hf_revision": "aa1ee96d106d"
+  },
+  "real5_omnidocbench": {
+   "bench": "real5_omnidocbench",
+   "seed": 20261107,
+   "n": 500,
+   "prereg": 500,
+   "resampled": 500,
+   "identical_ids": false,
+   "same_set": true,
+   "hf_revision": "f0585fb44c2a"
+  }
+ },
+ "first_call": {
+  "dp_bench": {
+   "bench": "dp_bench",
+   "vendor_records": 9159,
+   "with_finished": 8190,
+   "missing": [
+    "benchbench/runs/dp_bench/attempts/clean/azure_layout_high_res_formulas/dp_bench__dataset_pdfs_01030000000006.pdf.20261108T010309721107-try0.json",
+    "benchbench/runs/dp_bench/attempts/clean/azure_layout_high_res_formulas/dp_bench__dataset_pdfs_01030000000009.pdf.20261108T005928198649-try0.json",
+    "benchbench/runs/dp_bench/attempts/clean/azure_layout_high_res_formulas/dp_bench__dataset_pdfs_01030000000009.pdf.20261108T005928198649-try1.json",
+    "benchbench/runs/dp_bench/attempts/clean/azure_layout_high_res_formulas/dp_bench__dataset_pdfs_01030000000011.pdf.20261108T010456318847-try0.json",
+    "benchbench/runs/dp_bench/attempts/clean/azure_layout_high_res_formulas/dp_bench__dataset_pdfs_01030000000011.pdf.20261108T010456318847-try1.json"
+   ],
+   "n_missing": 969,
+   "earliest_start": [
+    "2026-11-07T23:35:28.849140+00:00",
+    "benchbench/runs/dp_bench/parses/tilt_2_4/pulse_ultra_2/dp_bench__dataset_pdfs_01030000000158.pdf.json"
+   ]
+  },
+  "score_bench": {
+   "bench": "score_bench",
+   "vendor_records": 9928,
+   "with_finished": 9160,
+   "missing": [
+    "benchbench/runs/score_bench/attempts/clean/azure_layout_high_res_formulas/score_bench__src_005-CISA-AA22-076-Strengthening-Cybersecurity-p1-p4-p004.pdf.20261108T010150958226-try0.json",
+    "benchbench/runs/score_bench/attempts/clean/azure_layout_high_res_formulas/score_bench__src_005-CISA-AA22-076-Strengthening-Cybersecurity-p1-p4-p004.pdf.20261108T010150958226-try1.json",
+    "benchbench/runs/score_bench/attempts/clean/azure_layout_high_res_formulas/score_bench__src_005-CISA-AA22-076-Strengthening-Cybersecurity-p1-p4-p004.pdf.20261108T010150958226-try2.json",
+    "benchbench/runs/score_bench/attempts/clean/azure_layout_high_res_formulas/score_bench__src_153rd-Omaha-Pow-Wow-p001.pdf.20261108T010229568876-try0.json",
+    "benchbench/runs/score_bench/attempts/clean/azure_layout_high_res_formulas/score_bench__src_153rd-Omaha-Pow-Wow-p001.pdf.20261108T010229568876-try1.json"
+   ],
+   "n_missing": 768,
+   "earliest_start": [
+    "2026-11-07T23:33:25.189817+00:00",
+    "benchbench/runs/score_bench/parses/tilt_2_4/pulse_ultra_2/score_bench__src_mgm_895557014-p002.pdf.json"
+   ]
+  },
+  "olmocr_bench": {
+   "bench": "olmocr_bench",
+   "vendor_records": 22338,
+   "with_finished": 21234,
+   "missing": [
+    "benchbench/runs/olmocr_bench/attempts/clean/azure_layout_high_res_formulas/olmocr_bench__bench_data_pdfs_arxiv_math_2502.15977_pg21.pdf.20261108T010457090393-try0.json",
+    "benchbench/runs/olmocr_bench/attempts/clean/azure_layout_high_res_formulas/olmocr_bench__bench_data_pdfs_arxiv_math_2502.15977_pg21.pdf.20261108T010457090393-try1.json",
+    "benchbench/runs/olmocr_bench/attempts/clean/azure_layout_high_res_formulas/olmocr_bench__bench_data_pdfs_arxiv_math_2503.03909_pg14.pdf.20261108T010556673439-try0.json",
+    "benchbench/runs/olmocr_bench/attempts/clean/azure_layout_high_res_formulas/olmocr_bench__bench_data_pdfs_arxiv_math_2503.03909_pg14.pdf.20261108T010556673439-try1.json",
+    "benchbench/runs/olmocr_bench/attempts/clean/azure_layout_high_res_formulas/olmocr_bench__bench_data_pdfs_arxiv_math_2503.03949_pg1.pdf.20261108T005910708804-try0.json"
+   ],
+   "n_missing": 1104,
+   "earliest_start": [
+    "2026-11-07T23:36:18.603815+00:00",
+    "benchbench/runs/olmocr_bench/parses/tilt_2_4/extend_performance_agentic/olmocr_bench__bench_data_pdfs_multi_column_028649690bbc67fe3ba040b4b2bf6c37f487_page_22_pg1.pdf.json"
+   ]
+  },
+  "omniparsebench": {
+   "bench": "omniparsebench",
+   "vendor_records": 21896,
+   "with_finished": 20160,
+   "missing": [
+    "benchbench/runs/omniparsebench/attempts/clean/azure_layout_high_res_formulas/omniparsebench__pages_docparsing_images-images_851b5348_images_legal_legal_provision_00029-p1.png.20261108T005929759695-try0.json",
+    "benchbench/runs/omniparsebench/attempts/clean/azure_layout_high_res_formulas/omniparsebench__pages_docparsing_images-images_851b5348_images_legal_legal_provision_00029-p1.png.20261108T005929759695-try1.json",
+    "benchbench/runs/omniparsebench/attempts/clean/azure_layout_high_res_formulas/omniparsebench__pages_docparsing_images-images_9672510d_images_education_english_00001-p1.png.20261108T005852681850-try0.json",
+    "benchbench/runs/omniparsebench/attempts/clean/azure_layout_high_res_formulas/omniparsebench__pages_docparsing_images-images_9672510d_images_education_english_00001-p1.png.20261108T005852681850-try1.json",
+    "benchbench/runs/omniparsebench/attempts/clean/azure_layout_high_res_formulas/omniparsebench__pages_docparsing_images-images_9672510d_images_education_english_00001-p1.png.20261108T005852681850-try2.json"
+   ],
+   "n_missing": 1736,
+   "earliest_start": [
+    "2026-11-07T23:36:58.728039+00:00",
+    "benchbench/runs/omniparsebench/parses/clean/cohere_parse_v5/omniparsebench__pages_olmo_table_tests-ba0f816b5cf4d3dfbe94a841b6058019bc4a_pg13-p1.pdf.json"
+   ]
+  },
+  "ocrflux_bench": {
+   "bench": "ocrflux_bench",
+   "vendor_records": 22482,
+   "with_finished": 20886,
+   "missing": [
+    "benchbench/runs/ocrflux_bench/attempts/clean/azure_layout_high_res_formulas/ocrflux_bench__pdfs_11658445_91.pdf.20261108T010616339633-try0.json",
+    "benchbench/runs/ocrflux_bench/attempts/clean/azure_layout_high_res_formulas/ocrflux_bench__pdfs_11659980_48.pdf.20261108T010000279368-try0.json",
+    "benchbench/runs/ocrflux_bench/attempts/clean/azure_layout_high_res_formulas/ocrflux_bench__pdfs_11684728_113.pdf.20261108T010538542350-try0.json",
+    "benchbench/runs/ocrflux_bench/attempts/clean/azure_layout_high_res_formulas/ocrflux_bench__pdfs_11684728_85.pdf.20261108T010610206879-try0.json",
+    "benchbench/runs/ocrflux_bench/attempts/clean/azure_layout_high_res_formulas/ocrflux_bench__pdfs_11684728_85.pdf.20261108T010610206879-try1.json"
+   ],
+   "n_missing": 1596,
+   "earliest_start": [
+    "2026-11-07T23:35:58.869080+00:00",
+    "benchbench/runs/ocrflux_bench/parses/tilt_2_4/pulse_ultra_2/ocrflux_bench__pdfs_11767810_9.pdf.json"
+   ]
+  },
+  "idp_leaderboard": {
+   "bench": "idp_leaderboard",
+   "vendor_records": 13576,
+   "with_finished": 12350,
+   "missing": [
+    "benchbench/runs/idp_leaderboard/attempts/clean/azure_layout_high_res_formulas/idp_leaderboard__long_dense_structured_table_0.jpg.20261108T005937609199-try0.json",
+    "benchbench/runs/idp_leaderboard/attempts/clean/azure_layout_high_res_formulas/idp_leaderboard__long_dense_structured_table_1.jpg.20261108T010740747800-try0.json",
+    "benchbench/runs/idp_leaderboard/attempts/clean/azure_layout_high_res_formulas/idp_leaderboard__long_dense_structured_table_1.jpg.20261108T010740747800-try1.json",
+    "benchbench/runs/idp_leaderboard/attempts/clean/azure_layout_high_res_formulas/idp_leaderboard__long_dense_structured_table_10.jpg.20261108T010300165005-try0.json",
+    "benchbench/runs/idp_leaderboard/attempts/clean/azure_layout_high_res_formulas/idp_leaderboard__long_dense_structured_table_10.jpg.20261108T010300165005-try1.json"
+   ],
+   "n_missing": 1226,
+   "earliest_start": [
+    "2026-11-07T23:55:47.278689+00:00",
+    "benchbench/runs/idp_leaderboard/parses/perspective/extend_performance_agentic/idp_leaderboard__long_sparse_structured_table_0.jpg.json"
+   ]
+  },
+  "mdpbench": {
+   "bench": "mdpbench",
+   "vendor_records": 23552,
+   "with_finished": 22076,
+   "missing": [
+    "benchbench/runs/mdpbench/attempts/clean/azure_layout_high_res_formulas/mdpbench__MDPBench_img_public_ar_academicpaper_27.jpg.20261108T010449039833-try0.json",
+    "benchbench/runs/mdpbench/attempts/clean/azure_layout_high_res_formulas/mdpbench__MDPBench_img_public_ar_academicpaper_27.jpg.20261108T010449039833-try1.json",
+    "benchbench/runs/mdpbench/attempts/clean/azure_layout_high_res_formulas/mdpbench__MDPBench_img_public_ar_academicpaper_34_outdoor_underexposure_flashlight-on_top_bend-out_blur.JPEG.20261108T010239824185-try0.json",
+    "benchbench/runs/mdpbench/attempts/clean/azure_layout_high_res_formulas/mdpbench__MDPBench_img_public_ar_academicpaper_37_indoor_light_top_crease_hold.JPEG.20261108T010733044237-try0.json",
+    "benchbench/runs/mdpbench/attempts/clean/azure_layout_high_res_formulas/mdpbench__MDPBench_img_public_ar_academicpaper_37_indoor_light_top_crease_hold.JPEG.20261108T010733044237-try1.json"
+   ],
+   "n_missing": 1476,
+   "earliest_start": [
+    "2026-11-07T23:38:53.851061+00:00",
+    "benchbench/runs/mdpbench/parses/perspective/cohere_parse_v5/mdpbench__MDPBench_img_public_zh_exampaper_25_outdoor_underexposure_flashlight-on_top_bend-out.JPEG.json"
+   ]
+  },
+  "rd_tablebench": {
+   "bench": "rd_tablebench",
+   "vendor_records": 22388,
+   "with_finished": 21213,
+   "missing": [
+    "benchbench/runs/rd_tablebench/attempts/clean/azure_layout_high_res_formulas/rd_tablebench__rd-tablebench__images_10035_png.rf.07e8e5bf2e9ad4e77a84fd38d1f53f38.jpg.20261108T010459390832-try0.json",
+    "benchbench/runs/rd_tablebench/attempts/clean/azure_layout_high_res_formulas/rd_tablebench__rd-tablebench__images_10035_png.rf.07e8e5bf2e9ad4e77a84fd38d1f53f38.jpg.20261108T010459390832-try1.json",
+    "benchbench/runs/rd_tablebench/attempts/clean/azure_layout_high_res_formulas/rd_tablebench__rd-tablebench__images_10035_png.rf.07e8e5bf2e9ad4e77a84fd38d1f53f38.jpg.20261108T010459390832-try2.json",
+    "benchbench/runs/rd_tablebench/attempts/clean/azure_layout_high_res_formulas/rd_tablebench__rd-tablebench__images_10174_png.rf.524bbc04d95b46c14d903102045dc4ae.jpg.20261108T011721079030-try0.json",
+    "benchbench/runs/rd_tablebench/attempts/clean/azure_layout_high_res_formulas/rd_tablebench__rd-tablebench__images_10250_png.rf.cfd047fea9c412c6b70300f25b5531fa.jpg.20261108T010526818644-try0.json"
+   ],
+   "n_missing": 1175,
+   "earliest_start": [
+    "2026-11-07T23:34:52.289257+00:00",
+    "benchbench/runs/rd_tablebench/parses/tilt_2_4/extend_performance_agentic/rd_tablebench__rd-tablebench__images_13248_png.rf.20572cf128947dce732ee91bccf3cf12.jpg.json"
+   ]
+  },
+  "puredocbench": {
+   "bench": "puredocbench",
+   "vendor_records": 19542,
+   "with_finished": 19261,
+   "missing": [
+    "benchbench/runs/puredocbench/attempts/clean/azure_layout_high_res_formulas/puredocbench__puredocbench-v1.0_images_clean_01_academic_02_thesis_thesis_024_Master_Linguistics.png.20261108T011005715307-try0.json",
+    "benchbench/runs/puredocbench/attempts/clean/azure_layout_high_res_formulas/puredocbench__puredocbench-v1.0_images_clean_01_academic_02_thesis_thesis_024_Master_Linguistics.png.20261108T011005715307-try1.json",
+    "benchbench/runs/puredocbench/attempts/clean/azure_layout_high_res_formulas/puredocbench__puredocbench-v1.0_images_clean_01_academic_04_patent_patent_003_US_Patent_Claims.png.20261108T010427641854-try0.json",
+    "benchbench/runs/puredocbench/attempts/clean/azure_layout_high_res_formulas/puredocbench__puredocbench-v1.0_images_clean_01_academic_04_patent_patent_008__.png.20261108T010434002625-try0.json",
+    "benchbench/runs/puredocbench/attempts/clean/azure_layout_high_res_formulas/puredocbench__puredocbench-v1.0_images_clean_01_academic_04_patent_patent_008__.png.20261108T010434002625-try1.json"
+   ],
+   "n_missing": 281,
+   "earliest_start": [
+    "2026-11-07T23:45:47.108545+00:00",
+    "benchbench/runs/puredocbench/parses/clean/cohere_parse_v5/puredocbench__puredocbench-v1.0_images_clean_06_medical_04_medical_bill_medical_bill_014.png.json"
+   ]
+  },
+  "omnidocbench": {
+   "bench": "omnidocbench",
+   "vendor_records": 19802,
+   "with_finished": 19694,
+   "missing": [
+    "benchbench/runs/omnidocbench/attempts/clean/azure_layout_high_res_formulas/omnidocbench__images_PPT_MMAT5390Lecture1_page_024.png.20261108T005906941490-try0.json",
+    "benchbench/runs/omnidocbench/attempts/clean/azure_layout_high_res_formulas/omnidocbench__images_book_en__-_-Melvyn_B._Nathanson_Elementary_Methods_in_Number_Theory_0242.png.20261108T011452355070-try0.json",
+    "benchbench/runs/omnidocbench/attempts/clean/azure_layout_high_res_formulas/omnidocbench__images_docstructbench_dianzishu_zhongwenzaixian-o.O-61564860.pdf_81.jpg.20261108T010506801632-try0.json",
+    "benchbench/runs/omnidocbench/attempts/clean/azure_layout_high_res_formulas/omnidocbench__images_docstructbench_dianzishu_zhongwenzaixian-o.O-61564860.pdf_81.jpg.20261108T010506801632-try1.json",
+    "benchbench/runs/omnidocbench/attempts/clean/azure_layout_high_res_formulas/omnidocbench__images_docstructbench_dianzishu_zhongwenzaixian-o.O-61564860.pdf_81.jpg.20261108T010506801632-try2.json"
+   ],
+   "n_missing": 108,
+   "earliest_start": [
+    "2026-11-07T23:34:49.487725+00:00",
+    "benchbench/runs/omnidocbench/parses/clean/reducto_r1/omnidocbench__images_yanbaor2_5e780ffd1efcf79950df199abb69a114dd782d5b549ecd025b640f29a4feabef.pdf_2.jpg.json"
+   ]
+  },
+  "real5_omnidocbench": {
+   "vendor_records": 39978,
+   "with_finished": 39856,
+   "n_missing": 122,
+   "earliest_start": [
+    "2026-11-07T23:35:55.576094+00:00",
+    "benchbench/runs/real5_omnidocbench/parses/clean/mistral_ocr_4_1/real5_omnidocbench__images_yanbaopptmerge_yanbaoPPT_3215.jpg.json"
+   ]
+  }
+ },
+ "puredocbench_tar_sha256_stream": "598815f9b93c63858dc7a435cd8c5cd52921196541070d4011f05164a931b524",
+ "puredocbench_tar_sha256_expected": "598815f9b93c63858dc7a435cd8c5cd52921196541070d4011f05164a931b524"
+}

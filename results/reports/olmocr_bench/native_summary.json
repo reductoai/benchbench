@@ -1,0 +1,910 @@
+{
+ "final": {
+  "clean": {
+   "reducto_r1": {
+    "overall": 71.26113107364426,
+    "ci90": [
+     68.8503846155538,
+     73.20420051285821
+    ],
+    "by_suite": {
+     "arxiv_math": 84.61538461538461,
+     "baseline": 99.79919678714859,
+     "headers_footers": 14.982578397212544,
+     "long_tiny_text": 87.34177215189874,
+     "multi_column": 69.52380952380952,
+     "old_scans": 42.364532019704434,
+     "old_scans_math": 78.62595419847328,
+     "table_tests": 92.83582089552239
+    },
+    "pages": 500
+   },
+   "llamaparse_agentic_plus": {
+    "overall": 75.12656903119172,
+    "ci90": [
+     72.86145413620672,
+     77.17081181096077
+    ],
+    "by_suite": {
+     "arxiv_math": 87.76645041705282,
+     "baseline": 99.79919678714859,
+     "headers_footers": 21.254355400696863,
+     "long_tiny_text": 93.0379746835443,
+     "multi_column": 82.85714285714286,
+     "old_scans": 40.88669950738916,
+     "old_scans_math": 81.6793893129771,
+     "table_tests": 93.73134328358209
+    },
+    "pages": 500
+   },
+   "datalab_accurate": {
+    "overall": 75.61483158515415,
+    "ci90": [
+     73.48007098580895,
+     77.47673564707384
+    ],
+    "by_suite": {
+     "arxiv_math": 88.32252085264133,
+     "baseline": 100.0,
+     "headers_footers": 18.81533101045296,
+     "long_tiny_text": 96.20253164556962,
+     "multi_column": 85.39682539682539,
+     "old_scans": 49.26108374384236,
+     "old_scans_math": 82.44274809160305,
+     "table_tests": 84.4776119402985
+    },
+    "pages": 500
+   },
+   "extend_performance_agentic_formulas": {
+    "overall": 64.14899490925562,
+    "ci90": [
+     61.4631922381358,
+     66.4777145874037
+    ],
+    "by_suite": {
+     "arxiv_math": 25.67191844300278,
+     "baseline": 99.79919678714859,
+     "headers_footers": 30.662020905923345,
+     "long_tiny_text": 86.07594936708861,
+     "multi_column": 69.52380952380952,
+     "old_scans": 41.37931034482759,
+     "old_scans_math": 70.22900763358778,
+     "table_tests": 89.85074626865672
+    },
+    "pages": 500
+   },
+   "mistral_ocr_4_1": {
+    "overall": 73.16088315750461,
+    "ci90": [
+     70.08203489247765,
+     76.31295241738108
+    ],
+    "by_suite": {
+     "arxiv_math": 86.93234476367006,
+     "baseline": 99.59839357429719,
+     "headers_footers": 17.421602787456447,
+     "long_tiny_text": 94.30379746835443,
+     "multi_column": 88.57142857142857,
+     "old_scans": 45.8128078817734,
+     "old_scans_math": 64.8854961832061,
+     "table_tests": 87.76119402985074
+    },
+    "pages": 500
+   },
+   "azure_layout_high_res_formulas": {
+    "overall": 62.52882074889398,
+    "ci90": [
+     59.7812616951773,
+     65.41290357812034
+    ],
+    "by_suite": {
+     "arxiv_math": 74.42075996292864,
+     "baseline": 99.59839357429719,
+     "headers_footers": 25.43554006968641,
+     "long_tiny_text": 82.9113924050633,
+     "multi_column": 66.34920634920636,
+     "old_scans": 25.61576354679803,
+     "old_scans_math": 43.51145038167939,
+     "table_tests": 82.38805970149254
+    },
+    "pages": 500
+   },
+   "pulse_ultra_2": {
+    "overall": 73.11733873363437,
+    "ci90": [
+     70.79520722083032,
+     75.21468058533462
+    ],
+    "by_suite": {
+     "arxiv_math": 83.78127896200185,
+     "baseline": 99.59839357429719,
+     "headers_footers": 18.466898954703833,
+     "long_tiny_text": 89.24050632911393,
+     "multi_column": 87.93650793650794,
+     "old_scans": 37.4384236453202,
+     "old_scans_math": 78.62595419847328,
+     "table_tests": 89.85074626865672
+    },
+    "pages": 500
+   },
+   "cohere_parse_v5": {
+    "overall": 73.35607105932614,
+    "ci90": [
+     70.90629776250232,
+     75.40793304322015
+    ],
+    "by_suite": {
+     "arxiv_math": 86.09823911028731,
+     "baseline": 99.79919678714859,
+     "headers_footers": 26.13240418118467,
+     "long_tiny_text": 89.87341772151899,
+     "multi_column": 84.76190476190476,
+     "old_scans": 36.45320197044335,
+     "old_scans_math": 73.2824427480916,
+     "table_tests": 90.44776119402985
+    },
+    "pages": 500
+   },
+   "_common_pages": 500
+  },
+  "tilt_2_4": {
+   "reducto_r1": {
+    "overall": 71.85716467164524,
+    "ci90": [
+     69.70393446370647,
+     73.64346313129658
+    ],
+    "by_suite": {
+     "arxiv_math": 84.70806302131604,
+     "baseline": 99.79919678714859,
+     "headers_footers": 15.679442508710801,
+     "long_tiny_text": 86.70886075949367,
+     "multi_column": 70.15873015873017,
+     "old_scans": 42.857142857142854,
+     "old_scans_math": 80.91603053435115,
+     "table_tests": 94.02985074626865
+    },
+    "pages": 500
+   },
+   "llamaparse_agentic_plus": {
+    "overall": 72.8059306356041,
+    "ci90": [
+     69.55161883404872,
+     75.87994209068862
+    ],
+    "by_suite": {
+     "arxiv_math": 86.83966635773865,
+     "baseline": 100.0,
+     "headers_footers": 21.254355400696863,
+     "long_tiny_text": 93.67088607594937,
+     "multi_column": 83.4920634920635,
+     "old_scans": 43.34975369458128,
+     "old_scans_math": 64.8854961832061,
+     "table_tests": 88.95522388059702
+    },
+    "pages": 500
+   },
+   "datalab_accurate": {
+    "overall": 73.9412575000605,
+    "ci90": [
+     71.71876438601514,
+     76.2050956780324
+    ],
+    "by_suite": {
+     "arxiv_math": 87.21037998146431,
+     "baseline": 99.59839357429719,
+     "headers_footers": 18.81533101045296,
+     "long_tiny_text": 94.9367088607595,
+     "multi_column": 83.80952380952381,
+     "old_scans": 48.76847290640394,
+     "old_scans_math": 74.80916030534351,
+     "table_tests": 83.58208955223881
+    },
+    "pages": 500
+   },
+   "extend_performance_agentic_formulas": {
+    "overall": 64.87533515185426,
+    "ci90": [
+     62.62465688663975,
+     67.11106954062654
+    ],
+    "by_suite": {
+     "arxiv_math": 27.618164967562556,
+     "baseline": 99.79919678714859,
+     "headers_footers": 28.571428571428573,
+     "long_tiny_text": 85.44303797468355,
+     "multi_column": 70.47619047619048,
+     "old_scans": 41.87192118226601,
+     "old_scans_math": 73.2824427480916,
+     "table_tests": 91.94029850746269
+    },
+    "pages": 500
+   },
+   "mistral_ocr_4_1": {
+    "overall": 74.99321868288294,
+    "ci90": [
+     72.57371680578767,
+     76.95956581205263
+    ],
+    "by_suite": {
+     "arxiv_math": 86.6543095458758,
+     "baseline": 99.79919678714859,
+     "headers_footers": 17.770034843205575,
+     "long_tiny_text": 93.0379746835443,
+     "multi_column": 87.93650793650794,
+     "old_scans": 43.34975369458128,
+     "old_scans_math": 82.44274809160305,
+     "table_tests": 88.95522388059702
+    },
+    "pages": 500
+   },
+   "azure_layout_high_res_formulas": {
+    "overall": 60.927999617284,
+    "ci90": [
+     57.864537886621854,
+     63.98893182193864
+    ],
+    "by_suite": {
+     "arxiv_math": 75.06950880444856,
+     "baseline": 99.59839357429719,
+     "headers_footers": 24.390243902439025,
+     "long_tiny_text": 79.11392405063292,
+     "multi_column": 58.73015873015873,
+     "old_scans": 25.61576354679803,
+     "old_scans_math": 45.80152671755725,
+     "table_tests": 79.1044776119403
+    },
+    "pages": 500
+   },
+   "pulse_ultra_2": {
+    "overall": 67.72869406746383,
+    "ci90": [
+     64.17858388483847,
+     71.27981880924308
+    ],
+    "by_suite": {
+     "arxiv_math": 82.02038924930491,
+     "baseline": 99.59839357429719,
+     "headers_footers": 19.16376306620209,
+     "long_tiny_text": 77.84810126582279,
+     "multi_column": 83.17460317460318,
+     "old_scans": 31.527093596059114,
+     "old_scans_math": 59.541984732824424,
+     "table_tests": 88.95522388059702
+    },
+    "pages": 500
+   },
+   "cohere_parse_v5": {
+    "overall": 71.67416414642142,
+    "ci90": [
+     69.04141434315157,
+     73.91645203603862
+    ],
+    "by_suite": {
+     "arxiv_math": 83.59592215013902,
+     "baseline": 99.79919678714859,
+     "headers_footers": 26.829268292682926,
+     "long_tiny_text": 82.27848101265823,
+     "multi_column": 76.19047619047619,
+     "old_scans": 39.40886699507389,
+     "old_scans_math": 76.33587786259542,
+     "table_tests": 88.95522388059702
+    },
+    "pages": 500
+   },
+   "_common_pages": 500
+  },
+  "scan": {
+   "reducto_r1": {
+    "overall": 69.16439348278534,
+    "ci90": [
+     66.09955278686087,
+     72.31741494336244
+    ],
+    "by_suite": {
+     "arxiv_math": 84.61538461538461,
+     "baseline": 99.79919678714859,
+     "headers_footers": 15.331010452961673,
+     "long_tiny_text": 87.34177215189874,
+     "multi_column": 69.84126984126983,
+     "old_scans": 43.8423645320197,
+     "old_scans_math": 60.30534351145038,
+     "table_tests": 92.23880597014926
+    },
+    "pages": 500
+   },
+   "llamaparse_agentic_plus": {
+    "overall": 74.98105350928365,
+    "ci90": [
+     72.34271762651846,
+     77.15969789448992
+    ],
+    "by_suite": {
+     "arxiv_math": 87.95180722891567,
+     "baseline": 99.79919678714859,
+     "headers_footers": 21.60278745644599,
+     "long_tiny_text": 94.30379746835443,
+     "multi_column": 82.85714285714286,
+     "old_scans": 41.87192118226601,
+     "old_scans_math": 78.62595419847328,
+     "table_tests": 92.83582089552239
+    },
+    "pages": 500
+   },
+   "datalab_accurate": {
+    "overall": 73.68607570967225,
+    "ci90": [
+     71.50047794912243,
+     76.14256829792674
+    ],
+    "by_suite": {
+     "arxiv_math": 87.30305838739574,
+     "baseline": 99.79919678714859,
+     "headers_footers": 18.466898954703833,
+     "long_tiny_text": 94.9367088607595,
+     "multi_column": 85.39682539682539,
+     "old_scans": 47.783251231527096,
+     "old_scans_math": 72.51908396946565,
+     "table_tests": 83.28358208955224
+    },
+    "pages": 500
+   },
+   "extend_performance_agentic_formulas": {
+    "overall": 64.38654033055019,
+    "ci90": [
+     61.792116413726546,
+     66.73172598935936
+    ],
+    "by_suite": {
+     "arxiv_math": 26.50602409638554,
+     "baseline": 99.79919678714859,
+     "headers_footers": 29.965156794425088,
+     "long_tiny_text": 85.44303797468355,
+     "multi_column": 70.47619047619048,
+     "old_scans": 42.857142857142854,
+     "old_scans_math": 68.70229007633588,
+     "table_tests": 91.34328358208955
+    },
+    "pages": 500
+   },
+   "mistral_ocr_4_1": {
+    "overall": 72.214809778748,
+    "ci90": [
+     68.7100674287984,
+     75.47531310430033
+    ],
+    "by_suite": {
+     "arxiv_math": 86.93234476367006,
+     "baseline": 99.79919678714859,
+     "headers_footers": 17.073170731707318,
+     "long_tiny_text": 93.0379746835443,
+     "multi_column": 87.3015873015873,
+     "old_scans": 43.34975369458128,
+     "old_scans_math": 63.3587786259542,
+     "table_tests": 86.86567164179104
+    },
+    "pages": 500
+   },
+   "azure_layout_high_res_formulas": {
+    "overall": 63.03031514444485,
+    "ci90": [
+     60.29931574388107,
+     65.93319826541288
+    ],
+    "by_suite": {
+     "arxiv_math": 76.83039851714551,
+     "baseline": 100.0,
+     "headers_footers": 24.738675958188153,
+     "long_tiny_text": 85.44303797468355,
+     "multi_column": 61.904761904761905,
+     "old_scans": 26.108374384236452,
+     "old_scans_math": 45.038167938931295,
+     "table_tests": 84.17910447761194
+    },
+    "pages": 500
+   },
+   "pulse_ultra_2": {
+    "overall": 73.0901476698665,
+    "ci90": [
+     70.91634684846365,
+     74.99258566111999
+    ],
+    "by_suite": {
+     "arxiv_math": 84.5227062094532,
+     "baseline": 99.79919678714859,
+     "headers_footers": 18.118466898954704,
+     "long_tiny_text": 92.40506329113924,
+     "multi_column": 86.66666666666667,
+     "old_scans": 35.960591133004925,
+     "old_scans_math": 77.09923664122137,
+     "table_tests": 90.14925373134328
+    },
+    "pages": 500
+   },
+   "cohere_parse_v5": {
+    "overall": 72.20728174372618,
+    "ci90": [
+     69.78442945968105,
+     74.76437516341916
+    ],
+    "by_suite": {
+     "arxiv_math": 85.63484708063021,
+     "baseline": 99.59839357429719,
+     "headers_footers": 23.34494773519164,
+     "long_tiny_text": 88.60759493670886,
+     "multi_column": 84.12698412698413,
+     "old_scans": 38.423645320197046,
+     "old_scans_math": 67.17557251908397,
+     "table_tests": 90.74626865671642
+    },
+    "pages": 500
+   },
+   "_common_pages": 500
+  },
+  "perspective": {
+   "reducto_r1": {
+    "overall": 69.69833835061634,
+    "ci90": [
+     66.47202407060146,
+     72.72422989740389
+    ],
+    "by_suite": {
+     "arxiv_math": 84.70806302131604,
+     "baseline": 99.79919678714859,
+     "headers_footers": 14.982578397212544,
+     "long_tiny_text": 86.07594936708861,
+     "multi_column": 70.15873015873017,
+     "old_scans": 43.8423645320197,
+     "old_scans_math": 64.8854961832061,
+     "table_tests": 93.13432835820896
+    },
+    "pages": 500
+   },
+   "llamaparse_agentic_plus": {
+    "overall": 74.75829168646621,
+    "ci90": [
+     72.55324490839801,
+     76.99108010812238
+    ],
+    "by_suite": {
+     "arxiv_math": 87.1177015755329,
+     "baseline": 99.79919678714859,
+     "headers_footers": 22.64808362369338,
+     "long_tiny_text": 93.67088607594937,
+     "multi_column": 82.85714285714286,
+     "old_scans": 41.87192118226601,
+     "old_scans_math": 77.86259541984732,
+     "table_tests": 92.23880597014926
+    },
+    "pages": 500
+   },
+   "datalab_accurate": {
+    "overall": 74.94515272804499,
+    "ci90": [
+     72.65495040110355,
+     76.92996721277413
+    ],
+    "by_suite": {
+     "arxiv_math": 87.67377201112141,
+     "baseline": 99.59839357429719,
+     "headers_footers": 19.16376306620209,
+     "long_tiny_text": 95.56962025316456,
+     "multi_column": 83.80952380952381,
+     "old_scans": 47.29064039408867,
+     "old_scans_math": 81.6793893129771,
+     "table_tests": 84.77611940298507
+    },
+    "pages": 500
+   },
+   "extend_performance_agentic_formulas": {
+    "overall": 63.40703885012957,
+    "ci90": [
+     60.32837163287517,
+     66.50243295660336
+    ],
+    "by_suite": {
+     "arxiv_math": 26.59870250231696,
+     "baseline": 99.19678714859438,
+     "headers_footers": 30.313588850174217,
+     "long_tiny_text": 84.17721518987342,
+     "multi_column": 69.84126984126983,
+     "old_scans": 45.8128078817734,
+     "old_scans_math": 58.778625954198475,
+     "table_tests": 92.53731343283582
+    },
+    "pages": 500
+   },
+   "mistral_ocr_4_1": {
+    "overall": 72.80109546265155,
+    "ci90": [
+     69.48541704979804,
+     75.94581374288232
+    ],
+    "by_suite": {
+     "arxiv_math": 86.37627432808155,
+     "baseline": 99.59839357429719,
+     "headers_footers": 17.421602787456447,
+     "long_tiny_text": 93.67088607594937,
+     "multi_column": 86.66666666666667,
+     "old_scans": 47.29064039408867,
+     "old_scans_math": 61.83206106870229,
+     "table_tests": 89.55223880597015
+    },
+    "pages": 500
+   },
+   "azure_layout_high_res_formulas": {
+    "overall": 61.63772938611992,
+    "ci90": [
+     58.74014567363784,
+     64.67441958509866
+    ],
+    "by_suite": {
+     "arxiv_math": 75.34754402224281,
+     "baseline": 99.79919678714859,
+     "headers_footers": 23.34494773519164,
+     "long_tiny_text": 79.11392405063292,
+     "multi_column": 62.857142857142854,
+     "old_scans": 26.108374384236452,
+     "old_scans_math": 45.038167938931295,
+     "table_tests": 81.49253731343283
+    },
+    "pages": 500
+   },
+   "pulse_ultra_2": {
+    "overall": 70.99549442198727,
+    "ci90": [
+     67.82210183918046,
+     74.23681076723624
+    ],
+    "by_suite": {
+     "arxiv_math": 82.85449490268768,
+     "baseline": 99.39759036144578,
+     "headers_footers": 18.466898954703833,
+     "long_tiny_text": 87.34177215189874,
+     "multi_column": 86.66666666666667,
+     "old_scans": 37.4384236453202,
+     "old_scans_math": 65.64885496183206,
+     "table_tests": 90.14925373134328
+    },
+    "pages": 500
+   },
+   "cohere_parse_v5": {
+    "overall": 73.4507685876991,
+    "ci90": [
+     70.67489298452986,
+     75.76672814765352
+    ],
+    "by_suite": {
+     "arxiv_math": 85.5421686746988,
+     "baseline": 99.79919678714859,
+     "headers_footers": 25.78397212543554,
+     "long_tiny_text": 88.60759493670886,
+     "multi_column": 84.76190476190476,
+     "old_scans": 38.916256157635466,
+     "old_scans_math": 74.04580152671755,
+     "table_tests": 90.14925373134328
+    },
+    "pages": 500
+   },
+   "_common_pages": 500
+  }
+ },
+ "old_presets": {
+  "clean": {
+   "azure_layout_high_res": {
+    "overall": 49.026939257465045,
+    "ci90": [
+     47.33446875997847,
+     50.686840963589916
+    ],
+    "by_suite": {
+     "arxiv_math": 0.0,
+     "baseline": 99.39759036144578,
+     "headers_footers": 22.99651567944251,
+     "long_tiny_text": 84.17721518987342,
+     "multi_column": 70.47619047619048,
+     "old_scans": 25.61576354679803,
+     "old_scans_math": 0.0,
+     "table_tests": 89.55223880597015
+    },
+    "pages": 500
+   },
+   "extend_performance_agentic": {
+    "overall": 52.74382367565957,
+    "ci90": [
+     50.963297948224216,
+     54.546706022705195
+    ],
+    "by_suite": {
+     "arxiv_math": 4.633920296570899,
+     "baseline": 99.39759036144578,
+     "headers_footers": 31.358885017421603,
+     "long_tiny_text": 84.81012658227849,
+     "multi_column": 68.88888888888889,
+     "old_scans": 40.88669950738916,
+     "old_scans_math": 1.5267175572519085,
+     "table_tests": 90.44776119402985
+    },
+    "pages": 500
+   }
+  },
+  "tilt_2_4": {
+   "azure_layout_high_res": {
+    "overall": 48.634676984596986,
+    "ci90": [
+     46.82061098859995,
+     50.35380402518053
+    ],
+    "by_suite": {
+     "arxiv_math": 0.0,
+     "baseline": 98.99598393574297,
+     "headers_footers": 22.64808362369338,
+     "long_tiny_text": 84.17721518987342,
+     "multi_column": 70.47619047619048,
+     "old_scans": 25.61576354679803,
+     "old_scans_math": 0.0,
+     "table_tests": 87.16417910447761
+    },
+    "pages": 500
+   },
+   "extend_performance_agentic": {
+    "overall": 52.841217691919496,
+    "ci90": [
+     51.11143445344393,
+     54.58104324126321
+    ],
+    "by_suite": {
+     "arxiv_math": 6.487488415199259,
+     "baseline": 99.59839357429719,
+     "headers_footers": 30.662020905923345,
+     "long_tiny_text": 86.07594936708861,
+     "multi_column": 68.57142857142857,
+     "old_scans": 40.88669950738916,
+     "old_scans_math": 0.0,
+     "table_tests": 90.44776119402985
+    },
+    "pages": 500
+   }
+  },
+  "scan": {
+   "azure_layout_high_res": {
+    "overall": 49.36663606230728,
+    "ci90": [
+     47.65208363723686,
+     50.97258980924297
+    ],
+    "by_suite": {
+     "arxiv_math": 0.0,
+     "baseline": 98.99598393574297,
+     "headers_footers": 24.041811846689896,
+     "long_tiny_text": 86.07594936708861,
+     "multi_column": 70.15873015873017,
+     "old_scans": 26.108374384236452,
+     "old_scans_math": 0.0,
+     "table_tests": 89.55223880597015
+    },
+    "pages": 500
+   },
+   "extend_performance_agentic": {
+    "overall": 52.71425276882769,
+    "ci90": [
+     50.83493147440023,
+     54.488763670546376
+    ],
+    "by_suite": {
+     "arxiv_math": 5.4680259499536605,
+     "baseline": 99.39759036144578,
+     "headers_footers": 31.358885017421603,
+     "long_tiny_text": 84.81012658227849,
+     "multi_column": 69.2063492063492,
+     "old_scans": 40.39408866995074,
+     "old_scans_math": 1.5267175572519085,
+     "table_tests": 89.55223880597015
+    },
+    "pages": 500
+   }
+  },
+  "perspective": {
+   "azure_layout_high_res": {
+    "overall": 48.96756886901716,
+    "ci90": [
+     47.28130331585711,
+     50.74008896698163
+    ],
+    "by_suite": {
+     "arxiv_math": 0.0,
+     "baseline": 99.79919678714859,
+     "headers_footers": 22.99651567944251,
+     "long_tiny_text": 84.17721518987342,
+     "multi_column": 70.7936507936508,
+     "old_scans": 25.61576354679803,
+     "old_scans_math": 0.0,
+     "table_tests": 88.35820895522389
+    },
+    "pages": 500
+   },
+   "extend_performance_agentic": {
+    "overall": 52.42080592883895,
+    "ci90": [
+     50.7360536398743,
+     54.19458459189706
+    ],
+    "by_suite": {
+     "arxiv_math": 1.8535681186283597,
+     "baseline": 99.19678714859438,
+     "headers_footers": 31.358885017421603,
+     "long_tiny_text": 84.81012658227849,
+     "multi_column": 68.57142857142857,
+     "old_scans": 42.364532019704434,
+     "old_scans_math": 0.7633587786259542,
+     "table_tests": 90.44776119402985
+    },
+    "pages": 500
+   }
+  }
+ },
+ "probes": {
+  "gt": {
+   "overall": 99.9384236453202,
+   "ci90": [
+    99.8436843487395,
+    100.0
+   ],
+   "by_suite": {
+    "arxiv_math": 100.0,
+    "baseline": 100.0,
+    "headers_footers": 100.0,
+    "long_tiny_text": 100.0,
+    "multi_column": 100.0,
+    "old_scans": 99.50738916256158,
+    "old_scans_math": 100.0,
+    "table_tests": 100.0
+   },
+   "pages": 500
+  },
+  "probe-pipe_tables-gt": {
+   "overall": 99.9384236453202,
+   "ci90": [
+    99.84261611030479,
+    100.0
+   ],
+   "by_suite": {
+    "arxiv_math": 100.0,
+    "baseline": 100.0,
+    "headers_footers": 100.0,
+    "long_tiny_text": 100.0,
+    "multi_column": 100.0,
+    "old_scans": 99.50738916256158,
+    "old_scans_math": 100.0,
+    "table_tests": 100.0
+   },
+   "pages": 500
+  },
+  "probe-html_tables-gt": {
+   "overall": 99.9384236453202,
+   "ci90": [
+    99.79395604395604,
+    100.0
+   ],
+   "by_suite": {
+    "arxiv_math": 100.0,
+    "baseline": 100.0,
+    "headers_footers": 100.0,
+    "long_tiny_text": 100.0,
+    "multi_column": 100.0,
+    "old_scans": 99.50738916256158,
+    "old_scans_math": 100.0,
+    "table_tests": 100.0
+   },
+   "pages": 500
+  },
+  "probe-pretty_html-gt": {
+   "overall": 99.9384236453202,
+   "ci90": [
+    99.82677152207306,
+    100.0
+   ],
+   "by_suite": {
+    "arxiv_math": 100.0,
+    "baseline": 100.0,
+    "headers_footers": 100.0,
+    "long_tiny_text": 100.0,
+    "multi_column": 100.0,
+    "old_scans": 99.50738916256158,
+    "old_scans_math": 100.0,
+    "table_tests": 100.0
+   },
+   "pages": 500
+  },
+  "probe-code_fence-gt": {
+   "overall": 99.9384236453202,
+   "ci90": [
+    99.83421183042753,
+    100.0
+   ],
+   "by_suite": {
+    "arxiv_math": 100.0,
+    "baseline": 100.0,
+    "headers_footers": 100.0,
+    "long_tiny_text": 100.0,
+    "multi_column": 100.0,
+    "old_scans": 99.50738916256158,
+    "old_scans_math": 100.0,
+    "table_tests": 100.0
+   },
+   "pages": 500
+  },
+  "probe-strip_emphasis-gt": {
+   "overall": 99.16224199564456,
+   "ci90": [
+    98.87829768689542,
+    99.3850745852632
+   ],
+   "by_suite": {
+    "arxiv_math": 93.79054680259499,
+    "baseline": 100.0,
+    "headers_footers": 100.0,
+    "long_tiny_text": 100.0,
+    "multi_column": 100.0,
+    "old_scans": 99.50738916256158,
+    "old_scans_math": 100.0,
+    "table_tests": 100.0
+   },
+   "pages": 500
+  },
+  "probe-digits_5pct-gt": {
+   "overall": 90.92247262361977,
+   "ci90": [
+    89.90404873498585,
+    91.95616162256766
+   ],
+   "by_suite": {
+    "arxiv_math": 83.03985171455051,
+    "baseline": 100.0,
+    "headers_footers": 100.0,
+    "long_tiny_text": 98.73417721518987,
+    "multi_column": 99.36507936507937,
+    "old_scans": 91.13300492610837,
+    "old_scans_math": 74.80916030534351,
+    "table_tests": 80.29850746268657
+   },
+   "pages": 500
+  },
+  "probe-shuffle_paragraphs-gt": {
+   "overall": 90.91817186644774,
+   "ci90": [
+    90.2526956955572,
+    91.62965643540146
+   ],
+   "by_suite": {
+    "arxiv_math": 100.0,
+    "baseline": 100.0,
+    "headers_footers": 100.0,
+    "long_tiny_text": 100.0,
+    "multi_column": 45.07936507936508,
+    "old_scans": 82.26600985221675,
+    "old_scans_math": 100.0,
+    "table_tests": 100.0
+   },
+   "pages": 500
+  },
+  "probe-empty-gt": {
+   "overall": 13.952300853057793,
+   "ci90": [
+    13.45063143466279,
+    14.346356349134993
+   ],
+   "by_suite": {
+    "arxiv_math": 0.0,
+    "baseline": 0.0,
+    "headers_footers": 99.30313588850174,
+    "long_tiny_text": 0.0,
+    "multi_column": 0.0,
+    "old_scans": 12.31527093596059,
+    "old_scans_math": 0.0,
+    "table_tests": 0.0
+   },
+   "pages": 500
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "seed": 20261107,
+ "dpi": 200,
+ "benchmarks": [
+  "parsebench2"
+ ],
+ "sample_n": 500,
+ "parsejudge_commit": "76f65c45c13dd7bf0b0af8bae2cea5ffd93c9cc0",
+ "notes": "ParseBench-2 new cases only (benchbench/parsebench2_new.txt)",
+ "created": "2026-11-12T17:08:42.778548+00:00"
+}
