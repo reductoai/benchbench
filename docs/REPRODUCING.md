@@ -271,8 +271,10 @@ Figure generators read local `results/`; rendering can need a browser and fonts.
 ## Data and validation
 
 The data repository is [reducto/benchbench-runs](https://huggingface.co/datasets/reducto/benchbench-runs).
-It is private pending release review. Download it with authorized Hugging Face access.
+Download it with `hf download reducto/benchbench-runs --repo-type dataset --local-dir benchbench-runs`.
 Its top-level benchmark folders contain JSONL shards under `parses/` and `judge/`.
+`judge/` also holds the Argon, Astra, Fable, terse and minimal judge checks, with their
+`final-retry/` snapshots.
 From the download directory, run `python restore_runs.py ./expanded` and set
 `BENCHBENCH_RUNS` to the absolute path of `expanded/`. This expands records into the
 file-per-page paths the harness reads; it makes no API calls. Set `BENCHBENCH_RESULTS`
@@ -309,7 +311,7 @@ The source has no native row for 41 matched MDPBench parse pages; see
 
 Sanitized HTTP judge exchanges, configuration, blinded mappings and prompt hashes are
 recorded. Historical secondary raw runs are not in this package. See its dataset card for
-coverage, redaction and source-data terms. No page images are included.
+coverage, sanitization and source-data terms. No page images are included.
 
 ```sh
 ruff check . && ruff format --check . && pytest -q
